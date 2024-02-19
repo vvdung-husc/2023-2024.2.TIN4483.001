@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp2
+namespace ConsoleAppOne
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world !DU AN THINH");
+            Console.WriteLine("Hello Woeld! - nhatduyy");
         }
     }
 }
