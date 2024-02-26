@@ -24,7 +24,12 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            string num_n = txtNumN.Text;
+            string num_m = txtNumM.Text;
+            int n = int.Parse(num_n.Length > 0 ? num_n : "0");
+            int m = int.Parse(num_m.Length > 0 ? num_m : "0");
+            int sum = n + m;
+            txtResult.Text = sum.ToString();
         }
 
         private void label3_Click(object sender, EventArgs e)
