@@ -31,6 +31,48 @@ namespace WindowAppOne
                 e.Cancel = true;
             }
         }
+
+        private void btnPlus_Click_1(object sender, EventArgs e)
+            {
+                string num_n = txtNumN.Text;
+                string num_m = txtNumM.Text;
+                int n = int.Parse(num_n.Length > 0 ? num_n : "0");
+                int m = int.Parse(num_m.Length > 0 ? num_m : "0");
+                int sum = n + m;
+                txtResult.Text = sum.ToString();
+            }
+
+        private void btnSub_Click(object sender, EventArgs e)
+        {
+            string num_n = txtNumN.Text;
+            string num_m = txtNumM.Text;
+            int n = int.Parse(num_n.Length > 0 ? num_n : "0");
+            int m = int.Parse(num_m.Length > 0 ? num_m : "0");
+            int difference = n - m;
+            txtResult.Text = difference.ToString();
+        }
+
+        private void btnMul_Click(object sender, EventArgs e)
+        {
+            string num_n = txtNumN.Text;
+            string num_m = txtNumM.Text;
+            int n = int.Parse(num_n.Length > 0 ? num_n : "0");
+            int m = int.Parse(num_m.Length > 0 ? num_m : "0");
+            int product = n * m;
+            txtResult.Text = product.ToString();
+        }
+
+        private void btnDiv_Click(object sender, EventArgs e)
+        {
+            string num_n = txtNumN.Text;
+            string num_m = txtNumM.Text;
+            int n = int.Parse(num_n.Length > 0 ? num_n : "0");
+            int m = int.Parse(num_m.Length > 0 ? num_m : "0");
+            int quotient = n / m;
+            int remainder = n % m;
+            txtResult.Text = quotient.ToString();
+            txtResult.Text = remainder.ToString();
+        }
     }
     }
 
