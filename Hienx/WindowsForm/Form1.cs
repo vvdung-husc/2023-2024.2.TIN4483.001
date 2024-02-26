@@ -77,7 +77,7 @@ namespace WindowsForm
             float m = float.Parse(txtsom.Text);
             if (m == 0)
             {
-                MessageBox.Show("nhap so b khac 0");
+                MessageBox.Show("nhap so m khac 0");
             }
             else
             {

@@ -26,5 +26,46 @@ namespace Windows1
         {
 
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnthoat(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btncong(object sender, EventArgs e)
+        {
+            string num_n = txtNumN.Text;
+            string num_m = txtNumM.Text;
+            int n = int.Parse(num_n.Length > 0 ? num_n : "0");
+            int m = int.Parse(num_m.Length > 0 ? num_m : "0");
+            int sum = n + m;
+            txtResult.Text = sum.ToString();
+        }
+
+        private void btnnhan(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnchia(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnxoa(object sender, EventArgs e)
+        {
+
+        }
+
+        private void NumN(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
