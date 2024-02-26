@@ -46,18 +46,19 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(96, 25);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(61, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(185, 16);
+            this.label1.Size = new System.Drawing.Size(277, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "THỰC HIỆN CÁC PHÉP TÍNH";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(54, 298);
+            this.button1.Location = new System.Drawing.Point(78, 295);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(242, 23);
+            this.button1.Size = new System.Drawing.Size(242, 22);
             this.button1.TabIndex = 1;
             this.button1.Text = "Thoát";
             this.button1.UseVisualStyleBackColor = true;
