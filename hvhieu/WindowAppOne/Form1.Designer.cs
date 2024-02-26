@@ -52,6 +52,7 @@
             this.btnCong.TabIndex = 3;
             this.btnCong.Text = "+";
             this.btnCong.UseVisualStyleBackColor = true;
+            this.btnCong.Click += new System.EventHandler(this.btnCong_Click);
             // 
             // label1
             // 
@@ -115,6 +116,7 @@
             this.btnTru.TabIndex = 10;
             this.btnTru.Text = "-";
             this.btnTru.UseVisualStyleBackColor = true;
+            this.btnTru.Click += new System.EventHandler(this.btnTru_Click);
             // 
             // btnNhan
             // 
@@ -125,6 +127,7 @@
             this.btnNhan.TabIndex = 11;
             this.btnNhan.Text = "*";
             this.btnNhan.UseVisualStyleBackColor = true;
+            this.btnNhan.Click += new System.EventHandler(this.btnNhan_Click);
             // 
             // btnChia
             // 
@@ -135,6 +138,7 @@
             this.btnChia.TabIndex = 12;
             this.btnChia.Text = "/";
             this.btnChia.UseVisualStyleBackColor = true;
+            this.btnChia.Click += new System.EventHandler(this.btnChia_Click);
             // 
             // btnDelete
             // 
@@ -145,6 +149,7 @@
             this.btnDelete.TabIndex = 13;
             this.btnDelete.Text = "Xóa";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnExit
             // 

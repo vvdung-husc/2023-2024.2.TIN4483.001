@@ -39,5 +39,7 @@ namespace WindowAppOne
             int sum = n + m;
             txtResult.Text = sum.ToString();
         }
+
+
     }
 }

@@ -49,5 +49,44 @@ namespace WindowAppOne
             if (dialog == DialogResult.Yes)
                 Application.Exit();
         }
+
+        private void btnCong_Click(object sender, EventArgs e)
+        {
+            int n = int.Parse(txtSon.Text);
+            int m = int.Parse(txtSom.Text);
+            int Tong = n + m;
+            txtKetqua.Text = Tong.ToString();
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            txtSon.Text = "";
+            txtSom.Text = "";
+            txtKetqua.Text = "";
+        }
+
+        private void btnTru_Click(object sender, EventArgs e)
+        {
+            int n = int.Parse(txtSon.Text);
+            int m = int.Parse(txtSom.Text);
+            int Tong = n - m;
+            txtKetqua.Text = Tong.ToString();
+        }
+
+        private void btnNhan_Click(object sender, EventArgs e)
+        {
+            int n = int.Parse(txtSon.Text);
+            int m = int.Parse(txtSom.Text);
+            int Tong = n * m;
+            txtKetqua.Text = Tong.ToString();
+        }
+
+        private void btnChia_Click(object sender, EventArgs e)
+        {
+            int n = int.Parse(txtSon.Text);
+            int m = int.Parse(txtSom.Text);
+            int Tong = n / m;
+            txtKetqua.Text = Tong.ToString();
+        }
     }
 }
