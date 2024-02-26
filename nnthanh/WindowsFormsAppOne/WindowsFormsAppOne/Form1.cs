@@ -66,6 +66,21 @@ namespace WindowsFormsAppOne
             int sum = n - m;
             txtKetqua.Text = sum.ToString();
         }
+
+        private void btNhan_Click(object sender, EventArgs e)
+        {
+            string num_n = txtSon.Text;
+            string num_m = txtSom.Text;
+            int n = int.Parse(num_n.Length > 0 ? num_n : "0");
+            int m = int.Parse(num_m.Length > 0 ? num_m : "0");
+            int sum = n * m;
+            txtKetqua.Text = sum.ToString();
+        }
+
+        private void btChia_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
        
 }
