@@ -31,5 +31,62 @@ namespace WindowAppOne
         {
 
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult dialog;
+            dialog = MessageBox.Show("Bạn có muốn thoát hay không", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dialog == DialogResult.Yes)
+                Application.Exit();
+        }
+
+        private void btnCong_Click(object sender, EventArgs e)
+        {
+            int n = int.Parse(txtSon.Text);
+            int m = int.Parse(txtSom.Text);
+            int Tong = n + m;
+            txtKetqua.Text = Tong.ToString();
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            txtSon.Text = "";
+            txtSom.Text = "";
+            txtKetqua.Text = "";
+        }
+
+        private void btnTru_Click(object sender, EventArgs e)
+        {
+            int n = int.Parse(txtSon.Text);
+            int m = int.Parse(txtSom.Text);
+            int Tong = n - m;
+            txtKetqua.Text = Tong.ToString();
+        }
+
+        private void btnNhan_Click(object sender, EventArgs e)
+        {
+            int n = int.Parse(txtSon.Text);
+            int m = int.Parse(txtSom.Text);
+            int Tong = n * m;
+            txtKetqua.Text = Tong.ToString();
+        }
+
+        private void btnChia_Click(object sender, EventArgs e)
+        {
+            int n = int.Parse(txtSon.Text);
+            int m = int.Parse(txtSom.Text);
+            int Tong = n / m;
+            txtKetqua.Text = Tong.ToString();
+        }
     }
 }
