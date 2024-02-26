@@ -17,7 +17,32 @@ namespace WindowAppOne
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
         {
 
         }
@@ -35,17 +60,21 @@ namespace WindowAppOne
             }
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void btCong_Click(object sender, EventArgs e)
         {
-            String num_n = txtSon.Text;
-            String num_m = txtSom.Text;
+            String num_n = txtm.Text;
+            String num_m = txtn.Text;
             int n = int.Parse(num_n.Length > 0 ? num_n : "0");
             int m = int.Parse(num_m.Length > 0 ? num_m : "0");
-           // int n = int.Parse(txtSon.Text);
-           // int m = int.Parse(txtSom.Text);
+            // int n = int.Parse(txtSon.Text);
+            // int m = int.Parse(txtSom.Text);
             int Tong = n + m;
             txtKetqua.Text = Tong.ToString();
-
         }
     }
 }

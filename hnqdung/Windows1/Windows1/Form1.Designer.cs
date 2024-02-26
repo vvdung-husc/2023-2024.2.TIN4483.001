@@ -32,9 +32,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtNumN = new System.Windows.Forms.TextBox();
+            this.txtNumM = new System.Windows.Forms.TextBox();
+            this.txtResult = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -51,6 +51,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "+";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.btncong);
             // 
             // label1
             // 
@@ -79,28 +80,28 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Nhập số m";
             // 
-            // textBox1
+            // txtNumN
             // 
-            this.textBox1.Location = new System.Drawing.Point(316, 153);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(182, 22);
-            this.textBox1.TabIndex = 4;
+            this.txtNumN.Location = new System.Drawing.Point(316, 153);
+            this.txtNumN.Name = "txtNumN";
+            this.txtNumN.Size = new System.Drawing.Size(182, 22);
+            this.txtNumN.TabIndex = 4;
             // 
-            // textBox2
+            // txtNumM
             // 
-            this.textBox2.Location = new System.Drawing.Point(316, 193);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(182, 22);
-            this.textBox2.TabIndex = 5;
+            this.txtNumM.Location = new System.Drawing.Point(316, 193);
+            this.txtNumM.Name = "txtNumM";
+            this.txtNumM.Size = new System.Drawing.Size(182, 22);
+            this.txtNumM.TabIndex = 5;
             // 
-            // textBox3
+            // txtResult
             // 
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.textBox3.Location = new System.Drawing.Point(316, 229);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(182, 22);
-            this.textBox3.TabIndex = 6;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.txtResult.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.txtResult.Location = new System.Drawing.Point(316, 229);
+            this.txtResult.Name = "txtResult";
+            this.txtResult.Size = new System.Drawing.Size(182, 22);
+            this.txtResult.TabIndex = 6;
+            this.txtResult.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // label4
             // 
@@ -128,6 +129,7 @@
             this.button3.TabIndex = 9;
             this.button3.Text = "*";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.btnnhan);
             // 
             // button4
             // 
@@ -137,6 +139,7 @@
             this.button4.TabIndex = 10;
             this.button4.Text = "/";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.btnchia);
             // 
             // button5
             // 
@@ -146,15 +149,17 @@
             this.button5.TabIndex = 11;
             this.button5.Text = "Xóa";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.btnxoa);
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(211, 302);
+            this.button6.Location = new System.Drawing.Point(210, 302);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(338, 23);
             this.button6.TabIndex = 12;
             this.button6.Text = "Thoát";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.btnthoat);
             // 
             // Form1
             // 
@@ -167,9 +172,9 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtResult);
+            this.Controls.Add(this.txtNumM);
+            this.Controls.Add(this.txtNumN);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -188,9 +193,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtNumN;
+        private System.Windows.Forms.TextBox txtNumM;
+        private System.Windows.Forms.TextBox txtResult;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
