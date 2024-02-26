@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1
+namespace WindowAppOne
 {
     public partial class Form1 : Form
     {
@@ -17,24 +17,20 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnExit_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+     
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
+            if (MessageBox.Show("Bạn có chắc là muốn thoát không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
         }
     }
-}
+    }
+
