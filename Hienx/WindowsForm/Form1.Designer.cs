@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.txtson = new System.Windows.Forms.Label();
-            this.txtsom = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.txtkq = new System.Windows.Forms.Label();
+            this.txt = new System.Windows.Forms.Label();
+            this.txtm = new System.Windows.Forms.Label();
+            this.txtson = new System.Windows.Forms.TextBox();
+            this.txtsom = new System.Windows.Forms.TextBox();
+            this.txtketqua = new System.Windows.Forms.TextBox();
+            this.txtk = new System.Windows.Forms.Label();
             this.btcong = new System.Windows.Forms.Button();
             this.bttru = new System.Windows.Forms.Button();
             this.btnhan = new System.Windows.Forms.Button();
@@ -56,61 +56,62 @@
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // txt
+            // 
+            this.txt.AutoSize = true;
+            this.txt.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt.Location = new System.Drawing.Point(95, 153);
+            this.txt.Name = "txt";
+            this.txt.Size = new System.Drawing.Size(78, 17);
+            this.txt.TabIndex = 1;
+            this.txt.Text = "Nhập số n:";
+            this.txt.Click += new System.EventHandler(this.txtson_Click);
+            // 
+            // txtm
+            // 
+            this.txtm.AutoSize = true;
+            this.txtm.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtm.Location = new System.Drawing.Point(95, 207);
+            this.txtm.Name = "txtm";
+            this.txtm.Size = new System.Drawing.Size(82, 17);
+            this.txtm.TabIndex = 2;
+            this.txtm.Text = "Nhập số m:";
+            // 
             // txtson
             // 
-            this.txtson.AutoSize = true;
-            this.txtson.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtson.Location = new System.Drawing.Point(95, 153);
+            this.txtson.Location = new System.Drawing.Point(204, 147);
             this.txtson.Name = "txtson";
-            this.txtson.Size = new System.Drawing.Size(78, 17);
-            this.txtson.TabIndex = 1;
-            this.txtson.Text = "Nhập số n:";
-            this.txtson.Click += new System.EventHandler(this.txtson_Click);
+            this.txtson.Size = new System.Drawing.Size(306, 22);
+            this.txtson.TabIndex = 3;
+            this.txtson.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // txtsom
             // 
-            this.txtsom.AutoSize = true;
-            this.txtsom.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtsom.Location = new System.Drawing.Point(95, 207);
+            this.txtsom.Location = new System.Drawing.Point(204, 201);
             this.txtsom.Name = "txtsom";
-            this.txtsom.Size = new System.Drawing.Size(82, 17);
-            this.txtsom.TabIndex = 2;
-            this.txtsom.Text = "Nhập số m:";
+            this.txtsom.Size = new System.Drawing.Size(306, 22);
+            this.txtsom.TabIndex = 4;
             // 
-            // textBox1
+            // txtketqua
             // 
-            this.textBox1.Location = new System.Drawing.Point(204, 147);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(306, 22);
-            this.textBox1.TabIndex = 3;
+            this.txtketqua.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.txtketqua.Location = new System.Drawing.Point(204, 250);
+            this.txtketqua.Name = "txtketqua";
+            this.txtketqua.Size = new System.Drawing.Size(306, 22);
+            this.txtketqua.TabIndex = 6;
+            this.txtketqua.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
-            // textBox2
+            // txtk
             // 
-            this.textBox2.Location = new System.Drawing.Point(204, 201);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(306, 22);
-            this.textBox2.TabIndex = 4;
-            // 
-            // textBox3
-            // 
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.textBox3.Location = new System.Drawing.Point(204, 250);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(306, 22);
-            this.textBox3.TabIndex = 6;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
-            // 
-            // txtkq
-            // 
-            this.txtkq.AutoSize = true;
-            this.txtkq.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtkq.ForeColor = System.Drawing.Color.Black;
-            this.txtkq.Location = new System.Drawing.Point(98, 256);
-            this.txtkq.Name = "txtkq";
-            this.txtkq.Size = new System.Drawing.Size(65, 17);
-            this.txtkq.TabIndex = 5;
-            this.txtkq.Text = "Kết quả:";
-            this.txtkq.Click += new System.EventHandler(this.label4_Click);
+            this.txtk.AutoSize = true;
+            this.txtk.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtk.ForeColor = System.Drawing.Color.Black;
+            this.txtk.Location = new System.Drawing.Point(98, 256);
+            this.txtk.Name = "txtk";
+            this.txtk.Size = new System.Drawing.Size(65, 17);
+            this.txtk.TabIndex = 5;
+            this.txtk.Text = "Kết quả:";
+            this.txtk.Click += new System.EventHandler(this.label4_Click);
             // 
             // btcong
             // 
@@ -166,6 +167,7 @@
             this.btxoa.TabIndex = 11;
             this.btxoa.Text = "Xóa";
             this.btxoa.UseVisualStyleBackColor = false;
+            this.btxoa.Click += new System.EventHandler(this.btxoa_Click);
             // 
             // btthoat
             // 
@@ -189,15 +191,16 @@
             this.Controls.Add(this.btnhan);
             this.Controls.Add(this.bttru);
             this.Controls.Add(this.btcong);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.txtkq);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtketqua);
+            this.Controls.Add(this.txtk);
             this.Controls.Add(this.txtsom);
             this.Controls.Add(this.txtson);
+            this.Controls.Add(this.txtm);
+            this.Controls.Add(this.txt);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -207,12 +210,12 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label txtson;
-        private System.Windows.Forms.Label txtsom;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label txtkq;
+        private System.Windows.Forms.Label txt;
+        private System.Windows.Forms.Label txtm;
+        private System.Windows.Forms.TextBox txtson;
+        private System.Windows.Forms.TextBox txtsom;
+        private System.Windows.Forms.TextBox txtketqua;
+        private System.Windows.Forms.Label txtk;
         private System.Windows.Forms.Button btcong;
         private System.Windows.Forms.Button bttru;
         private System.Windows.Forms.Button btnhan;
