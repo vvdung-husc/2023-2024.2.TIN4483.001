@@ -29,18 +29,18 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnthoat = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtSon = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtSom = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.txtKQ = new System.Windows.Forms.TextBox();
+            this.btncong = new System.Windows.Forms.Button();
+            this.btntru = new System.Windows.Forms.Button();
+            this.btnnhan = new System.Windows.Forms.Button();
+            this.btnchia = new System.Windows.Forms.Button();
+            this.btnxoa = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -53,14 +53,15 @@
             this.label1.Text = "THỰC HIỆN CÁC PHÉP TÍNH";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // button1
+            // btnthoat
             // 
-            this.button1.Location = new System.Drawing.Point(218, 344);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(349, 33);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "THOÁT";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnthoat.Location = new System.Drawing.Point(218, 344);
+            this.btnthoat.Name = "btnthoat";
+            this.btnthoat.Size = new System.Drawing.Size(349, 33);
+            this.btnthoat.TabIndex = 1;
+            this.btnthoat.Text = "THOÁT";
+            this.btnthoat.UseVisualStyleBackColor = true;
+            this.btnthoat.Click += new System.EventHandler(this.btnthoat_Click);
             // 
             // label2
             // 
@@ -72,12 +73,12 @@
             this.label2.Text = "Nhập số n:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // textBox1
+            // txtSon
             // 
-            this.textBox1.Location = new System.Drawing.Point(344, 101);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(223, 26);
-            this.textBox1.TabIndex = 3;
+            this.txtSon.Location = new System.Drawing.Point(344, 101);
+            this.txtSon.Name = "txtSon";
+            this.txtSon.Size = new System.Drawing.Size(223, 26);
+            this.txtSon.TabIndex = 3;
             // 
             // label3
             // 
@@ -88,12 +89,12 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Nhập số m:";
             // 
-            // textBox2
+            // txtSom
             // 
-            this.textBox2.Location = new System.Drawing.Point(344, 154);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(223, 26);
-            this.textBox2.TabIndex = 5;
+            this.txtSom.Location = new System.Drawing.Point(344, 154);
+            this.txtSom.Name = "txtSom";
+            this.txtSom.Size = new System.Drawing.Size(223, 26);
+            this.txtSom.TabIndex = 5;
             // 
             // label4
             // 
@@ -104,79 +105,85 @@
             this.label4.TabIndex = 6;
             this.label4.Text = "Kết quả:";
             // 
-            // textBox3
+            // txtKQ
             // 
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.textBox3.Location = new System.Drawing.Point(344, 207);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(223, 26);
-            this.textBox3.TabIndex = 7;
+            this.txtKQ.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.txtKQ.Location = new System.Drawing.Point(344, 207);
+            this.txtKQ.Name = "txtKQ";
+            this.txtKQ.Size = new System.Drawing.Size(223, 26);
+            this.txtKQ.TabIndex = 7;
             // 
-            // button2
+            // btncong
             // 
-            this.button2.Location = new System.Drawing.Point(218, 273);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(64, 30);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "+";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btncong.Location = new System.Drawing.Point(218, 273);
+            this.btncong.Name = "btncong";
+            this.btncong.Size = new System.Drawing.Size(64, 30);
+            this.btncong.TabIndex = 8;
+            this.btncong.Text = "+";
+            this.btncong.UseVisualStyleBackColor = true;
+            this.btncong.Click += new System.EventHandler(this.btncong_Click);
             // 
-            // button3
+            // btntru
             // 
-            this.button3.Location = new System.Drawing.Point(288, 273);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(64, 30);
-            this.button3.TabIndex = 14;
-            this.button3.Text = "-";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btntru.Location = new System.Drawing.Point(288, 273);
+            this.btntru.Name = "btntru";
+            this.btntru.Size = new System.Drawing.Size(64, 30);
+            this.btntru.TabIndex = 14;
+            this.btntru.Text = "-";
+            this.btntru.UseVisualStyleBackColor = true;
+            this.btntru.Click += new System.EventHandler(this.btntru_Click);
             // 
-            // button4
+            // btnnhan
             // 
-            this.button4.Location = new System.Drawing.Point(358, 273);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(64, 30);
-            this.button4.TabIndex = 15;
-            this.button4.Text = "*";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnnhan.Location = new System.Drawing.Point(358, 273);
+            this.btnnhan.Name = "btnnhan";
+            this.btnnhan.Size = new System.Drawing.Size(64, 30);
+            this.btnnhan.TabIndex = 15;
+            this.btnnhan.Text = "*";
+            this.btnnhan.UseVisualStyleBackColor = true;
+            this.btnnhan.Click += new System.EventHandler(this.btnnhan_Click);
             // 
-            // button6
+            // btnchia
             // 
-            this.button6.Location = new System.Drawing.Point(428, 273);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(64, 30);
-            this.button6.TabIndex = 16;
-            this.button6.Text = "/";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnchia.Location = new System.Drawing.Point(428, 273);
+            this.btnchia.Name = "btnchia";
+            this.btnchia.Size = new System.Drawing.Size(64, 30);
+            this.btnchia.TabIndex = 16;
+            this.btnchia.Text = "/";
+            this.btnchia.UseVisualStyleBackColor = true;
+            this.btnchia.Click += new System.EventHandler(this.btnchia_Click);
             // 
-            // button5
+            // btnxoa
             // 
-            this.button5.Location = new System.Drawing.Point(498, 273);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(64, 30);
-            this.button5.TabIndex = 17;
-            this.button5.Text = "Xóa";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnxoa.Location = new System.Drawing.Point(498, 273);
+            this.btnxoa.Name = "btnxoa";
+            this.btnxoa.Size = new System.Drawing.Size(64, 30);
+            this.btnxoa.TabIndex = 17;
+            this.btnxoa.Text = "Xóa";
+            this.btnxoa.UseVisualStyleBackColor = true;
+            this.btnxoa.Click += new System.EventHandler(this.btnxoa_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.btnxoa);
+            this.Controls.Add(this.btnchia);
+            this.Controls.Add(this.btnnhan);
+            this.Controls.Add(this.btntru);
+            this.Controls.Add(this.btncong);
+            this.Controls.Add(this.txtKQ);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtSom);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtSon);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnthoat);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = " ";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -185,18 +192,18 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnthoat;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtSon;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtSom;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.TextBox txtKQ;
+        private System.Windows.Forms.Button btncong;
+        private System.Windows.Forms.Button btntru;
+        private System.Windows.Forms.Button btnnhan;
+        private System.Windows.Forms.Button btnchia;
+        private System.Windows.Forms.Button btnxoa;
     }
 }
 

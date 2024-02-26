@@ -27,10 +27,6 @@ namespace WindowApp1
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
@@ -40,6 +36,21 @@ namespace WindowApp1
         private void label3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnthoat_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btncong_Click(object sender, EventArgs e)
+        {
+            String num_n = txtNumN.Text;
+            String num_m = txtNumM.Text;
+            int n = int.Parse(num_n.Length > 0 ? num_n : "0");
+            int m = int.Parse(num_m.Length > 0 ? num_m : "0");
+            int sum = n + m;
+            txtResult.Text = sum.ToString();
         }
     }
 }
