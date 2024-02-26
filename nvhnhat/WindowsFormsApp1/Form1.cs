@@ -40,7 +40,8 @@ namespace WindowAppOne
                 int m = int.Parse(num_m.Length > 0 ? num_m : "0");
                 int sum = n + m;
                 txtResult.Text = sum.ToString();
-            }
+               
+        }
 
         private void btnSub_Click(object sender, EventArgs e)
         {
@@ -71,7 +72,13 @@ namespace WindowAppOne
             int quotient = n / m;
             int remainder = n % m;
             txtResult.Text = quotient.ToString();
-            txtResult.Text = remainder.ToString();
+            txtResult1.Text = remainder.ToString();
+        }
+
+        private void btnDel_Click(object sender, EventArgs e)
+        {
+           
+
         }
     }
     }
