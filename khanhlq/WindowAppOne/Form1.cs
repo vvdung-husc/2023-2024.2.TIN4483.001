@@ -17,10 +17,7 @@ namespace WindowAppOne
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
+      
 
         private void button6_Click(object sender, EventArgs e)
         {
@@ -46,6 +43,30 @@ namespace WindowAppOne
             int Tong = n + m;
             txtKetqua.Text = Tong.ToString();
 
+        }
+
+        private void btTru_Click(object sender, EventArgs e)
+        {
+            String num_n = txtSon.Text;
+            String num_m = txtSom.Text;
+            int n = int.Parse(num_n.Length > 0 ? num_n : "0");
+            int m = int.Parse(num_m.Length > 0 ? num_m : "0");
+            // int n = int.Parse(txtSon.Text);
+            // int m = int.Parse(txtSom.Text);
+            int Hieu = n - m;
+            txtKetqua.Text = Hieu.ToString();
+        }
+
+        private void btNhan_Click(object sender, EventArgs e)
+        {
+            String num_n = txtSon.Text;
+            String num_m = txtSom.Text;
+            int n = int.Parse(num_n.Length > 0 ? num_n : "0");
+            int m = int.Parse(num_m.Length > 0 ? num_m : "0");
+            // int n = int.Parse(txtSon.Text);
+            // int m = int.Parse(txtSom.Text);
+            int Nhan = n * m;
+            txtKetqua.Text = Nhan.ToString();
         }
     }
 }
