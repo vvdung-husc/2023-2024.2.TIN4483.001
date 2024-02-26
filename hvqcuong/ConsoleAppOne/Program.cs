@@ -10,7 +10,7 @@ namespace ConsoleAppOne
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Helle world -- NVHNHAT");
+            Console.WriteLine("Hello World! ");
         }
     }
 }
