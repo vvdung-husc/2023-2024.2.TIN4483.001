@@ -1,4 +1,4 @@
-﻿namespace WindowAppTwo
+﻿namespace WindowsAppTwo
 {
     partial class Form1
     {
@@ -53,13 +53,12 @@
             this.groupBox1.Controls.Add(this.txtNumA);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(14, 14);
+            this.groupBox1.Location = new System.Drawing.Point(35, 27);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(395, 104);
-            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Nhập";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // txtNumB
             // 
@@ -100,10 +99,10 @@
             this.groupBox2.Controls.Add(this.chkBSCNN);
             this.groupBox2.Controls.Add(this.chkUSCLN);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(415, 14);
+            this.groupBox2.Location = new System.Drawing.Point(436, 27);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(238, 104);
-            this.groupBox2.TabIndex = 1;
+            this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Chọn";
             // 
@@ -117,7 +116,6 @@
             this.chkBSCNN.TabStop = true;
             this.chkBSCNN.Text = "BSCNN";
             this.chkBSCNN.UseVisualStyleBackColor = true;
-            this.chkBSCNN.CheckedChanged += new System.EventHandler(this.chkBSCNN_CheckedChanged);
             // 
             // chkUSCLN
             // 
@@ -129,7 +127,6 @@
             this.chkUSCLN.TabStop = true;
             this.chkUSCLN.Text = "USCLN";
             this.chkUSCLN.UseVisualStyleBackColor = true;
-            this.chkUSCLN.CheckedChanged += new System.EventHandler(this.chkUSCLN_CheckedChanged);
             // 
             // groupBox3
             // 
@@ -138,10 +135,10 @@
             this.groupBox3.Controls.Add(this.btnFind);
             this.groupBox3.Controls.Add(this.txtResult);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(14, 124);
+            this.groupBox3.Location = new System.Drawing.Point(35, 137);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(640, 125);
-            this.groupBox3.TabIndex = 2;
+            this.groupBox3.TabIndex = 3;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Kết quả";
             // 
@@ -153,7 +150,6 @@
             this.btnExit.TabIndex = 7;
             this.btnExit.Text = "Thoát";
             this.btnExit.UseVisualStyleBackColor = true;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // btnDel
             // 
@@ -164,7 +160,6 @@
             this.btnDel.TabIndex = 6;
             this.btnDel.Text = "Xóa";
             this.btnDel.UseVisualStyleBackColor = true;
-            this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
             // 
             // btnFind
             // 
@@ -175,11 +170,10 @@
             this.btnFind.TabIndex = 5;
             this.btnFind.Text = "Tìm";
             this.btnFind.UseVisualStyleBackColor = true;
-            this.btnFind.Click += new System.EventHandler(this.btnFind_Click);
             // 
             // txtResult
             // 
-            this.txtResult.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.txtResult.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.txtResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtResult.ForeColor = System.Drawing.Color.Red;
             this.txtResult.Location = new System.Drawing.Point(60, 30);
@@ -190,15 +184,14 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(660, 256);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "Form1";
-            this.Text = "Tìm USCLN, BSCNN của A và B";
+            this.Text = "Form1";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -220,10 +213,10 @@
         private System.Windows.Forms.RadioButton chkBSCNN;
         private System.Windows.Forms.RadioButton chkUSCLN;
         private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Button btnDel;
         private System.Windows.Forms.Button btnFind;
         private System.Windows.Forms.TextBox txtResult;
-        private System.Windows.Forms.Button btnDel;
-        private System.Windows.Forms.Button btnExit;
     }
 }
 
