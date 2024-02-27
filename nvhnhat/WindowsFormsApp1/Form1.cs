@@ -22,7 +22,7 @@ namespace WindowAppOne
             Application.Exit();
         }
 
-     
+
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
@@ -33,14 +33,14 @@ namespace WindowAppOne
         }
 
         private void btnPlus_Click_1(object sender, EventArgs e)
-            {
-                string num_n = txtNumN.Text;
-                string num_m = txtNumM.Text;
-                int n = int.Parse(num_n.Length > 0 ? num_n : "0");
-                int m = int.Parse(num_m.Length > 0 ? num_m : "0");
-                int sum = n + m;
-                txtResult.Text = sum.ToString();
-               
+        {
+            string num_n = txtNumN.Text;
+            string num_m = txtNumM.Text;
+            int n = int.Parse(num_n.Length > 0 ? num_n : "0");
+            int m = int.Parse(num_m.Length > 0 ? num_m : "0");
+            int sum = n + m;
+            txtResult.Text = sum.ToString();
+
         }
 
         private void btnSub_Click(object sender, EventArgs e)
@@ -65,21 +65,33 @@ namespace WindowAppOne
 
         private void btnDiv_Click(object sender, EventArgs e)
         {
-            string num_n = txtNumN.Text;
-            string num_m = txtNumM.Text;
-            int n = int.Parse(num_n.Length > 0 ? num_n : "0");
-            int m = int.Parse(num_m.Length > 0 ? num_m : "0");
-            int quotient = n / m;
-            int remainder = n % m;
-            txtResult.Text = quotient.ToString();
-            txtResult1.Text = remainder.ToString();
-        }
+            /*string num_n = txtNumN.Text;
+             string num_m = txtNumM.Text;
+              int n = int.Parse(num_n.Length > 0 ? num_n : "0");
+              int m = int.Parse(num_m.Length > 0 ? num_m : "0");
 
-        private void btnDel_Click(object sender, EventArgs e)
-        {
-           
+             int quotient = n / m;
+             int remainder = n % m;
+             txtResult.Text = quotient.ToString();
+             txtResult1.Text = remainder.ToString();*/
+            String num_n = txtNumN.Text;
+            String num_m = txtNumM.Text;
+            float n = float.Parse(num_n.Length > 0 ? num_n : "0");
+            float m = float.Parse(num_m.Length > 0 ? num_m : "0");
+            if
+               (float.Parse(txtNumM.Text) == 0)
+            {
+                MessageBox.Show("Nhập lại số m", "Thông báo");
+            }
+            // int n = int.Parse(txtSon.Text);
+            // int m = int.Parse(txtSom.Text);
+            else
+            {
+                float Chia = n / m;
+                txtResult.Text = Chia.ToString();
+            }
 
-        }
+            }
     }
-    }
+}
 
