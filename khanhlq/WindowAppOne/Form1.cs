@@ -68,5 +68,24 @@ namespace WindowAppOne
             int Nhan = n * m;
             txtKetqua.Text = Nhan.ToString();
         }
+
+        private void btChia_Click(object sender, EventArgs e)
+        {
+            String num_n = txtSon.Text;
+            String num_m = txtSom.Text;
+            float n = float.Parse(num_n.Length > 0 ? num_n : "0");
+            float m = float.Parse(num_m.Length > 0 ? num_m : "0");
+            if
+               (float.Parse(txtSom.Text) == 0)
+            {
+                MessageBox.Show("nhập lại số m", "Thông báo");
+            }
+            // int n = int.Parse(txtSon.Text);
+            // int m = int.Parse(txtSom.Text);
+            else {
+                float Chia = n / m;
+                txtKetqua.Text = Chia.ToString();
+            }
+        }
     }
 }
