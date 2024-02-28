@@ -1,0 +1,10 @@
+E:\2023-2024.2.TIN4483.001-main\ththanh\WindowsAppOne1\WindowsAppOne1\obj\Debug\WindowsAppOne1.csproj.AssemblyReference.cache
+E:\2023-2024.2.TIN4483.001-main\ththanh\WindowsAppOne1\WindowsAppOne1\obj\Debug\WindowsAppOne1.Properties.Resources.resources
+E:\2023-2024.2.TIN4483.001-main\ththanh\WindowsAppOne1\WindowsAppOne1\obj\Debug\WindowsAppOne1.csproj.GenerateResource.cache
+E:\2023-2024.2.TIN4483.001-main\ththanh\WindowsAppOne1\WindowsAppOne1\obj\Debug\WindowsAppOne1.csproj.CoreCompileInputs.cache
+E:\2023-2024.2.TIN4483.001-main\ththanh\WindowsAppOne1\WindowsAppOne1\bin\Debug\WindowsAppOne1.exe.config
+E:\2023-2024.2.TIN4483.001-main\ththanh\WindowsAppOne1\WindowsAppOne1\bin\Debug\WindowsAppOne1.exe
+E:\2023-2024.2.TIN4483.001-main\ththanh\WindowsAppOne1\WindowsAppOne1\bin\Debug\WindowsAppOne1.pdb
+E:\2023-2024.2.TIN4483.001-main\ththanh\WindowsAppOne1\WindowsAppOne1\obj\Debug\WindowAppOne1.Form1.resources
+E:\2023-2024.2.TIN4483.001-main\ththanh\WindowsAppOne1\WindowsAppOne1\obj\Debug\WindowsAppOne1.exe
+E:\2023-2024.2.TIN4483.001-main\ththanh\WindowsAppOne1\WindowsAppOne1\obj\Debug\WindowsAppOne1.pdb
