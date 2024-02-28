@@ -82,5 +82,9 @@ namespace WindowsApp1
             }
         }
 
+        private void txtSon_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

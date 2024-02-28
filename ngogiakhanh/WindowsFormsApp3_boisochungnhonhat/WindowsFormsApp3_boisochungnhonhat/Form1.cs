@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowAppTwo
+namespace WindowsFormsApp3_boisochungnhonhat
 {
     public partial class Form1 : Form
     {
@@ -17,25 +17,27 @@ namespace WindowAppTwo
             InitializeComponent();
         }
 
-        private void btnExit_Click(object sender, EventArgs e)
+        private void label5_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+
         }
 
-        private void chkUSCLN_CheckedChanged(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
             btnFind.Text = "Tìm - USCLN";
         }
 
-        private void chkBSCNN_CheckedChanged(object sender, EventArgs e)
+        private void bttthoat_Click(object sender, EventArgs e)
         {
-            btnFind.Text = "Tìm - BSCNN";
-        }
-
-        private void btnDel_Click(object sender, EventArgs e)
-        {
-            txtNumA.Text = "";
-            txtNumB.Text = "";
+            DialogResult dialog;
+            dialog = MessageBox.Show("Bạn có muốn thoát hay không", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dialog == DialogResult.Yes)
+                Application.Exit();
         }
 
         private void btnFind_Click(object sender, EventArgs e)
@@ -51,12 +53,19 @@ namespace WindowAppTwo
             else
             {
                 MessageBox.Show("Vui lòng chọn tìm USCLN hay BSCNN", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
+        }
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
+        private void bttDel_Click(object sender, EventArgs e)
         {
+            txtNumA.Text = "";
+            txtNumB.Text = "";
+            txtKetqua.Text = "";
+        }
 
+        private void chkBSCNN_CheckedChanged(object sender, EventArgs e)
+        {
+            btnFind.Text = "Tìm - BSCNN";
         }
     }
 }
