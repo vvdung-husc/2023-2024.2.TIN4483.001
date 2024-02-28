@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.uscln = new System.Windows.Forms.CheckBox();
-            this.uscnn = new System.Windows.Forms.CheckBox();
+            this.chkUSCLN = new System.Windows.Forms.CheckBox();
+            this.chkBSCNN = new System.Windows.Forms.CheckBox();
             this.bttim = new System.Windows.Forms.Button();
             this.btboqua = new System.Windows.Forms.Button();
             this.btthoat = new System.Windows.Forms.Button();
@@ -46,36 +46,36 @@
             this.groupNhap.SuspendLayout();
             this.SuspendLayout();
             // 
-            // uscln
+            // chkUSCLN
             // 
-            this.uscln.AutoSize = true;
-            this.uscln.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.uscln.Location = new System.Drawing.Point(20, 30);
-            this.uscln.Name = "uscln";
-            this.uscln.Size = new System.Drawing.Size(98, 27);
-            this.uscln.TabIndex = 4;
-            this.uscln.Text = "USCLN";
-            this.uscln.UseVisualStyleBackColor = false;
-            this.uscln.CheckedChanged += new System.EventHandler(this.chkUSCLN_CheckedChanged);
+            this.chkUSCLN.AutoSize = true;
+            this.chkUSCLN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.chkUSCLN.Location = new System.Drawing.Point(20, 30);
+            this.chkUSCLN.Name = "chkUSCLN";
+            this.chkUSCLN.Size = new System.Drawing.Size(98, 27);
+            this.chkUSCLN.TabIndex = 4;
+            this.chkUSCLN.Text = "USCLN";
+            this.chkUSCLN.UseVisualStyleBackColor = false;
+            this.chkUSCLN.CheckedChanged += new System.EventHandler(this.chkUSCLN_CheckedChanged);
             // 
-            // uscnn
+            // chkBSCNN
             // 
-            this.uscnn.AutoSize = true;
-            this.uscnn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.uscnn.Location = new System.Drawing.Point(20, 72);
-            this.uscnn.Name = "uscnn";
-            this.uscnn.Size = new System.Drawing.Size(98, 27);
-            this.uscnn.TabIndex = 5;
-            this.uscnn.Text = "BSCNN";
-            this.uscnn.UseVisualStyleBackColor = false;
-            this.uscnn.CheckedChanged += new System.EventHandler(this.chkBSCNN_CheckedChanged);
+            this.chkBSCNN.AutoSize = true;
+            this.chkBSCNN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.chkBSCNN.Location = new System.Drawing.Point(20, 72);
+            this.chkBSCNN.Name = "chkBSCNN";
+            this.chkBSCNN.Size = new System.Drawing.Size(98, 27);
+            this.chkBSCNN.TabIndex = 5;
+            this.chkBSCNN.Text = "BSCNN";
+            this.chkBSCNN.UseVisualStyleBackColor = false;
+            this.chkBSCNN.CheckedChanged += new System.EventHandler(this.chkBSCNN_CheckedChanged);
             // 
             // bttim
             // 
             this.bttim.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.bttim.Location = new System.Drawing.Point(5, 71);
             this.bttim.Name = "bttim";
-            this.bttim.Size = new System.Drawing.Size(110, 35);
+            this.bttim.Size = new System.Drawing.Size(129, 35);
             this.bttim.TabIndex = 8;
             this.bttim.Text = "Tìm";
             this.bttim.UseVisualStyleBackColor = false;
@@ -86,7 +86,7 @@
             this.btboqua.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btboqua.Location = new System.Drawing.Point(140, 71);
             this.btboqua.Name = "btboqua";
-            this.btboqua.Size = new System.Drawing.Size(110, 35);
+            this.btboqua.Size = new System.Drawing.Size(136, 35);
             this.btboqua.TabIndex = 9;
             this.btboqua.Text = "Bỏ qua";
             this.btboqua.UseVisualStyleBackColor = false;
@@ -97,7 +97,7 @@
             this.btthoat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btthoat.Location = new System.Drawing.Point(282, 71);
             this.btthoat.Name = "btthoat";
-            this.btthoat.Size = new System.Drawing.Size(110, 35);
+            this.btthoat.Size = new System.Drawing.Size(137, 35);
             this.btthoat.TabIndex = 10;
             this.btthoat.Text = "Thoát";
             this.btthoat.UseVisualStyleBackColor = false;
@@ -114,8 +114,8 @@
             // 
             // groupTim
             // 
-            this.groupTim.Controls.Add(this.uscnn);
-            this.groupTim.Controls.Add(this.uscln);
+            this.groupTim.Controls.Add(this.chkBSCNN);
+            this.groupTim.Controls.Add(this.chkUSCLN);
             this.groupTim.Location = new System.Drawing.Point(318, 41);
             this.groupTim.Name = "groupTim";
             this.groupTim.Size = new System.Drawing.Size(155, 133);
@@ -216,8 +216,8 @@
         }
 
         #endregion
-        private System.Windows.Forms.CheckBox uscln;
-        private System.Windows.Forms.CheckBox uscnn;
+        private System.Windows.Forms.CheckBox chkUSCLN;
+        private System.Windows.Forms.CheckBox chkBSCNN;
         private System.Windows.Forms.Button bttim;
         private System.Windows.Forms.Button btboqua;
         private System.Windows.Forms.Button btthoat;

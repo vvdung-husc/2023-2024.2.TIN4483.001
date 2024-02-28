@@ -91,11 +91,23 @@ namespace WindowsForm_UocBoi
         private void chkUSCLN_CheckedChanged(object sender, EventArgs e)
         {
             bttim.Text = "Tìm - USCLN";
+           
         }
 
         private void bttim_Click(object sender, EventArgs e)
         {
-          
+            if (chkUSCLN.Checked)
+            {
+                MessageBox.Show("Đang chọn USCLN => Tính kết quả", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else if (chkBSCNN.Checked)
+            {
+                MessageBox.Show("Đang chọn BSCNN => Tính kết quả", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn tìm USCLN hay BSCNN", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
     }
