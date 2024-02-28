@@ -29,18 +29,18 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtNumN = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtNumM = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.txtResult = new System.Windows.Forms.TextBox();
+            this.btnPlus = new System.Windows.Forms.Button();
+            this.btnSub = new System.Windows.Forms.Button();
+            this.btnMul = new System.Windows.Forms.Button();
+            this.bntDiv = new System.Windows.Forms.Button();
+            this.btnDel = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -54,12 +54,13 @@
             this.label1.Text = "THỰC HIỆN CÁC PHÉP TÍNH";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // textBox1
+            // txtNumN
             // 
-            this.textBox1.Location = new System.Drawing.Point(273, 69);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(256, 22);
-            this.textBox1.TabIndex = 1;
+            this.txtNumN.Location = new System.Drawing.Point(273, 69);
+            this.txtNumN.Name = "txtNumN";
+            this.txtNumN.Size = new System.Drawing.Size(256, 22);
+            this.txtNumN.TabIndex = 1;
+            this.txtNumN.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label2
             // 
@@ -81,12 +82,12 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "nhập m:";
             // 
-            // textBox2
+            // txtNumM
             // 
-            this.textBox2.Location = new System.Drawing.Point(273, 115);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(256, 22);
-            this.textBox2.TabIndex = 4;
+            this.txtNumM.Location = new System.Drawing.Point(273, 115);
+            this.txtNumM.Name = "txtNumM";
+            this.txtNumM.Size = new System.Drawing.Size(256, 22);
+            this.txtNumM.TabIndex = 4;
             // 
             // label4
             // 
@@ -98,94 +99,101 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "kết quả:";
             // 
-            // textBox3
+            // txtResult
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.Info;
-            this.textBox3.Location = new System.Drawing.Point(273, 149);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(256, 22);
-            this.textBox3.TabIndex = 6;
+            this.txtResult.BackColor = System.Drawing.SystemColors.Info;
+            this.txtResult.Location = new System.Drawing.Point(273, 149);
+            this.txtResult.Name = "txtResult";
+            this.txtResult.Size = new System.Drawing.Size(256, 22);
+            this.txtResult.TabIndex = 6;
             // 
-            // button1
+            // btnPlus
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(164, 195);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 27);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "+";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnPlus.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPlus.Location = new System.Drawing.Point(164, 195);
+            this.btnPlus.Name = "btnPlus";
+            this.btnPlus.Size = new System.Drawing.Size(75, 27);
+            this.btnPlus.TabIndex = 7;
+            this.btnPlus.Text = "+";
+            this.btnPlus.UseVisualStyleBackColor = true;
+            this.btnPlus.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btnSub
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(245, 195);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 27);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "-";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnSub.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSub.Location = new System.Drawing.Point(245, 195);
+            this.btnSub.Name = "btnSub";
+            this.btnSub.Size = new System.Drawing.Size(75, 27);
+            this.btnSub.TabIndex = 8;
+            this.btnSub.Text = "-";
+            this.btnSub.UseVisualStyleBackColor = true;
+            this.btnSub.Click += new System.EventHandler(this.btnSub_Click);
             // 
-            // button3
+            // btnMul
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(326, 195);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 27);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "*";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnMul.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMul.Location = new System.Drawing.Point(326, 195);
+            this.btnMul.Name = "btnMul";
+            this.btnMul.Size = new System.Drawing.Size(75, 27);
+            this.btnMul.TabIndex = 9;
+            this.btnMul.Text = "*";
+            this.btnMul.UseVisualStyleBackColor = true;
+            this.btnMul.Click += new System.EventHandler(this.btnMul_Click);
             // 
-            // button4
+            // bntDiv
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(407, 195);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 27);
-            this.button4.TabIndex = 10;
-            this.button4.Text = "/";
-            this.button4.UseVisualStyleBackColor = true;
+            this.bntDiv.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bntDiv.Location = new System.Drawing.Point(407, 195);
+            this.bntDiv.Name = "bntDiv";
+            this.bntDiv.Size = new System.Drawing.Size(75, 27);
+            this.bntDiv.TabIndex = 10;
+            this.bntDiv.Text = "/";
+            this.bntDiv.UseVisualStyleBackColor = true;
+            this.bntDiv.Click += new System.EventHandler(this.bntDiv_Click);
             // 
-            // button5
+            // btnDel
             // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(488, 195);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(79, 27);
-            this.button5.TabIndex = 11;
-            this.button5.Text = "xóa";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnDel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDel.Location = new System.Drawing.Point(488, 195);
+            this.btnDel.Name = "btnDel";
+            this.btnDel.Size = new System.Drawing.Size(79, 27);
+            this.btnDel.TabIndex = 11;
+            this.btnDel.Text = "xóa";
+            this.btnDel.UseVisualStyleBackColor = true;
+            this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
             // 
-            // button6
+            // btnExit
             // 
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(164, 228);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(403, 32);
-            this.button6.TabIndex = 12;
-            this.button6.Text = "thoát";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.Location = new System.Drawing.Point(164, 228);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(403, 32);
+            this.btnExit.TabIndex = 12;
+            this.btnExit.Text = "thoát";
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 450);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.btnExit);
+            this.Controls.Add(this.btnDel);
+            this.Controls.Add(this.bntDiv);
+            this.Controls.Add(this.btnMul);
+            this.Controls.Add(this.btnSub);
+            this.Controls.Add(this.btnPlus);
+            this.Controls.Add(this.txtResult);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtNumM);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtNumN);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing_1);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -194,18 +202,18 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtNumN;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtNumM;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.TextBox txtResult;
+        private System.Windows.Forms.Button btnPlus;
+        private System.Windows.Forms.Button btnSub;
+        private System.Windows.Forms.Button btnMul;
+        private System.Windows.Forms.Button bntDiv;
+        private System.Windows.Forms.Button btnDel;
+        private System.Windows.Forms.Button btnExit;
     }
 }
 
