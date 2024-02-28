@@ -19,7 +19,7 @@ namespace WindowsForm_UocBoi
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-
+         
         }
 
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
@@ -51,5 +51,54 @@ namespace WindowsForm_UocBoi
         {
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btthoat_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("Bạn có chắc là muốn thoát không?", "Thoát Ứng dụng", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
+        }
+
+        private void groupKetqua_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+  
+
+        private void btboqua_Click(object sender, EventArgs e)
+        {
+            txta.Text = "";
+            txtb.Text = "";
+        }
+       
+        private void chkBSCNN_CheckedChanged(object sender, EventArgs e)
+        {
+            bttim.Text = "Tìm - BSCNN";
+        }
+
+        private void chkUSCLN_CheckedChanged(object sender, EventArgs e)
+        {
+            bttim.Text = "Tìm - USCLN";
+        }
+
+        private void bttim_Click(object sender, EventArgs e)
+        {
+          
+        }
+
     }
 }
+    
+
