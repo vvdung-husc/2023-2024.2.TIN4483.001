@@ -57,7 +57,6 @@
             this.label6.Size = new System.Drawing.Size(375, 25);
             this.label6.TabIndex = 13;
             this.label6.Text = "TÌM USCLN VÀ BSCNN CỦA A VÀ B";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // groupBox1
             // 
@@ -175,6 +174,7 @@
             this.button3.TabIndex = 16;
             this.button3.Text = "Thoát";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -207,6 +207,7 @@
             this.Controls.Add(this.label6);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

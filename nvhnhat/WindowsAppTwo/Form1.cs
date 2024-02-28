@@ -15,21 +15,20 @@ namespace WindowsAppTwo
         public Form1()
         {
             InitializeComponent();
-        }
-
-        private void label3_Click(object sender, EventArgs e)
+        } 
+        private void button3_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
 
-        private void label5_Click(object sender, EventArgs e)
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-
+            if (MessageBox.Show("Bạn có chắc là muốn thoát không?", "Quản Lý Quán Cafe", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
         }
 
-        private void label6_Click(object sender, EventArgs e)
-        {
 
-        }
     }
 }
