@@ -34,19 +34,19 @@
             this.Thoat = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
-            this.chkBSCNN = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.chkUSCLN = new System.Windows.Forms.CheckBox();
             this.SoB = new System.Windows.Forms.Label();
             this.SoA = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.Ketqua = new System.Windows.Forms.GroupBox();
+            this.chkUSCLN = new System.Windows.Forms.RadioButton();
+            this.chkBSCNN = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
+            this.Ketqua.SuspendLayout();
             this.SuspendLayout();
             // 
             // Tim
@@ -80,18 +80,6 @@
             this.Thoat.Text = "Thoát";
             this.Thoat.UseVisualStyleBackColor = false;
             // 
-            // chkBSCNN
-            // 
-            this.chkBSCNN.AutoSize = true;
-            this.chkBSCNN.BackColor = System.Drawing.SystemColors.Window;
-            this.chkBSCNN.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkBSCNN.Location = new System.Drawing.Point(47, 111);
-            this.chkBSCNN.Name = "chkBSCNN";
-            this.chkBSCNN.Size = new System.Drawing.Size(95, 24);
-            this.chkBSCNN.TabIndex = 13;
-            this.chkBSCNN.Text = "BSCNN";
-            this.chkBSCNN.UseVisualStyleBackColor = false;
-            // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.Window;
@@ -104,18 +92,6 @@
             this.groupBox1.TabIndex = 16;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Chọn tìm";
-            // 
-            // chkUSCLN
-            // 
-            this.chkUSCLN.AutoSize = true;
-            this.chkUSCLN.BackColor = System.Drawing.SystemColors.Window;
-            this.chkUSCLN.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkUSCLN.Location = new System.Drawing.Point(47, 47);
-            this.chkUSCLN.Name = "chkUSCLN";
-            this.chkUSCLN.Size = new System.Drawing.Size(93, 24);
-            this.chkUSCLN.TabIndex = 12;
-            this.chkUSCLN.Text = "USCLN";
-            this.chkUSCLN.UseVisualStyleBackColor = false;
             // 
             // SoB
             // 
@@ -177,19 +153,41 @@
             this.textBox3.Size = new System.Drawing.Size(382, 27);
             this.textBox3.TabIndex = 6;
             // 
-            // groupBox3
+            // Ketqua
             // 
-            this.groupBox3.Controls.Add(this.textBox3);
-            this.groupBox3.Controls.Add(this.Tim);
-            this.groupBox3.Controls.Add(this.button2);
-            this.groupBox3.Controls.Add(this.Thoat);
-            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(97, 253);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(619, 146);
-            this.groupBox3.TabIndex = 18;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Kết quả:";
+            this.Ketqua.Controls.Add(this.textBox3);
+            this.Ketqua.Controls.Add(this.Tim);
+            this.Ketqua.Controls.Add(this.button2);
+            this.Ketqua.Controls.Add(this.Thoat);
+            this.Ketqua.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ketqua.Location = new System.Drawing.Point(97, 253);
+            this.Ketqua.Name = "Ketqua";
+            this.Ketqua.Size = new System.Drawing.Size(619, 146);
+            this.Ketqua.TabIndex = 18;
+            this.Ketqua.TabStop = false;
+            this.Ketqua.Text = "Kết quả:";
+            // 
+            // chkUSCLN
+            // 
+            this.chkUSCLN.AutoSize = true;
+            this.chkUSCLN.Location = new System.Drawing.Point(33, 47);
+            this.chkUSCLN.Name = "chkUSCLN";
+            this.chkUSCLN.Size = new System.Drawing.Size(120, 33);
+            this.chkUSCLN.TabIndex = 14;
+            this.chkUSCLN.TabStop = true;
+            this.chkUSCLN.Text = "USCLN";
+            this.chkUSCLN.UseVisualStyleBackColor = true;
+            // 
+            // chkBSCNN
+            // 
+            this.chkBSCNN.AutoSize = true;
+            this.chkBSCNN.Location = new System.Drawing.Point(33, 86);
+            this.chkBSCNN.Name = "chkBSCNN";
+            this.chkBSCNN.Size = new System.Drawing.Size(124, 33);
+            this.chkBSCNN.TabIndex = 15;
+            this.chkBSCNN.TabStop = true;
+            this.chkBSCNN.Text = "BSCNN";
+            this.chkBSCNN.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -197,7 +195,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.Ketqua);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
@@ -206,8 +204,8 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
+            this.Ketqua.ResumeLayout(false);
+            this.Ketqua.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -218,7 +216,6 @@
         private System.Windows.Forms.Button Thoat;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Timer timer2;
-        private System.Windows.Forms.CheckBox chkBSCNN;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label SoB;
         private System.Windows.Forms.Label SoA;
@@ -226,8 +223,9 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.CheckBox chkUSCLN;
+        private System.Windows.Forms.GroupBox Ketqua;
+        private System.Windows.Forms.RadioButton chkBSCNN;
+        private System.Windows.Forms.RadioButton chkUSCLN;
     }
 }
 

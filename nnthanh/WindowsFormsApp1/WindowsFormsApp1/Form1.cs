@@ -54,17 +54,48 @@ namespace WindowsFormsApp1
             {
                 MessageBox.Show("Vui lòng chọn tìm USCLN hay BSCNN", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-         }
 
-            int USCLN(int a, int b)
+            int a, b;
+            if (!int.TryParse(SoA.Text, out a) || !int.TryParse(SoB.Text, out b))
             {
-                if (b == 0) return a;
-                return USCLN(b, a % b);
+                MessageBox.Show("Vui lòng nhập số nguyên hợp lệ.");
+                return;
             }
-            int BSCNN(int a, int b)
+
+            int result;
+            if (chkUSCLN.Checked)
             {
-                return (a * b) / USCLN(a, b);
+                result = USCLN(a, b);
             }
+            else
+            {
+                result = USCNN(a, b);
+            }
+
+            Ketqua.Text = "" + result;
+        }
+
+
+        // Hàm tìm USCLN
+        private int USCLN(int a, int b)
+        {
+            while (b != 0)
+            {
+                int temp = b;
+                b = a % b;
+                a = temp;
+            }
+            return a;
+        }
+
+     // hàm tìm BSCNN
+        private int USCNN(int a, int b)
+        {
+            return (a * b) / USCLN(a, b);
+        }
+
+
+    }
+
         
     }
-}
