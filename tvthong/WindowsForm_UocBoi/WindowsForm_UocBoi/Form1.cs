@@ -126,7 +126,7 @@ namespace WindowsForm_UocBoi
                 result = USCNN(a, b);
             }
 
-            txtkq.Text = result;
+            txtkq.Text = "" + result;
         }
 
 
