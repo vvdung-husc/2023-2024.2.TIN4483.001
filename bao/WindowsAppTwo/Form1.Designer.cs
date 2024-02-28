@@ -146,6 +146,7 @@
             this.txtketqua.Name = "txtketqua";
             this.txtketqua.Size = new System.Drawing.Size(253, 27);
             this.txtketqua.TabIndex = 3;
+            this.txtketqua.TextChanged += new System.EventHandler(this.txtketqua_TextChanged);
             // 
             // bntthoat
             // 
