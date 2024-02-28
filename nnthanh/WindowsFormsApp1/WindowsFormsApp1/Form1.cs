@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowAppTwo
+namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
@@ -17,6 +17,9 @@ namespace WindowAppTwo
             InitializeComponent();
         }
 
+        private void label3_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }
