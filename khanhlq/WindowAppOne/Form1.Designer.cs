@@ -135,6 +135,7 @@
             this.btChia.TabIndex = 9;
             this.btChia.Text = "/";
             this.btChia.UseVisualStyleBackColor = true;
+            this.btChia.Click += new System.EventHandler(this.btChia_Click);
             // 
             // btNhan
             // 

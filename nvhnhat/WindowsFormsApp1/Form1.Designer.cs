@@ -41,15 +41,13 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txtNumM = new System.Windows.Forms.TextBox();
             this.txtResult = new System.Windows.Forms.TextBox();
-            this.txtResult1 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnPlus
             // 
             this.btnPlus.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPlus.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnPlus.Location = new System.Drawing.Point(82, 251);
+            this.btnPlus.Location = new System.Drawing.Point(104, 235);
             this.btnPlus.Name = "btnPlus";
             this.btnPlus.Size = new System.Drawing.Size(53, 26);
             this.btnPlus.TabIndex = 0;
@@ -61,7 +59,7 @@
             // 
             this.btnSub.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSub.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnSub.Location = new System.Drawing.Point(141, 251);
+            this.btnSub.Location = new System.Drawing.Point(163, 235);
             this.btnSub.Name = "btnSub";
             this.btnSub.Size = new System.Drawing.Size(52, 26);
             this.btnSub.TabIndex = 1;
@@ -73,7 +71,7 @@
             // 
             this.btnMul.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMul.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnMul.Location = new System.Drawing.Point(199, 251);
+            this.btnMul.Location = new System.Drawing.Point(221, 235);
             this.btnMul.Name = "btnMul";
             this.btnMul.Size = new System.Drawing.Size(53, 26);
             this.btnMul.TabIndex = 2;
@@ -85,7 +83,7 @@
             // 
             this.btnDiv.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDiv.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnDiv.Location = new System.Drawing.Point(258, 251);
+            this.btnDiv.Location = new System.Drawing.Point(280, 235);
             this.btnDiv.Name = "btnDiv";
             this.btnDiv.Size = new System.Drawing.Size(50, 26);
             this.btnDiv.TabIndex = 3;
@@ -97,13 +95,12 @@
             // 
             this.btnDel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDel.ForeColor = System.Drawing.Color.Red;
-            this.btnDel.Location = new System.Drawing.Point(314, 251);
+            this.btnDel.Location = new System.Drawing.Point(349, 249);
             this.btnDel.Name = "btnDel";
-            this.btnDel.Size = new System.Drawing.Size(95, 26);
+            this.btnDel.Size = new System.Drawing.Size(96, 37);
             this.btnDel.TabIndex = 4;
             this.btnDel.Text = "Xóa";
             this.btnDel.UseVisualStyleBackColor = true;
-            this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
             // 
             // txtNumN
             // 
@@ -116,7 +113,7 @@
             // 
             this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.Color.Red;
-            this.btnExit.Location = new System.Drawing.Point(103, 283);
+            this.btnExit.Location = new System.Drawing.Point(83, 267);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(247, 34);
             this.btnExit.TabIndex = 8;
@@ -180,30 +177,11 @@
             this.txtResult.Size = new System.Drawing.Size(199, 22);
             this.txtResult.TabIndex = 14;
             // 
-            // txtResult1
-            // 
-            this.txtResult1.Location = new System.Drawing.Point(164, 209);
-            this.txtResult1.Name = "txtResult1";
-            this.txtResult1.Size = new System.Drawing.Size(199, 22);
-            this.txtResult1.TabIndex = 15;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(76, 209);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(82, 22);
-            this.label5.TabIndex = 16;
-            this.label5.Text = "Phần dư:";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(485, 369);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.txtResult1);
             this.Controls.Add(this.txtResult);
             this.Controls.Add(this.txtNumM);
             this.Controls.Add(this.label4);
@@ -220,6 +198,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -240,8 +219,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtNumM;
         private System.Windows.Forms.TextBox txtResult;
-        private System.Windows.Forms.TextBox txtResult1;
-        private System.Windows.Forms.Label label5;
     }
 }
 

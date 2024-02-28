@@ -76,5 +76,27 @@ namespace WindowAppOne
             int Tong = n + m;
             txtKetqua.Text = Tong.ToString();
         }
+
+        private void btTru_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btNhan_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btChia_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btXoa_Click(object sender, EventArgs e)
+        {
+            txtm.Text = "";
+            txtn.Text = "";
+            txtKetqua.Text = "";
+        }
     }
 }
