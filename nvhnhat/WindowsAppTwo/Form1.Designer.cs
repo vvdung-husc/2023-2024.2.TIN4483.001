@@ -35,13 +35,13 @@
             this.txtNumB = new System.Windows.Forms.TextBox();
             this.txtNumA = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.chkBSCNN = new System.Windows.Forms.RadioButton();
+            this.chkUSCLN = new System.Windows.Forms.RadioButton();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.txtResult = new System.Windows.Forms.TextBox();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnDel = new System.Windows.Forms.Button();
             this.btnFind = new System.Windows.Forms.Button();
-            this.chkUSCLN = new System.Windows.Forms.RadioButton();
-            this.chkBSCNN = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -120,6 +120,28 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Chọn tìm";
             // 
+            // chkBSCNN
+            // 
+            this.chkBSCNN.AutoSize = true;
+            this.chkBSCNN.Location = new System.Drawing.Point(16, 93);
+            this.chkBSCNN.Name = "chkBSCNN";
+            this.chkBSCNN.Size = new System.Drawing.Size(99, 26);
+            this.chkBSCNN.TabIndex = 12;
+            this.chkBSCNN.TabStop = true;
+            this.chkBSCNN.Text = "BSCNN";
+            this.chkBSCNN.UseVisualStyleBackColor = true;
+            // 
+            // chkUSCLN
+            // 
+            this.chkUSCLN.AutoSize = true;
+            this.chkUSCLN.Location = new System.Drawing.Point(16, 45);
+            this.chkUSCLN.Name = "chkUSCLN";
+            this.chkUSCLN.Size = new System.Drawing.Size(97, 26);
+            this.chkUSCLN.TabIndex = 11;
+            this.chkUSCLN.TabStop = true;
+            this.chkUSCLN.Text = "USCLN";
+            this.chkUSCLN.UseVisualStyleBackColor = true;
+            // 
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.Gainsboro;
@@ -165,7 +187,7 @@
             this.btnDel.TabIndex = 15;
             this.btnDel.Text = "Xóa";
             this.btnDel.UseVisualStyleBackColor = false;
-            
+            this.btnDel.Click += new System.EventHandler(this.btnDel_Click_1);
             // 
             // btnFind
             // 
@@ -179,28 +201,6 @@
             this.btnFind.UseVisualStyleBackColor = false;
             this.btnFind.Click += new System.EventHandler(this.btnFind_Click);
             // 
-            // chkUSCLN
-            // 
-            this.chkUSCLN.AutoSize = true;
-            this.chkUSCLN.Location = new System.Drawing.Point(16, 45);
-            this.chkUSCLN.Name = "chkUSCLN";
-            this.chkUSCLN.Size = new System.Drawing.Size(97, 26);
-            this.chkUSCLN.TabIndex = 11;
-            this.chkUSCLN.TabStop = true;
-            this.chkUSCLN.Text = "USCLN";
-            this.chkUSCLN.UseVisualStyleBackColor = true;
-            // 
-            // chkBSCNN
-            // 
-            this.chkBSCNN.AutoSize = true;
-            this.chkBSCNN.Location = new System.Drawing.Point(16, 93);
-            this.chkBSCNN.Name = "chkBSCNN";
-            this.chkBSCNN.Size = new System.Drawing.Size(99, 26);
-            this.chkBSCNN.TabIndex = 12;
-            this.chkBSCNN.TabStop = true;
-            this.chkBSCNN.Text = "BSCNN";
-            this.chkBSCNN.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -212,7 +212,6 @@
             this.Controls.Add(this.label6);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
