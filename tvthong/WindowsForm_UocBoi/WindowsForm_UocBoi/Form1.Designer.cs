@@ -88,7 +88,7 @@
             this.btboqua.Name = "btboqua";
             this.btboqua.Size = new System.Drawing.Size(136, 35);
             this.btboqua.TabIndex = 9;
-            this.btboqua.Text = "Bỏ qua";
+            this.btboqua.Text = "Xóa";
             this.btboqua.UseVisualStyleBackColor = false;
             this.btboqua.Click += new System.EventHandler(this.btboqua_Click);
             // 
