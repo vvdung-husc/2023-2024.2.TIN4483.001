@@ -32,16 +32,16 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtNumB = new System.Windows.Forms.TextBox();
+            this.txtNumA = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.chkBSCNN = new System.Windows.Forms.RadioButton();
+            this.chkUSCLN = new System.Windows.Forms.RadioButton();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.txtResult = new System.Windows.Forms.TextBox();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.btnDel = new System.Windows.Forms.Button();
+            this.btnFind = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -57,15 +57,14 @@
             this.label6.Size = new System.Drawing.Size(375, 25);
             this.label6.TabIndex = 13;
             this.label6.Text = "TÌM USCLN VÀ BSCNN CỦA A VÀ B";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Gainsboro;
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txtNumB);
+            this.groupBox1.Controls.Add(this.txtNumA);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(31, 88);
             this.groupBox1.Name = "groupBox1";
@@ -94,25 +93,25 @@
             this.label1.TabIndex = 7;
             this.label1.Text = "A:";
             // 
-            // textBox2
+            // txtNumB
             // 
-            this.textBox2.Location = new System.Drawing.Point(125, 91);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(232, 28);
-            this.textBox2.TabIndex = 6;
+            this.txtNumB.Location = new System.Drawing.Point(125, 91);
+            this.txtNumB.Name = "txtNumB";
+            this.txtNumB.Size = new System.Drawing.Size(232, 28);
+            this.txtNumB.TabIndex = 6;
             // 
-            // textBox1
+            // txtNumA
             // 
-            this.textBox1.Location = new System.Drawing.Point(125, 43);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(232, 28);
-            this.textBox1.TabIndex = 5;
+            this.txtNumA.Location = new System.Drawing.Point(125, 43);
+            this.txtNumA.Name = "txtNumA";
+            this.txtNumA.Size = new System.Drawing.Size(232, 28);
+            this.txtNumA.TabIndex = 5;
             // 
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.Gainsboro;
-            this.groupBox2.Controls.Add(this.checkBox2);
-            this.groupBox2.Controls.Add(this.checkBox1);
+            this.groupBox2.Controls.Add(this.chkBSCNN);
+            this.groupBox2.Controls.Add(this.chkUSCLN);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(417, 88);
             this.groupBox2.Name = "groupBox2";
@@ -121,35 +120,35 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Chọn tìm";
             // 
-            // checkBox2
+            // chkBSCNN
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.Location = new System.Drawing.Point(28, 91);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(100, 26);
-            this.checkBox2.TabIndex = 10;
-            this.checkBox2.Text = "BSCNN";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.chkBSCNN.AutoSize = true;
+            this.chkBSCNN.Location = new System.Drawing.Point(16, 93);
+            this.chkBSCNN.Name = "chkBSCNN";
+            this.chkBSCNN.Size = new System.Drawing.Size(99, 26);
+            this.chkBSCNN.TabIndex = 12;
+            this.chkBSCNN.TabStop = true;
+            this.chkBSCNN.Text = "BSCNN";
+            this.chkBSCNN.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
+            // chkUSCLN
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(28, 45);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(98, 26);
-            this.checkBox1.TabIndex = 9;
-            this.checkBox1.Text = "USCLN";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.chkUSCLN.AutoSize = true;
+            this.chkUSCLN.Location = new System.Drawing.Point(16, 45);
+            this.chkUSCLN.Name = "chkUSCLN";
+            this.chkUSCLN.Size = new System.Drawing.Size(97, 26);
+            this.chkUSCLN.TabIndex = 11;
+            this.chkUSCLN.TabStop = true;
+            this.chkUSCLN.Text = "USCLN";
+            this.chkUSCLN.UseVisualStyleBackColor = true;
             // 
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.Gainsboro;
-            this.groupBox3.Controls.Add(this.textBox3);
-            this.groupBox3.Controls.Add(this.button3);
-            this.groupBox3.Controls.Add(this.button2);
-            this.groupBox3.Controls.Add(this.button1);
+            this.groupBox3.Controls.Add(this.txtResult);
+            this.groupBox3.Controls.Add(this.btnExit);
+            this.groupBox3.Controls.Add(this.btnDel);
+            this.groupBox3.Controls.Add(this.btnFind);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(31, 252);
             this.groupBox3.Name = "groupBox3";
@@ -158,43 +157,49 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Kết quả:";
             // 
-            // textBox3
+            // txtResult
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.Menu;
-            this.textBox3.Location = new System.Drawing.Point(127, 27);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(230, 28);
-            this.textBox3.TabIndex = 17;
+            this.txtResult.BackColor = System.Drawing.SystemColors.Menu;
+            this.txtResult.Location = new System.Drawing.Point(127, 27);
+            this.txtResult.Name = "txtResult";
+            this.txtResult.Size = new System.Drawing.Size(230, 28);
+            this.txtResult.TabIndex = 17;
             // 
-            // button3
+            // btnExit
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(362, 81);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(125, 40);
-            this.button3.TabIndex = 16;
-            this.button3.Text = "Thoát";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnExit.BackColor = System.Drawing.Color.SandyBrown;
+            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.Location = new System.Drawing.Point(362, 81);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(125, 40);
+            this.btnExit.TabIndex = 16;
+            this.btnExit.Text = "Thoát";
+            this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button2
+            // btnDel
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(207, 81);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(125, 40);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "Bỏ qua";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnDel.BackColor = System.Drawing.Color.MistyRose;
+            this.btnDel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDel.Location = new System.Drawing.Point(207, 81);
+            this.btnDel.Name = "btnDel";
+            this.btnDel.Size = new System.Drawing.Size(125, 40);
+            this.btnDel.TabIndex = 15;
+            this.btnDel.Text = "Xóa";
+            this.btnDel.UseVisualStyleBackColor = false;
+            this.btnDel.Click += new System.EventHandler(this.btnDel_Click_1);
             // 
-            // button1
+            // btnFind
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(49, 81);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(125, 40);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Tìm";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnFind.BackColor = System.Drawing.Color.RosyBrown;
+            this.btnFind.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFind.Location = new System.Drawing.Point(49, 81);
+            this.btnFind.Name = "btnFind";
+            this.btnFind.Size = new System.Drawing.Size(125, 40);
+            this.btnFind.TabIndex = 14;
+            this.btnFind.Text = "Tìm";
+            this.btnFind.UseVisualStyleBackColor = false;
+            this.btnFind.Click += new System.EventHandler(this.btnFind_Click);
             // 
             // Form1
             // 
@@ -223,16 +228,16 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtNumB;
+        private System.Windows.Forms.TextBox txtNumA;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txtResult;
+        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Button btnDel;
+        private System.Windows.Forms.Button btnFind;
+        private System.Windows.Forms.RadioButton chkBSCNN;
+        private System.Windows.Forms.RadioButton chkUSCLN;
     }
 }
 

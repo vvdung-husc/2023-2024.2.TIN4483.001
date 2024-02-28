@@ -28,125 +28,129 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.chkUSCLN = new System.Windows.Forms.CheckBox();
+            this.chkBSCNN = new System.Windows.Forms.CheckBox();
+            this.bttim = new System.Windows.Forms.Button();
+            this.btboqua = new System.Windows.Forms.Button();
+            this.btthoat = new System.Windows.Forms.Button();
+            this.txtkq = new System.Windows.Forms.TextBox();
+            this.groupTim = new System.Windows.Forms.GroupBox();
+            this.groupKetqua = new System.Windows.Forms.GroupBox();
+            this.groupNhap = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            this.txtb = new System.Windows.Forms.TextBox();
+            this.txta = new System.Windows.Forms.TextBox();
+            this.groupTim.SuspendLayout();
+            this.groupKetqua.SuspendLayout();
+            this.groupNhap.SuspendLayout();
             this.SuspendLayout();
             // 
-            // checkBox1
+            // chkUSCLN
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.checkBox1.Location = new System.Drawing.Point(20, 30);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(98, 27);
-            this.checkBox1.TabIndex = 4;
-            this.checkBox1.Text = "USCLN";
-            this.checkBox1.UseVisualStyleBackColor = false;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.chkUSCLN.AutoSize = true;
+            this.chkUSCLN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.chkUSCLN.Location = new System.Drawing.Point(20, 30);
+            this.chkUSCLN.Name = "chkUSCLN";
+            this.chkUSCLN.Size = new System.Drawing.Size(98, 27);
+            this.chkUSCLN.TabIndex = 4;
+            this.chkUSCLN.Text = "USCLN";
+            this.chkUSCLN.UseVisualStyleBackColor = false;
+            this.chkUSCLN.CheckedChanged += new System.EventHandler(this.chkUSCLN_CheckedChanged);
             // 
-            // checkBox2
+            // chkBSCNN
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.checkBox2.Location = new System.Drawing.Point(20, 72);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(98, 27);
-            this.checkBox2.TabIndex = 5;
-            this.checkBox2.Text = "BSCNN";
-            this.checkBox2.UseVisualStyleBackColor = false;
-            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
+            this.chkBSCNN.AutoSize = true;
+            this.chkBSCNN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.chkBSCNN.Location = new System.Drawing.Point(20, 72);
+            this.chkBSCNN.Name = "chkBSCNN";
+            this.chkBSCNN.Size = new System.Drawing.Size(98, 27);
+            this.chkBSCNN.TabIndex = 5;
+            this.chkBSCNN.Text = "BSCNN";
+            this.chkBSCNN.UseVisualStyleBackColor = false;
+            this.chkBSCNN.CheckedChanged += new System.EventHandler(this.chkBSCNN_CheckedChanged);
             // 
-            // button1
+            // bttim
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button1.Location = new System.Drawing.Point(5, 71);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(110, 35);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Tìm";
-            this.button1.UseVisualStyleBackColor = false;
+            this.bttim.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.bttim.Location = new System.Drawing.Point(5, 71);
+            this.bttim.Name = "bttim";
+            this.bttim.Size = new System.Drawing.Size(129, 35);
+            this.bttim.TabIndex = 8;
+            this.bttim.Text = "Tìm";
+            this.bttim.UseVisualStyleBackColor = false;
+            this.bttim.Click += new System.EventHandler(this.bttim_Click);
             // 
-            // button2
+            // btboqua
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.button2.Location = new System.Drawing.Point(140, 71);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(110, 35);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Bỏ qua";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btboqua.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btboqua.Location = new System.Drawing.Point(140, 71);
+            this.btboqua.Name = "btboqua";
+            this.btboqua.Size = new System.Drawing.Size(136, 35);
+            this.btboqua.TabIndex = 9;
+            this.btboqua.Text = "Xóa";
+            this.btboqua.UseVisualStyleBackColor = false;
+            this.btboqua.Click += new System.EventHandler(this.btboqua_Click);
             // 
-            // button3
+            // btthoat
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.button3.Location = new System.Drawing.Point(282, 71);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(110, 35);
-            this.button3.TabIndex = 10;
-            this.button3.Text = "Thoát";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btthoat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btthoat.Location = new System.Drawing.Point(282, 71);
+            this.btthoat.Name = "btthoat";
+            this.btthoat.Size = new System.Drawing.Size(137, 35);
+            this.btthoat.TabIndex = 10;
+            this.btthoat.Text = "Thoát";
+            this.btthoat.UseVisualStyleBackColor = false;
+            this.btthoat.Click += new System.EventHandler(this.btthoat_Click);
             // 
-            // textBox3
+            // txtkq
             // 
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.textBox3.Location = new System.Drawing.Point(6, 29);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(274, 30);
-            this.textBox3.TabIndex = 7;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.txtkq.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.txtkq.Location = new System.Drawing.Point(6, 29);
+            this.txtkq.Name = "txtkq";
+            this.txtkq.Size = new System.Drawing.Size(274, 30);
+            this.txtkq.TabIndex = 7;
+            this.txtkq.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
-            // groupBox2
+            // groupTim
             // 
-            this.groupBox2.Controls.Add(this.checkBox2);
-            this.groupBox2.Controls.Add(this.checkBox1);
-            this.groupBox2.Location = new System.Drawing.Point(318, 41);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(155, 133);
-            this.groupBox2.TabIndex = 12;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Chọn Tìm";
-            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            this.groupTim.Controls.Add(this.chkBSCNN);
+            this.groupTim.Controls.Add(this.chkUSCLN);
+            this.groupTim.Location = new System.Drawing.Point(318, 41);
+            this.groupTim.Name = "groupTim";
+            this.groupTim.Size = new System.Drawing.Size(155, 133);
+            this.groupTim.TabIndex = 12;
+            this.groupTim.TabStop = false;
+            this.groupTim.Text = "Chọn Tìm";
+            this.groupTim.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
-            // groupBox3
+            // groupKetqua
             // 
-            this.groupBox3.Controls.Add(this.textBox3);
-            this.groupBox3.Controls.Add(this.button3);
-            this.groupBox3.Controls.Add(this.button2);
-            this.groupBox3.Controls.Add(this.button1);
-            this.groupBox3.Location = new System.Drawing.Point(17, 180);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(456, 130);
-            this.groupBox3.TabIndex = 13;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Kết quả";
+            this.groupKetqua.Controls.Add(this.txtkq);
+            this.groupKetqua.Controls.Add(this.btthoat);
+            this.groupKetqua.Controls.Add(this.btboqua);
+            this.groupKetqua.Controls.Add(this.bttim);
+            this.groupKetqua.Location = new System.Drawing.Point(17, 180);
+            this.groupKetqua.Name = "groupKetqua";
+            this.groupKetqua.Size = new System.Drawing.Size(456, 130);
+            this.groupKetqua.TabIndex = 13;
+            this.groupKetqua.TabStop = false;
+            this.groupKetqua.Text = "Kết quả";
+            this.groupKetqua.Enter += new System.EventHandler(this.groupKetqua_Enter);
             // 
-            // groupBox1
+            // groupNhap
             // 
-            this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Location = new System.Drawing.Point(17, 28);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(279, 146);
-            this.groupBox1.TabIndex = 14;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Nhập";
+            this.groupNhap.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.groupNhap.Controls.Add(this.label2);
+            this.groupNhap.Controls.Add(this.label1);
+            this.groupNhap.Controls.Add(this.txtb);
+            this.groupNhap.Controls.Add(this.txta);
+            this.groupNhap.Location = new System.Drawing.Point(17, 28);
+            this.groupNhap.Name = "groupNhap";
+            this.groupNhap.Size = new System.Drawing.Size(279, 146);
+            this.groupNhap.TabIndex = 14;
+            this.groupNhap.TabStop = false;
+            this.groupNhap.Text = "Nhập";
             // 
             // label2
             // 
@@ -170,21 +174,21 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Nhập A";
             // 
-            // textBox2
+            // txtb
             // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.textBox2.Location = new System.Drawing.Point(87, 96);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(166, 30);
-            this.textBox2.TabIndex = 1;
+            this.txtb.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.txtb.Location = new System.Drawing.Point(87, 96);
+            this.txtb.Name = "txtb";
+            this.txtb.Size = new System.Drawing.Size(166, 30);
+            this.txtb.TabIndex = 1;
             // 
-            // textBox1
+            // txta
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.textBox1.Location = new System.Drawing.Point(87, 48);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(166, 30);
-            this.textBox1.TabIndex = 0;
+            this.txta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.txta.Location = new System.Drawing.Point(87, 48);
+            this.txta.Name = "txta";
+            this.txta.Size = new System.Drawing.Size(166, 30);
+            this.txta.TabIndex = 0;
             // 
             // Form1
             // 
@@ -192,37 +196,39 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(502, 348);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupNhap);
+            this.Controls.Add(this.groupKetqua);
+            this.Controls.Add(this.groupTim);
             this.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Form1";
             this.Text = "Tìm USCLN và BSCNN của A và B";
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.groupTim.ResumeLayout(false);
+            this.groupTim.PerformLayout();
+            this.groupKetqua.ResumeLayout(false);
+            this.groupKetqua.PerformLayout();
+            this.groupNhap.ResumeLayout(false);
+            this.groupNhap.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.CheckBox chkUSCLN;
+        private System.Windows.Forms.CheckBox chkBSCNN;
+        private System.Windows.Forms.Button bttim;
+        private System.Windows.Forms.Button btboqua;
+        private System.Windows.Forms.Button btthoat;
+        private System.Windows.Forms.TextBox txtkq;
+        private System.Windows.Forms.GroupBox groupTim;
+        private System.Windows.Forms.GroupBox groupKetqua;
+        private System.Windows.Forms.GroupBox groupNhap;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtb;
+        private System.Windows.Forms.TextBox txta;
     }
 }
 
