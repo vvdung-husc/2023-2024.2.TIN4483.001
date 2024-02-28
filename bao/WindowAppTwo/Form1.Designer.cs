@@ -28,16 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtNumA = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtNumB = new System.Windows.Forms.TextBox();
+            this.txtketqua = new System.Windows.Forms.TextBox();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btntim = new System.Windows.Forms.Button();
+            this.btnboqua = new System.Windows.Forms.Button();
+            this.btnthoat = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -46,13 +46,13 @@
             this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtNumA
             // 
-            this.textBox1.Location = new System.Drawing.Point(62, 40);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(362, 27);
-            this.textBox1.TabIndex = 1;
+            this.txtNumA.Location = new System.Drawing.Point(62, 40);
+            this.txtNumA.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNumA.Name = "txtNumA";
+            this.txtNumA.Size = new System.Drawing.Size(362, 27);
+            this.txtNumA.TabIndex = 1;
             // 
             // label2
             // 
@@ -74,22 +74,22 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "B:";
             // 
-            // textBox2
+            // txtNumB
             // 
-            this.textBox2.Location = new System.Drawing.Point(65, 95);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(359, 27);
-            this.textBox2.TabIndex = 4;
+            this.txtNumB.Location = new System.Drawing.Point(65, 95);
+            this.txtNumB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNumB.Name = "txtNumB";
+            this.txtNumB.Size = new System.Drawing.Size(359, 27);
+            this.txtNumB.TabIndex = 4;
             // 
-            // textBox3
+            // txtketqua
             // 
-            this.textBox3.Location = new System.Drawing.Point(62, 32);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(362, 27);
-            this.textBox3.TabIndex = 6;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.txtketqua.Location = new System.Drawing.Point(62, 32);
+            this.txtketqua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtketqua.Name = "txtketqua";
+            this.txtketqua.Size = new System.Drawing.Size(362, 27);
+            this.txtketqua.TabIndex = 6;
+            this.txtketqua.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // radioButton1
             // 
@@ -116,46 +116,46 @@
             this.radioButton2.Text = "BSCNN";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btntim
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(22, 74);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(133, 41);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Tìm";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btntim.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btntim.Location = new System.Drawing.Point(22, 74);
+            this.btntim.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btntim.Name = "btntim";
+            this.btntim.Size = new System.Drawing.Size(133, 41);
+            this.btntim.TabIndex = 10;
+            this.btntim.Text = "Tìm";
+            this.btntim.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnboqua
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(164, 74);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(124, 41);
-            this.button2.TabIndex = 11;
-            this.button2.Text = "Bỏ qua";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnboqua.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnboqua.Location = new System.Drawing.Point(164, 74);
+            this.btnboqua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnboqua.Name = "btnboqua";
+            this.btnboqua.Size = new System.Drawing.Size(124, 41);
+            this.btnboqua.TabIndex = 11;
+            this.btnboqua.Text = "Bỏ qua";
+            this.btnboqua.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnthoat
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(296, 74);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(136, 41);
-            this.button3.TabIndex = 12;
-            this.button3.Text = "Thoát";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btnthoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnthoat.Location = new System.Drawing.Point(296, 74);
+            this.btnthoat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnthoat.Name = "btnthoat";
+            this.btnthoat.Size = new System.Drawing.Size(136, 41);
+            this.btnthoat.TabIndex = 12;
+            this.btnthoat.Text = "Thoát";
+            this.btnthoat.UseVisualStyleBackColor = true;
+            this.btnthoat.Click += new System.EventHandler(this.button3_Click);
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txtNumA);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.txtNumB);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(73, 36);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -182,10 +182,10 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.textBox3);
-            this.groupBox3.Controls.Add(this.button1);
-            this.groupBox3.Controls.Add(this.button2);
-            this.groupBox3.Controls.Add(this.button3);
+            this.groupBox3.Controls.Add(this.txtketqua);
+            this.groupBox3.Controls.Add(this.btntim);
+            this.groupBox3.Controls.Add(this.btnboqua);
+            this.groupBox3.Controls.Add(this.btnthoat);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(73, 232);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -220,16 +220,16 @@
         }
 
         #endregion
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtNumA;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtNumB;
+        private System.Windows.Forms.TextBox txtketqua;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btntim;
+        private System.Windows.Forms.Button btnboqua;
+        private System.Windows.Forms.Button btnthoat;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox3;
