@@ -118,7 +118,7 @@
             this.button2.Text = "-";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.AutoSizeChanged += new System.EventHandler(this.textBox1_TextChanged);
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.Click += new System.EventHandler(this.btTru_Click);
             // 
             // button3
             // 
@@ -131,7 +131,7 @@
             this.button3.Text = "*";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.AutoSizeChanged += new System.EventHandler(this.textBox1_TextChanged);
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button3.Click += new System.EventHandler(this.btNhan_Click);
             // 
             // button4
             // 
@@ -144,7 +144,7 @@
             this.button4.Text = "/";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.AutoSizeChanged += new System.EventHandler(this.textBox1_TextChanged);
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.button4.Click += new System.EventHandler(this.btChia_Click);
             // 
             // label4
             // 
@@ -175,6 +175,7 @@
             this.button5.TabIndex = 12;
             this.button5.Text = "Xóa";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.btXoa_Click);
             // 
             // button6
             // 
