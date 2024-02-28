@@ -83,9 +83,6 @@ namespace WindowAppTwo
 			return a * b / USCLN(a, b);
 		}
 
-		private void txtResult_TextChanged(object sender, EventArgs e)
-		{
-
-		}
+		
 	}
 }
