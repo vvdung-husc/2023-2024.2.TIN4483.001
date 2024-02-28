@@ -23,21 +23,7 @@ namespace WindowsAppTwo
         }
 
 
-        private void btntim_Click(object sender, EventArgs e)
-        {
-            if (chkUSCLN.Checked)
-            {
-                MessageBox.Show("Đang chọn USCLN => Tính kết quả", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            else if (chkBSCNN.Checked)
-            {
-                MessageBox.Show("Đang chọn BSCNN => Tính kết quả", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            else
-            {
-                MessageBox.Show("Vui lòng chọn tìm USCLN hay BSCNN", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
-        }
+      
 
         private void groupBox2_Enter(object sender, EventArgs e)
         {
@@ -67,5 +53,66 @@ namespace WindowsAppTwo
                 e.Cancel = true;
             }
         }
+
+        private void txtketqua_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btntim_Click(object sender, EventArgs e)
+        {
+            if (chkUSCLN.Checked)
+            {
+                MessageBox.Show("Đang chọn USCLN => Tính kết quả", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else if (chkBSCNN.Checked)
+            {
+                MessageBox.Show("Đang chọn BSCNN => Tính kết quả", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn tìm USCLN hay BSCNN", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
+            int a, b;
+            if (!int.TryParse(txtNumA.Text, out a) || !int.TryParse(txtNumB.Text, out b))
+            {
+                MessageBox.Show("Vui lòng nhập số nguyên hợp lệ.");
+                return;
+            }
+
+            int result;
+            if (chkUSCLN.Checked)
+            {
+                result = USCLN(a, b);
+            }
+            else
+            {
+                result = USCNN(a, b);
+            }
+
+            txtketqua.Text = "" + result;
+        }
+
+
+        // Hàm tìm ước số chung lớn nhất (USCLN)
+        private int USCLN(int a, int b)
+        {
+            while (b != 0)
+            {
+                int temp = b;
+                b = a % b;
+                a = temp;
+            }
+            return a;
+        }
+
+        // Hàm tìm bội số chung nhỏ nhất (USCNN)
+        private int USCNN(int a, int b)
+        {
+            return (a * b) / USCLN(a, b);
+        }
+
+    
     }
 }

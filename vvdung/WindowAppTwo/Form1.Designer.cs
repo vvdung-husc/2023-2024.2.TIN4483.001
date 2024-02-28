@@ -59,13 +59,14 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Nhập";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // txtNumB
             // 
             this.txtNumB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNumB.Location = new System.Drawing.Point(61, 62);
             this.txtNumB.Name = "txtNumB";
-            this.txtNumB.Size = new System.Drawing.Size(318, 24);
+            this.txtNumB.Size = new System.Drawing.Size(318, 21);
             this.txtNumB.TabIndex = 3;
             // 
             // label2
@@ -73,7 +74,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(15, 68);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(26, 18);
+            this.label2.Size = new System.Drawing.Size(21, 15);
             this.label2.TabIndex = 2;
             this.label2.Text = "B :";
             // 
@@ -82,7 +83,7 @@
             this.txtNumA.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNumA.Location = new System.Drawing.Point(60, 26);
             this.txtNumA.Name = "txtNumA";
-            this.txtNumA.Size = new System.Drawing.Size(318, 24);
+            this.txtNumA.Size = new System.Drawing.Size(318, 21);
             this.txtNumA.TabIndex = 1;
             // 
             // label1
@@ -90,7 +91,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(14, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(25, 18);
+            this.label1.Size = new System.Drawing.Size(20, 15);
             this.label1.TabIndex = 0;
             this.label1.Text = "A :";
             // 
@@ -111,7 +112,7 @@
             this.chkBSCNN.AutoSize = true;
             this.chkBSCNN.Location = new System.Drawing.Point(58, 62);
             this.chkBSCNN.Name = "chkBSCNN";
-            this.chkBSCNN.Size = new System.Drawing.Size(82, 22);
+            this.chkBSCNN.Size = new System.Drawing.Size(67, 19);
             this.chkBSCNN.TabIndex = 1;
             this.chkBSCNN.TabStop = true;
             this.chkBSCNN.Text = "BSCNN";
@@ -123,7 +124,7 @@
             this.chkUSCLN.AutoSize = true;
             this.chkUSCLN.Location = new System.Drawing.Point(58, 24);
             this.chkUSCLN.Name = "chkUSCLN";
-            this.chkUSCLN.Size = new System.Drawing.Size(80, 22);
+            this.chkUSCLN.Size = new System.Drawing.Size(66, 19);
             this.chkUSCLN.TabIndex = 0;
             this.chkUSCLN.TabStop = true;
             this.chkUSCLN.Text = "USCLN";
@@ -184,12 +185,12 @@
             this.txtResult.Location = new System.Drawing.Point(60, 30);
             this.txtResult.Name = "txtResult";
             this.txtResult.ReadOnly = true;
-            this.txtResult.Size = new System.Drawing.Size(318, 24);
+            this.txtResult.Size = new System.Drawing.Size(318, 21);
             this.txtResult.TabIndex = 4;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(660, 256);
             this.Controls.Add(this.groupBox3);
