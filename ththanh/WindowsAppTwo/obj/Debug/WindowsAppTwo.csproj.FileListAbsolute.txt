@@ -1,0 +1,10 @@
+E:\2023-2024.2.TIN4483.001-main\ththanh\WindowsAppTwo\obj\Debug\WindowsAppTwo.csproj.AssemblyReference.cache
+E:\2023-2024.2.TIN4483.001-main\ththanh\WindowsAppTwo\obj\Debug\WindowsAppTwo.Properties.Resources.resources
+E:\2023-2024.2.TIN4483.001-main\ththanh\WindowsAppTwo\obj\Debug\WindowsAppTwo.csproj.GenerateResource.cache
+E:\2023-2024.2.TIN4483.001-main\ththanh\WindowsAppTwo\obj\Debug\WindowsAppTwo.csproj.CoreCompileInputs.cache
+E:\2023-2024.2.TIN4483.001-main\ththanh\WindowsAppTwo\bin\Debug\WindowsAppTwo.exe.config
+E:\2023-2024.2.TIN4483.001-main\ththanh\WindowsAppTwo\bin\Debug\WindowsAppTwo.exe
+E:\2023-2024.2.TIN4483.001-main\ththanh\WindowsAppTwo\bin\Debug\WindowsAppTwo.pdb
+E:\2023-2024.2.TIN4483.001-main\ththanh\WindowsAppTwo\obj\Debug\WindowAppTwo.Form1.resources
+E:\2023-2024.2.TIN4483.001-main\ththanh\WindowsAppTwo\obj\Debug\WindowsAppTwo.exe
+E:\2023-2024.2.TIN4483.001-main\ththanh\WindowsAppTwo\obj\Debug\WindowsAppTwo.pdb
