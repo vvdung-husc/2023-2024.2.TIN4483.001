@@ -133,6 +133,7 @@
             this.btNhan.TabIndex = 10;
             this.btNhan.Text = "*";
             this.btNhan.UseVisualStyleBackColor = true;
+            this.btNhan.Click += new System.EventHandler(this.btNhan_Click);
             // 
             // btChia
             // 
@@ -142,6 +143,7 @@
             this.btChia.TabIndex = 11;
             this.btChia.Text = "/";
             this.btChia.UseVisualStyleBackColor = true;
+            this.btChia.Click += new System.EventHandler(this.btChia_Click);
             // 
             // btXoa
             // 

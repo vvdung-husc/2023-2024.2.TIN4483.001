@@ -52,7 +52,6 @@
             this.label1.Size = new System.Drawing.Size(338, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "THỰC HIỆN PHÉP TÍNH";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -136,6 +135,7 @@
             this.btChia.TabIndex = 9;
             this.btChia.Text = "/";
             this.btChia.UseVisualStyleBackColor = true;
+            this.btChia.Click += new System.EventHandler(this.btChia_Click);
             // 
             // btNhan
             // 
@@ -146,6 +146,7 @@
             this.btNhan.TabIndex = 10;
             this.btNhan.Text = "*";
             this.btNhan.UseVisualStyleBackColor = true;
+            this.btNhan.Click += new System.EventHandler(this.btNhan_Click);
             // 
             // btTru
             // 
@@ -156,6 +157,7 @@
             this.btTru.TabIndex = 11;
             this.btTru.Text = "-";
             this.btTru.UseVisualStyleBackColor = true;
+            this.btTru.Click += new System.EventHandler(this.btTru_Click);
             // 
             // btThoat
             // 
