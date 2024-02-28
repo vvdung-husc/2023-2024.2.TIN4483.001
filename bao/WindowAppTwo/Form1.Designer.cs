@@ -33,8 +33,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtNumB = new System.Windows.Forms.TextBox();
             this.txtketqua = new System.Windows.Forms.TextBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.tadUSCLN = new System.Windows.Forms.RadioButton();
+            this.radBSCNN = new System.Windows.Forms.RadioButton();
             this.btntim = new System.Windows.Forms.Button();
             this.btnboqua = new System.Windows.Forms.Button();
             this.btnthoat = new System.Windows.Forms.Button();
@@ -91,30 +91,30 @@
             this.txtketqua.TabIndex = 6;
             this.txtketqua.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
-            // radioButton1
+            // tadUSCLN
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(8, 45);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(126, 30);
-            this.radioButton1.TabIndex = 8;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "USCLN";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            this.tadUSCLN.AutoSize = true;
+            this.tadUSCLN.Location = new System.Drawing.Point(8, 45);
+            this.tadUSCLN.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tadUSCLN.Name = "tadUSCLN";
+            this.tadUSCLN.Size = new System.Drawing.Size(126, 30);
+            this.tadUSCLN.TabIndex = 8;
+            this.tadUSCLN.TabStop = true;
+            this.tadUSCLN.Text = "USCLN";
+            this.tadUSCLN.UseVisualStyleBackColor = true;
+            this.tadUSCLN.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
-            // radioButton2
+            // radBSCNN
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(8, 89);
-            this.radioButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(129, 30);
-            this.radioButton2.TabIndex = 9;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "BSCNN";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radBSCNN.AutoSize = true;
+            this.radBSCNN.Location = new System.Drawing.Point(8, 89);
+            this.radBSCNN.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radBSCNN.Name = "radBSCNN";
+            this.radBSCNN.Size = new System.Drawing.Size(129, 30);
+            this.radBSCNN.TabIndex = 9;
+            this.radBSCNN.TabStop = true;
+            this.radBSCNN.Text = "BSCNN";
+            this.radBSCNN.UseVisualStyleBackColor = true;
             // 
             // btntim
             // 
@@ -137,6 +137,7 @@
             this.btnboqua.TabIndex = 11;
             this.btnboqua.Text = "Bỏ qua";
             this.btnboqua.UseVisualStyleBackColor = true;
+            this.btnboqua.Click += new System.EventHandler(this.btnboqua_Click);
             // 
             // btnthoat
             // 
@@ -149,6 +150,7 @@
             this.btnthoat.Text = "Thoát";
             this.btnthoat.UseVisualStyleBackColor = true;
             this.btnthoat.Click += new System.EventHandler(this.button3_Click);
+            this.btnthoat.ControlRemoved += new System.Windows.Forms.ControlEventHandler(this.btnthoat_ControlRemoved);
             // 
             // groupBox1
             // 
@@ -168,8 +170,8 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.radioButton1);
-            this.groupBox2.Controls.Add(this.radioButton2);
+            this.groupBox2.Controls.Add(this.tadUSCLN);
+            this.groupBox2.Controls.Add(this.radBSCNN);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(582, 51);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -179,6 +181,7 @@
             this.groupBox2.TabIndex = 14;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Chọn tìm";
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // groupBox3
             // 
@@ -209,6 +212,7 @@
             this.Name = "Form1";
             this.Text = "Tìm USCLN và BSCNN của A và B";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.ControlAdded += new System.Windows.Forms.ControlEventHandler(this.Form1_ControlAdded);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -225,8 +229,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtNumB;
         private System.Windows.Forms.TextBox txtketqua;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton tadUSCLN;
+        private System.Windows.Forms.RadioButton radBSCNN;
         private System.Windows.Forms.Button btntim;
         private System.Windows.Forms.Button btnboqua;
         private System.Windows.Forms.Button btnthoat;
