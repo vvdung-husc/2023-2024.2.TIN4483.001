@@ -133,6 +133,7 @@
             this.btnMul.TabIndex = 9;
             this.btnMul.Text = "*";
             this.btnMul.UseVisualStyleBackColor = true;
+            //this.btnMul.Click += new System.EventHandler(this.btnMul_Click);
             // 
             // btnDiv
             // 
