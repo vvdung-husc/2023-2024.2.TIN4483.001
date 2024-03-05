@@ -62,6 +62,7 @@
             // 
             // txtKetqua
             // 
+            this.txtKetqua.BackColor = System.Drawing.SystemColors.Info;
             this.txtKetqua.Location = new System.Drawing.Point(279, 232);
             this.txtKetqua.Name = "txtKetqua";
             this.txtKetqua.Size = new System.Drawing.Size(249, 22);
@@ -82,6 +83,7 @@
             this.btCong.TabIndex = 4;
             this.btCong.Text = "+";
             this.btCong.UseVisualStyleBackColor = true;
+            this.btCong.Click += new System.EventHandler(this.btCong_Click_1);
             // 
             // btTru
             // 
@@ -134,7 +136,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label2.Location = new System.Drawing.Point(165, 136);
+            this.label2.Location = new System.Drawing.Point(170, 134);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(85, 20);
             this.label2.TabIndex = 10;

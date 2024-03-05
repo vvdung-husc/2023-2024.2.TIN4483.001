@@ -70,13 +70,21 @@ namespace WindowsFormsApp1
         }
         private void btThoat_Click(object sender, EventArgs e)
         {
-            System.Windows.Forms.Application.Exit();
+            DialogResult dialog;
+            dialog = MessageBox.Show("Bạn có muốn thoát hay không", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dialog == DialogResult.Yes)
+                Application.Exit();
         }
         private void btXoa_Click(object sender, EventArgs e)
         {
             txtSon.Text = "";
             txtSom.Text = "";
             txtKetqua.Text = "";
+        }
+
+        private void btCong_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
