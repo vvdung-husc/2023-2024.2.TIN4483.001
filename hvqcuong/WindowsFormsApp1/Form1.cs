@@ -76,5 +76,12 @@ namespace WindowsFormsApp1
         {
             Application.Exit();
         }
+
+        private void btnXóa_Click(object sender, EventArgs e)
+        {
+            txtsoa.Text = "";
+            txtsob.Text = "";
+            txtkq.Text = "";
+        }
     }
 }

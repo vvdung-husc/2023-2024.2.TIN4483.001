@@ -155,7 +155,6 @@
             this.txtSon.Name = "txtSon";
             this.txtSon.Size = new System.Drawing.Size(266, 20);
             this.txtSon.TabIndex = 10;
-            this.txtSon.TextChanged += new System.EventHandler(this.txtSon_TextChanged);
             // 
             // txtSom
             // 
