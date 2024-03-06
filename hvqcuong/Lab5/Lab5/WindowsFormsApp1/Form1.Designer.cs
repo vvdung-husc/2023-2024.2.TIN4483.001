@@ -62,9 +62,10 @@
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox1.InitialImage = null;
-            this.pictureBox1.Location = new System.Drawing.Point(40, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(53, 15);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(97, 83);
+            this.pictureBox1.Size = new System.Drawing.Size(128, 101);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -86,9 +87,11 @@
             this.groupBox1.Controls.Add(this.btntom);
             this.groupBox1.Controls.Add(this.btnbo);
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(12, 111);
+            this.groupBox1.Location = new System.Drawing.Point(16, 137);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(512, 211);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(683, 260);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Danh Mục Món Ăn";
@@ -97,9 +100,10 @@
             // 
             this.btnkhoaitaychien.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnkhoaitaychien.ForeColor = System.Drawing.Color.DarkGoldenrod;
-            this.btnkhoaitaychien.Location = new System.Drawing.Point(321, 155);
+            this.btnkhoaitaychien.Location = new System.Drawing.Point(428, 191);
+            this.btnkhoaitaychien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnkhoaitaychien.Name = "btnkhoaitaychien";
-            this.btnkhoaitaychien.Size = new System.Drawing.Size(170, 33);
+            this.btnkhoaitaychien.Size = new System.Drawing.Size(227, 41);
             this.btnkhoaitaychien.TabIndex = 14;
             this.btnkhoaitaychien.Text = "Khoai Tây Chiên";
             this.btnkhoaitaychien.UseVisualStyleBackColor = true;
@@ -109,9 +113,10 @@
             // 
             this.btncam.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncam.ForeColor = System.Drawing.Color.DarkOrchid;
-            this.btncam.Location = new System.Drawing.Point(416, 116);
+            this.btncam.Location = new System.Drawing.Point(555, 143);
+            this.btncam.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btncam.Name = "btncam";
-            this.btncam.Size = new System.Drawing.Size(75, 33);
+            this.btncam.Size = new System.Drawing.Size(100, 41);
             this.btncam.TabIndex = 13;
             this.btncam.Text = "Cam";
             this.btncam.UseVisualStyleBackColor = true;
@@ -121,9 +126,10 @@
             // 
             this.btnlipton.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnlipton.ForeColor = System.Drawing.Color.DarkOrchid;
-            this.btnlipton.Location = new System.Drawing.Point(416, 76);
+            this.btnlipton.Location = new System.Drawing.Point(555, 94);
+            this.btnlipton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnlipton.Name = "btnlipton";
-            this.btnlipton.Size = new System.Drawing.Size(75, 33);
+            this.btnlipton.Size = new System.Drawing.Size(100, 41);
             this.btnlipton.TabIndex = 12;
             this.btnlipton.Text = "Lipton";
             this.btnlipton.UseVisualStyleBackColor = true;
@@ -133,9 +139,10 @@
             // 
             this.btn7up.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn7up.ForeColor = System.Drawing.Color.DarkOrchid;
-            this.btn7up.Location = new System.Drawing.Point(321, 77);
+            this.btn7up.Location = new System.Drawing.Point(428, 95);
+            this.btn7up.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn7up.Name = "btn7up";
-            this.btn7up.Size = new System.Drawing.Size(75, 33);
+            this.btn7up.Size = new System.Drawing.Size(100, 41);
             this.btn7up.TabIndex = 11;
             this.btn7up.Text = "7 Up";
             this.btn7up.UseVisualStyleBackColor = true;
@@ -145,9 +152,10 @@
             // 
             this.btncafe.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncafe.ForeColor = System.Drawing.Color.DarkOrchid;
-            this.btncafe.Location = new System.Drawing.Point(321, 116);
+            this.btncafe.Location = new System.Drawing.Point(428, 143);
+            this.btncafe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btncafe.Name = "btncafe";
-            this.btncafe.Size = new System.Drawing.Size(75, 33);
+            this.btncafe.Size = new System.Drawing.Size(100, 41);
             this.btncafe.TabIndex = 10;
             this.btncafe.Text = "Cafe";
             this.btncafe.UseVisualStyleBackColor = true;
@@ -157,9 +165,10 @@
             // 
             this.btncoca.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncoca.ForeColor = System.Drawing.Color.DarkOrchid;
-            this.btncoca.Location = new System.Drawing.Point(416, 38);
+            this.btncoca.Location = new System.Drawing.Point(555, 47);
+            this.btncoca.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btncoca.Name = "btncoca";
-            this.btncoca.Size = new System.Drawing.Size(75, 33);
+            this.btncoca.Size = new System.Drawing.Size(100, 41);
             this.btncoca.TabIndex = 9;
             this.btncoca.Text = "Coca";
             this.btncoca.UseVisualStyleBackColor = true;
@@ -169,9 +178,10 @@
             // 
             this.btnpepsi.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnpepsi.ForeColor = System.Drawing.Color.DarkOrchid;
-            this.btnpepsi.Location = new System.Drawing.Point(321, 38);
+            this.btnpepsi.Location = new System.Drawing.Point(428, 47);
+            this.btnpepsi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnpepsi.Name = "btnpepsi";
-            this.btnpepsi.Size = new System.Drawing.Size(75, 33);
+            this.btnpepsi.Size = new System.Drawing.Size(100, 41);
             this.btnpepsi.TabIndex = 8;
             this.btnpepsi.Text = "Pepsi";
             this.btnpepsi.UseVisualStyleBackColor = true;
@@ -181,9 +191,10 @@
             // 
             this.btncomga.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncomga.ForeColor = System.Drawing.Color.SteelBlue;
-            this.btncomga.Location = new System.Drawing.Point(170, 155);
+            this.btncomga.Location = new System.Drawing.Point(227, 191);
+            this.btncomga.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btncomga.Name = "btncomga";
-            this.btncomga.Size = new System.Drawing.Size(132, 33);
+            this.btncomga.Size = new System.Drawing.Size(176, 41);
             this.btncomga.TabIndex = 7;
             this.btncomga.Text = "Cơm Gà Tender";
             this.btncomga.UseVisualStyleBackColor = true;
@@ -193,9 +204,10 @@
             // 
             this.btngaran.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btngaran.ForeColor = System.Drawing.Color.SteelBlue;
-            this.btngaran.Location = new System.Drawing.Point(170, 116);
+            this.btngaran.Location = new System.Drawing.Point(227, 143);
+            this.btngaran.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btngaran.Name = "btngaran";
-            this.btngaran.Size = new System.Drawing.Size(132, 33);
+            this.btngaran.Size = new System.Drawing.Size(176, 41);
             this.btngaran.TabIndex = 6;
             this.btngaran.Text = "Gà Rán Phần";
             this.btngaran.UseVisualStyleBackColor = true;
@@ -205,9 +217,10 @@
             // 
             this.btngavien.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btngavien.ForeColor = System.Drawing.Color.SteelBlue;
-            this.btngavien.Location = new System.Drawing.Point(170, 77);
+            this.btngavien.Location = new System.Drawing.Point(227, 95);
+            this.btngavien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btngavien.Name = "btngavien";
-            this.btngavien.Size = new System.Drawing.Size(132, 33);
+            this.btngavien.Size = new System.Drawing.Size(176, 41);
             this.btngavien.TabIndex = 5;
             this.btngavien.Text = "Gà Viên Cola";
             this.btngavien.UseVisualStyleBackColor = true;
@@ -217,9 +230,10 @@
             // 
             this.btntomvien.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btntomvien.ForeColor = System.Drawing.Color.SteelBlue;
-            this.btntomvien.Location = new System.Drawing.Point(170, 38);
+            this.btntomvien.Location = new System.Drawing.Point(227, 47);
+            this.btntomvien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btntomvien.Name = "btntomvien";
-            this.btntomvien.Size = new System.Drawing.Size(132, 33);
+            this.btntomvien.Size = new System.Drawing.Size(176, 41);
             this.btntomvien.TabIndex = 4;
             this.btntomvien.Text = "Tôm Viên Cola";
             this.btntomvien.UseVisualStyleBackColor = true;
@@ -229,9 +243,10 @@
             // 
             this.btnca.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnca.ForeColor = System.Drawing.Color.ForestGreen;
-            this.btnca.Location = new System.Drawing.Point(19, 155);
+            this.btnca.Location = new System.Drawing.Point(25, 191);
+            this.btnca.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnca.Name = "btnca";
-            this.btnca.Size = new System.Drawing.Size(132, 33);
+            this.btnca.Size = new System.Drawing.Size(176, 41);
             this.btnca.TabIndex = 3;
             this.btnca.Text = "Burger Phô Mai Cá";
             this.btnca.UseVisualStyleBackColor = true;
@@ -241,9 +256,10 @@
             // 
             this.btnga.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnga.ForeColor = System.Drawing.Color.ForestGreen;
-            this.btnga.Location = new System.Drawing.Point(19, 77);
+            this.btnga.Location = new System.Drawing.Point(25, 95);
+            this.btnga.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnga.Name = "btnga";
-            this.btnga.Size = new System.Drawing.Size(132, 33);
+            this.btnga.Size = new System.Drawing.Size(176, 41);
             this.btnga.TabIndex = 2;
             this.btnga.Text = "Burger Phô Mai Gà";
             this.btnga.UseVisualStyleBackColor = true;
@@ -253,9 +269,10 @@
             // 
             this.btntom.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btntom.ForeColor = System.Drawing.Color.ForestGreen;
-            this.btntom.Location = new System.Drawing.Point(19, 116);
+            this.btntom.Location = new System.Drawing.Point(25, 143);
+            this.btntom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btntom.Name = "btntom";
-            this.btntom.Size = new System.Drawing.Size(132, 33);
+            this.btntom.Size = new System.Drawing.Size(176, 41);
             this.btntom.TabIndex = 1;
             this.btntom.Text = "Burger Phô Mai Tôm";
             this.btntom.UseVisualStyleBackColor = true;
@@ -265,9 +282,10 @@
             // 
             this.btnbo.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnbo.ForeColor = System.Drawing.Color.ForestGreen;
-            this.btnbo.Location = new System.Drawing.Point(19, 38);
+            this.btnbo.Location = new System.Drawing.Point(25, 47);
+            this.btnbo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnbo.Name = "btnbo";
-            this.btnbo.Size = new System.Drawing.Size(132, 33);
+            this.btnbo.Size = new System.Drawing.Size(176, 41);
             this.btnbo.TabIndex = 0;
             this.btnbo.Text = "Burger Phô Mai Bò";
             this.btnbo.UseVisualStyleBackColor = true;
@@ -278,9 +296,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Crimson;
-            this.label1.Location = new System.Drawing.Point(188, 39);
+            this.label1.Location = new System.Drawing.Point(251, 48);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(263, 42);
+            this.label1.Size = new System.Drawing.Size(337, 53);
             this.label1.TabIndex = 2;
             this.label1.Text = "Fastfood Order";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -288,18 +307,22 @@
             // gvOrder
             // 
             this.gvOrder.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gvOrder.Location = new System.Drawing.Point(12, 369);
+            this.gvOrder.Location = new System.Drawing.Point(16, 454);
+            this.gvOrder.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gvOrder.Name = "gvOrder";
-            this.gvOrder.Size = new System.Drawing.Size(512, 251);
+            this.gvOrder.RowHeadersWidth = 51;
+            this.gvOrder.Size = new System.Drawing.Size(683, 309);
             this.gvOrder.TabIndex = 3;
+            this.gvOrder.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gvOrder_CellContentClick);
             // 
             // btnxoa
             // 
             this.btnxoa.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnxoa.ForeColor = System.Drawing.Color.Red;
-            this.btnxoa.Location = new System.Drawing.Point(22, 328);
+            this.btnxoa.Location = new System.Drawing.Point(29, 404);
+            this.btnxoa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnxoa.Name = "btnxoa";
-            this.btnxoa.Size = new System.Drawing.Size(125, 35);
+            this.btnxoa.Size = new System.Drawing.Size(167, 43);
             this.btnxoa.TabIndex = 4;
             this.btnxoa.Text = "Xóa";
             this.btnxoa.UseVisualStyleBackColor = true;
@@ -309,9 +332,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(179, 337);
+            this.label2.Location = new System.Drawing.Point(239, 415);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 17);
+            this.label2.Size = new System.Drawing.Size(80, 22);
             this.label2.TabIndex = 5;
             this.label2.Text = "Tên Bàn";
             // 
@@ -319,9 +343,10 @@
             // 
             this.cbblist.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbblist.FormattingEnabled = true;
-            this.cbblist.Location = new System.Drawing.Point(249, 332);
+            this.cbblist.Location = new System.Drawing.Point(332, 409);
+            this.cbblist.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbblist.Name = "cbblist";
-            this.cbblist.Size = new System.Drawing.Size(150, 28);
+            this.cbblist.Size = new System.Drawing.Size(199, 33);
             this.cbblist.TabIndex = 6;
             this.cbblist.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -329,9 +354,10 @@
             // 
             this.btnorder.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnorder.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btnorder.Location = new System.Drawing.Point(417, 328);
+            this.btnorder.Location = new System.Drawing.Point(556, 404);
+            this.btnorder.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnorder.Name = "btnorder";
-            this.btnorder.Size = new System.Drawing.Size(96, 35);
+            this.btnorder.Size = new System.Drawing.Size(128, 43);
             this.btnorder.TabIndex = 7;
             this.btnorder.Text = "Order";
             this.btnorder.UseVisualStyleBackColor = true;
@@ -339,9 +365,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(542, 642);
+            this.ClientSize = new System.Drawing.Size(723, 790);
             this.Controls.Add(this.btnorder);
             this.Controls.Add(this.cbblist);
             this.Controls.Add(this.label2);
@@ -350,6 +376,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
