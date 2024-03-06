@@ -29,28 +29,28 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
+            this.groupBox = new System.Windows.Forms.GroupBox();
+            this.btkhoaitc = new System.Windows.Forms.Button();
+            this.btcomga = new System.Windows.Forms.Button();
+            this.bpmca = new System.Windows.Forms.Button();
+            this.btcam = new System.Windows.Forms.Button();
+            this.btcoffe = new System.Windows.Forms.Button();
+            this.btgaranphan = new System.Windows.Forms.Button();
+            this.bpmtom = new System.Windows.Forms.Button();
+            this.btlipton = new System.Windows.Forms.Button();
+            this.bt7up = new System.Windows.Forms.Button();
+            this.btgvcola = new System.Windows.Forms.Button();
+            this.bpmga = new System.Windows.Forms.Button();
+            this.btcocola = new System.Windows.Forms.Button();
+            this.pepsi = new System.Windows.Forms.Button();
+            this.bttomvien = new System.Windows.Forms.Button();
+            this.bpmbo = new System.Windows.Forms.Button();
+            this.btXoa = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbblist = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.groupBox1.SuspendLayout();
+            this.groupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,194 +61,196 @@
             this.label1.ForeColor = System.Drawing.Color.Blue;
             this.label1.Location = new System.Drawing.Point(211, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(242, 38);
+            this.label1.Size = new System.Drawing.Size(237, 37);
             this.label1.TabIndex = 0;
             this.label1.Text = "Fastfood Order";
             // 
-            // groupBox1
+            // groupBox
             // 
-            this.groupBox1.Controls.Add(this.button15);
-            this.groupBox1.Controls.Add(this.button14);
-            this.groupBox1.Controls.Add(this.button13);
-            this.groupBox1.Controls.Add(this.button12);
-            this.groupBox1.Controls.Add(this.button11);
-            this.groupBox1.Controls.Add(this.button10);
-            this.groupBox1.Controls.Add(this.button9);
-            this.groupBox1.Controls.Add(this.button8);
-            this.groupBox1.Controls.Add(this.button7);
-            this.groupBox1.Controls.Add(this.button6);
-            this.groupBox1.Controls.Add(this.button5);
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.groupBox1.Location = new System.Drawing.Point(12, 59);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(581, 213);
-            this.groupBox1.TabIndex = 1;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Danh Mục Món Ăn";
+            this.groupBox.Controls.Add(this.btkhoaitc);
+            this.groupBox.Controls.Add(this.btcomga);
+            this.groupBox.Controls.Add(this.bpmca);
+            this.groupBox.Controls.Add(this.btcam);
+            this.groupBox.Controls.Add(this.btcoffe);
+            this.groupBox.Controls.Add(this.btgaranphan);
+            this.groupBox.Controls.Add(this.bpmtom);
+            this.groupBox.Controls.Add(this.btlipton);
+            this.groupBox.Controls.Add(this.bt7up);
+            this.groupBox.Controls.Add(this.btgvcola);
+            this.groupBox.Controls.Add(this.bpmga);
+            this.groupBox.Controls.Add(this.btcocola);
+            this.groupBox.Controls.Add(this.pepsi);
+            this.groupBox.Controls.Add(this.bttomvien);
+            this.groupBox.Controls.Add(this.bpmbo);
+            this.groupBox.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.groupBox.Location = new System.Drawing.Point(12, 59);
+            this.groupBox.Name = "groupBox";
+            this.groupBox.Size = new System.Drawing.Size(581, 213);
+            this.groupBox.TabIndex = 1;
+            this.groupBox.TabStop = false;
+            this.groupBox.Text = "Danh Mục Món Ăn";
             // 
-            // button1
+            // btkhoaitc
             // 
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(31, 34);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(159, 34);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Burger Phô mai bò";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btkhoaitc.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btkhoaitc.Location = new System.Drawing.Point(366, 161);
+            this.btkhoaitc.Name = "btkhoaitc";
+            this.btkhoaitc.Size = new System.Drawing.Size(185, 39);
+            this.btkhoaitc.TabIndex = 14;
+            this.btkhoaitc.Text = "Khoai tây chiên";
+            this.btkhoaitc.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btcomga
             // 
-            this.button2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(196, 34);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(150, 34);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Tôm viên coca";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btcomga.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btcomga.Location = new System.Drawing.Point(196, 161);
+            this.btcomga.Name = "btcomga";
+            this.btcomga.Size = new System.Drawing.Size(150, 39);
+            this.btcomga.TabIndex = 13;
+            this.btcomga.Text = "Cơm gà tender";
+            this.btcomga.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // bpmca
             // 
-            this.button3.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(366, 34);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 34);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Pepsi";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.bpmca.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bpmca.Location = new System.Drawing.Point(31, 161);
+            this.bpmca.Name = "bpmca";
+            this.bpmca.Size = new System.Drawing.Size(159, 39);
+            this.bpmca.TabIndex = 12;
+            this.bpmca.Text = "Burger phô mai cá";
+            this.bpmca.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btcam
             // 
-            this.button4.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(459, 33);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(92, 35);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Cocacola";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btcam.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btcam.Location = new System.Drawing.Point(459, 117);
+            this.btcam.Name = "btcam";
+            this.btcam.Size = new System.Drawing.Size(92, 38);
+            this.btcam.TabIndex = 11;
+            this.btcam.Text = "Cam";
+            this.btcam.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btcoffe
             // 
-            this.button5.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(31, 74);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(159, 37);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Burger phô mai gà";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btcoffe.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btcoffe.Location = new System.Drawing.Point(366, 117);
+            this.btcoffe.Name = "btcoffe";
+            this.btcoffe.Size = new System.Drawing.Size(75, 38);
+            this.btcoffe.TabIndex = 10;
+            this.btcoffe.Text = "Coffe";
+            this.btcoffe.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // btgaranphan
             // 
-            this.button6.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(196, 74);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(150, 37);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "Gà viên cola";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btgaranphan.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btgaranphan.Location = new System.Drawing.Point(196, 117);
+            this.btgaranphan.Name = "btgaranphan";
+            this.btgaranphan.Size = new System.Drawing.Size(150, 38);
+            this.btgaranphan.TabIndex = 9;
+            this.btgaranphan.Text = "Gà rán phần";
+            this.btgaranphan.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // bpmtom
             // 
-            this.button7.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(366, 74);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 37);
-            this.button7.TabIndex = 6;
-            this.button7.Text = "7 up";
-            this.button7.UseVisualStyleBackColor = true;
+            this.bpmtom.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bpmtom.Location = new System.Drawing.Point(31, 117);
+            this.bpmtom.Name = "bpmtom";
+            this.bpmtom.Size = new System.Drawing.Size(159, 38);
+            this.bpmtom.TabIndex = 8;
+            this.bpmtom.Text = "Burger phô mai tôm";
+            this.bpmtom.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // btlipton
             // 
-            this.button8.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(459, 74);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(92, 37);
-            this.button8.TabIndex = 7;
-            this.button8.Text = "Lipton";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btlipton.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btlipton.Location = new System.Drawing.Point(459, 74);
+            this.btlipton.Name = "btlipton";
+            this.btlipton.Size = new System.Drawing.Size(92, 37);
+            this.btlipton.TabIndex = 7;
+            this.btlipton.Text = "Lipton";
+            this.btlipton.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // bt7up
             // 
-            this.button9.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(31, 117);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(159, 38);
-            this.button9.TabIndex = 8;
-            this.button9.Text = "Burger phô mai tôm";
-            this.button9.UseVisualStyleBackColor = true;
+            this.bt7up.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt7up.Location = new System.Drawing.Point(366, 74);
+            this.bt7up.Name = "bt7up";
+            this.bt7up.Size = new System.Drawing.Size(75, 37);
+            this.bt7up.TabIndex = 6;
+            this.bt7up.Text = "7 up";
+            this.bt7up.UseVisualStyleBackColor = true;
             // 
-            // button10
+            // btgvcola
             // 
-            this.button10.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.Location = new System.Drawing.Point(196, 117);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(150, 38);
-            this.button10.TabIndex = 9;
-            this.button10.Text = "Gà rán phần";
-            this.button10.UseVisualStyleBackColor = true;
+            this.btgvcola.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btgvcola.Location = new System.Drawing.Point(196, 74);
+            this.btgvcola.Name = "btgvcola";
+            this.btgvcola.Size = new System.Drawing.Size(150, 37);
+            this.btgvcola.TabIndex = 5;
+            this.btgvcola.Text = "Gà viên cola";
+            this.btgvcola.UseVisualStyleBackColor = true;
             // 
-            // button11
+            // bpmga
             // 
-            this.button11.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Location = new System.Drawing.Point(366, 117);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(75, 38);
-            this.button11.TabIndex = 10;
-            this.button11.Text = "Coffe";
-            this.button11.UseVisualStyleBackColor = true;
+            this.bpmga.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bpmga.Location = new System.Drawing.Point(31, 74);
+            this.bpmga.Name = "bpmga";
+            this.bpmga.Size = new System.Drawing.Size(159, 37);
+            this.bpmga.TabIndex = 4;
+            this.bpmga.Text = "Burger phô mai gà";
+            this.bpmga.UseVisualStyleBackColor = true;
             // 
-            // button12
+            // btcocola
             // 
-            this.button12.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.Location = new System.Drawing.Point(459, 117);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(92, 38);
-            this.button12.TabIndex = 11;
-            this.button12.Text = "Cam";
-            this.button12.UseVisualStyleBackColor = true;
+            this.btcocola.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btcocola.Location = new System.Drawing.Point(459, 33);
+            this.btcocola.Name = "btcocola";
+            this.btcocola.Size = new System.Drawing.Size(92, 35);
+            this.btcocola.TabIndex = 3;
+            this.btcocola.Text = "Cocacola";
+            this.btcocola.UseVisualStyleBackColor = true;
             // 
-            // button13
+            // pepsi
             // 
-            this.button13.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button13.Location = new System.Drawing.Point(31, 161);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(159, 39);
-            this.button13.TabIndex = 12;
-            this.button13.Text = "Burger phô mai cá";
-            this.button13.UseVisualStyleBackColor = true;
+            this.pepsi.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pepsi.Location = new System.Drawing.Point(366, 34);
+            this.pepsi.Name = "pepsi";
+            this.pepsi.Size = new System.Drawing.Size(75, 34);
+            this.pepsi.TabIndex = 2;
+            this.pepsi.Text = "Pepsi";
+            this.pepsi.UseVisualStyleBackColor = true;
+            this.pepsi.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button14
+            // bttomvien
             // 
-            this.button14.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button14.Location = new System.Drawing.Point(196, 161);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(150, 39);
-            this.button14.TabIndex = 13;
-            this.button14.Text = "Cơm gà tender";
-            this.button14.UseVisualStyleBackColor = true;
+            this.bttomvien.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttomvien.Location = new System.Drawing.Point(196, 34);
+            this.bttomvien.Name = "bttomvien";
+            this.bttomvien.Size = new System.Drawing.Size(150, 34);
+            this.bttomvien.TabIndex = 1;
+            this.bttomvien.Text = "Tôm viên coca";
+            this.bttomvien.UseVisualStyleBackColor = true;
             // 
-            // button15
+            // bpmbo
             // 
-            this.button15.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button15.Location = new System.Drawing.Point(366, 161);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(185, 39);
-            this.button15.TabIndex = 14;
-            this.button15.Text = "Khoai tây chiên";
-            this.button15.UseVisualStyleBackColor = true;
+            this.bpmbo.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bpmbo.Location = new System.Drawing.Point(31, 34);
+            this.bpmbo.Name = "bpmbo";
+            this.bpmbo.Size = new System.Drawing.Size(159, 34);
+            this.bpmbo.TabIndex = 0;
+            this.bpmbo.Text = "Burger Phô mai bò";
+            this.bpmbo.UseVisualStyleBackColor = true;
+            this.bpmbo.Click += new System.EventHandler(this.bpmbo_Click);
             // 
-            // button16
+            // btXoa
             // 
-            this.button16.Location = new System.Drawing.Point(43, 278);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(88, 39);
-            this.button16.TabIndex = 2;
-            this.button16.Text = "Xóa";
-            this.button16.UseVisualStyleBackColor = true;
+            this.btXoa.Location = new System.Drawing.Point(43, 278);
+            this.btXoa.Name = "btXoa";
+            this.btXoa.Size = new System.Drawing.Size(88, 39);
+            this.btXoa.TabIndex = 2;
+            this.btXoa.Text = "Xóa";
+            this.btXoa.UseVisualStyleBackColor = true;
+            this.btXoa.Click += new System.EventHandler(this.button16_Click);
             // 
             // button17
             // 
@@ -269,13 +271,14 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Tên bàn";
             // 
-            // comboBox1
+            // cbblist
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(246, 285);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(207, 23);
-            this.comboBox1.TabIndex = 5;
+            this.cbblist.FormattingEnabled = true;
+            this.cbblist.Location = new System.Drawing.Point(246, 285);
+            this.cbblist.Name = "cbblist";
+            this.cbblist.Size = new System.Drawing.Size(207, 23);
+            this.cbblist.TabIndex = 5;
+            this.cbblist.Text = "tên bàn";
             // 
             // dataGridView1
             // 
@@ -295,19 +298,20 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(618, 499);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cbblist);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button17);
-            this.Controls.Add(this.button16);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.btXoa);
+            this.Controls.Add(this.groupBox);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.Black;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "E-Order Application";
             this.TransparencyKey = System.Drawing.Color.Black;
-            this.groupBox1.ResumeLayout(false);
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.groupBox.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -317,26 +321,26 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.GroupBox groupBox;
+        private System.Windows.Forms.Button btlipton;
+        private System.Windows.Forms.Button bt7up;
+        private System.Windows.Forms.Button btgvcola;
+        private System.Windows.Forms.Button bpmga;
+        private System.Windows.Forms.Button btcocola;
+        private System.Windows.Forms.Button pepsi;
+        private System.Windows.Forms.Button bttomvien;
+        private System.Windows.Forms.Button bpmbo;
+        private System.Windows.Forms.Button btkhoaitc;
+        private System.Windows.Forms.Button btcomga;
+        private System.Windows.Forms.Button bpmca;
+        private System.Windows.Forms.Button btcam;
+        private System.Windows.Forms.Button btcoffe;
+        private System.Windows.Forms.Button btgaranphan;
+        private System.Windows.Forms.Button bpmtom;
+        private System.Windows.Forms.Button btXoa;
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbblist;
         private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
