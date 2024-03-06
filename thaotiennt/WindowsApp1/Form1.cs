@@ -16,6 +16,7 @@ namespace WindowsApp1
         {
             InitializeComponent();
         }
+        
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -71,7 +72,7 @@ namespace WindowsApp1
 
         private void btnThoat_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+           Application.Exit();
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
@@ -82,9 +83,12 @@ namespace WindowsApp1
             }
         }
 
-        private void txtSon_TextChanged(object sender, EventArgs e)
+        private void Form1_FormClosing_1(object sender, FormClosingEventArgs e)
         {
-
+            if (MessageBox.Show("Bạn có chắc là muốn thoát không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
         }
     }
 }
