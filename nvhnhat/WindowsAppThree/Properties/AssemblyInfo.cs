@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("DSSVDemo")]
+[assembly: AssemblyTitle("WindowsAppThree")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("DSSVDemo")]
+[assembly: AssemblyProduct("WindowsAppThree")]
 [assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("8e738001-fcc0-4315-8586-d9a254c2bcfd")]
+[assembly: Guid("24847885-7de4-4af5-9854-c2e95dad4cf6")]
 
 // Version information for an assembly consists of the following four values:
 //

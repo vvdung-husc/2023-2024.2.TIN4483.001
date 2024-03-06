@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DSSVDemo.Properties
+namespace WindowsAppThree.Properties
 {
 
 
