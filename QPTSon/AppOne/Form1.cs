@@ -55,6 +55,8 @@ namespace AppOne
         private void txtUCLN_CheckedChanged(object sender, EventArgs e)
         {
             txtTim.Text = "Tìm - UCLN";
+
         }
+       
     }
 }
