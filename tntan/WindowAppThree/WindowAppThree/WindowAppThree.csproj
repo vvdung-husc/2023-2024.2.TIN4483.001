@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8E738001-FCC0-4315-8586-D9A254C2BCFD}</ProjectGuid>
+    <ProjectGuid>{B275F007-03A2-458A-8B7D-1B3D3331961E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>DSSVDemo</RootNamespace>
-    <AssemblyName>DSSVDemo</AssemblyName>
+    <RootNamespace>WindowAppThree</RootNamespace>
+    <AssemblyName>WindowAppThree</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -54,6 +54,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
