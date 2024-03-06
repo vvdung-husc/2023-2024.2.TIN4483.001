@@ -28,12 +28,11 @@ namespace WindowsFormsApp1
         }
         private int TimUSCLN(int a, int b)
         {
-            while (a != b)
+            while (b != 0)
             {
-                if (a > b)
-                    a = a - b;
-                else
-                    b = b - a;
+                int temp = b;
+                b = a % b;
+                a = temp;
             }
             return a;
         }
@@ -76,6 +75,13 @@ namespace WindowsFormsApp1
         private void btnThoat_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btnXóa_Click(object sender, EventArgs e)
+        {
+            txtsoa.Text = "";
+            txtsob.Text = "";
+            txtkq.Text = "";
         }
     }
 }

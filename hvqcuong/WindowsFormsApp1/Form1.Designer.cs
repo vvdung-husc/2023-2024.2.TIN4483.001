@@ -162,6 +162,7 @@
             this.btnXóa.TabIndex = 2;
             this.btnXóa.Text = "Xóa";
             this.btnXóa.UseVisualStyleBackColor = true;
+            this.btnXóa.Click += new System.EventHandler(this.btnXóa_Click);
             // 
             // btnTim
             // 
