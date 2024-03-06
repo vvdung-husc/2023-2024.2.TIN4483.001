@@ -29,35 +29,36 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.Thoát = new System.Windows.Forms.Button();
+            this.Tim = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.Thoat = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.SoB = new System.Windows.Forms.Label();
+            this.SoA = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.Ketqua = new System.Windows.Forms.GroupBox();
+            this.chkUSCLN = new System.Windows.Forms.RadioButton();
+            this.chkBSCNN = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
+            this.Ketqua.SuspendLayout();
             this.SuspendLayout();
             // 
-            // Thoát
+            // Tim
             // 
-            this.Thoát.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.Thoát.Location = new System.Drawing.Point(57, 86);
-            this.Thoát.Name = "Thoát";
-            this.Thoát.Size = new System.Drawing.Size(147, 45);
-            this.Thoát.TabIndex = 7;
-            this.Thoát.Text = "Tìm";
-            this.Thoát.UseVisualStyleBackColor = false;
+            this.Tim.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Tim.Location = new System.Drawing.Point(57, 86);
+            this.Tim.Name = "Tim";
+            this.Tim.Size = new System.Drawing.Size(147, 45);
+            this.Tim.TabIndex = 7;
+            this.Tim.Text = "Tìm";
+            this.Tim.UseVisualStyleBackColor = false;
+            this.Tim.Click += new System.EventHandler(this.Tim_Click_1);
             // 
             // button2
             // 
@@ -69,33 +70,21 @@
             this.button2.Text = "Bỏ qua";
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // Thoat
             // 
-            this.button3.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.button3.Location = new System.Drawing.Point(444, 86);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(153, 45);
-            this.button3.TabIndex = 11;
-            this.button3.Text = "Thoát";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.BackColor = System.Drawing.SystemColors.Window;
-            this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.Location = new System.Drawing.Point(38, 96);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(115, 33);
-            this.checkBox2.TabIndex = 13;
-            this.checkBox2.Text = "BSCLN";
-            this.checkBox2.UseVisualStyleBackColor = false;
+            this.Thoat.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Thoat.Location = new System.Drawing.Point(444, 86);
+            this.Thoat.Name = "Thoat";
+            this.Thoat.Size = new System.Drawing.Size(153, 45);
+            this.Thoat.TabIndex = 11;
+            this.Thoat.Text = "Thoát";
+            this.Thoat.UseVisualStyleBackColor = false;
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.Window;
-            this.groupBox1.Controls.Add(this.checkBox2);
-            this.groupBox1.Controls.Add(this.checkBox1);
+            this.groupBox1.Controls.Add(this.chkBSCNN);
+            this.groupBox1.Controls.Add(this.chkUSCLN);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(541, 63);
             this.groupBox1.Name = "groupBox1";
@@ -104,26 +93,25 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Chọn tìm";
             // 
-            // label2
+            // SoB
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(27, 96);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 29);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "B:";
+            this.SoB.AutoSize = true;
+            this.SoB.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SoB.Location = new System.Drawing.Point(27, 96);
+            this.SoB.Name = "SoB";
+            this.SoB.Size = new System.Drawing.Size(35, 29);
+            this.SoB.TabIndex = 1;
+            this.SoB.Text = "B:";
             // 
-            // label3
+            // SoA
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(27, 47);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(34, 29);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "A:";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.SoA.AutoSize = true;
+            this.SoA.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SoA.Location = new System.Drawing.Point(27, 47);
+            this.SoA.Name = "SoA";
+            this.SoA.Size = new System.Drawing.Size(34, 29);
+            this.SoA.TabIndex = 2;
+            this.SoA.Text = "A:";
             // 
             // textBox1
             // 
@@ -146,8 +134,8 @@
             this.groupBox2.BackColor = System.Drawing.SystemColors.Window;
             this.groupBox2.Controls.Add(this.textBox2);
             this.groupBox2.Controls.Add(this.textBox1);
-            this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.label2);
+            this.groupBox2.Controls.Add(this.SoA);
+            this.groupBox2.Controls.Add(this.SoB);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(97, 63);
             this.groupBox2.Name = "groupBox2";
@@ -160,36 +148,46 @@
             // 
             this.textBox3.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(134, 33);
+            this.textBox3.Location = new System.Drawing.Point(133, 33);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(382, 27);
             this.textBox3.TabIndex = 6;
             // 
-            // groupBox3
+            // Ketqua
             // 
-            this.groupBox3.Controls.Add(this.textBox3);
-            this.groupBox3.Controls.Add(this.Thoát);
-            this.groupBox3.Controls.Add(this.button2);
-            this.groupBox3.Controls.Add(this.button3);
-            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(97, 253);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(619, 146);
-            this.groupBox3.TabIndex = 18;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Kết quả:";
+            this.Ketqua.Controls.Add(this.textBox3);
+            this.Ketqua.Controls.Add(this.Tim);
+            this.Ketqua.Controls.Add(this.button2);
+            this.Ketqua.Controls.Add(this.Thoat);
+            this.Ketqua.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ketqua.Location = new System.Drawing.Point(97, 253);
+            this.Ketqua.Name = "Ketqua";
+            this.Ketqua.Size = new System.Drawing.Size(619, 146);
+            this.Ketqua.TabIndex = 18;
+            this.Ketqua.TabStop = false;
+            this.Ketqua.Text = "Kết quả:";
             // 
-            // checkBox1
+            // chkUSCLN
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.BackColor = System.Drawing.SystemColors.Window;
-            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(37, 44);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(116, 33);
-            this.checkBox1.TabIndex = 12;
-            this.checkBox1.Text = "USCLN";
-            this.checkBox1.UseVisualStyleBackColor = false;
+            this.chkUSCLN.AutoSize = true;
+            this.chkUSCLN.Location = new System.Drawing.Point(33, 47);
+            this.chkUSCLN.Name = "chkUSCLN";
+            this.chkUSCLN.Size = new System.Drawing.Size(120, 33);
+            this.chkUSCLN.TabIndex = 14;
+            this.chkUSCLN.TabStop = true;
+            this.chkUSCLN.Text = "USCLN";
+            this.chkUSCLN.UseVisualStyleBackColor = true;
+            // 
+            // chkBSCNN
+            // 
+            this.chkBSCNN.AutoSize = true;
+            this.chkBSCNN.Location = new System.Drawing.Point(33, 86);
+            this.chkBSCNN.Name = "chkBSCNN";
+            this.chkBSCNN.Size = new System.Drawing.Size(124, 33);
+            this.chkBSCNN.TabIndex = 15;
+            this.chkBSCNN.TabStop = true;
+            this.chkBSCNN.Text = "BSCNN";
+            this.chkBSCNN.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -197,7 +195,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.Ketqua);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
@@ -206,28 +204,28 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
+            this.Ketqua.ResumeLayout(false);
+            this.Ketqua.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.Button Thoát;
+        private System.Windows.Forms.Button Tim;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button Thoat;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Timer timer2;
-        private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label SoB;
+        private System.Windows.Forms.Label SoA;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.GroupBox Ketqua;
+        private System.Windows.Forms.RadioButton chkBSCNN;
+        private System.Windows.Forms.RadioButton chkUSCLN;
     }
 }
 

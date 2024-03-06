@@ -31,7 +31,14 @@ namespace WindowsForms
         {
             Close();
         }
-        
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("Bạn có chắc là muốn thoát không?", "Máy Tính", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
+        }
+
 
         private void txtcong_Click(object sender, EventArgs e)
         {
@@ -77,6 +84,14 @@ namespace WindowsForms
             txtson.Text = "";
             txtsom.Text = "";
             txtketqua.Text = "";
+        }
+
+        private void Form1_FormClosing_1(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("Bạn có chắc là muốn thoát không?", "Máy Tính", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
         }
     }
 }
