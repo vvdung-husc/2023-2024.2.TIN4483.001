@@ -26,13 +26,13 @@ namespace WindowsAppThree
         public string ngaysinh { get; set; }
         public string khoahoc { get; set; }
         public string nganhhoc { get; set; }
-        public Student(string id, string name, string birddate, string course, string subject)
+        public Student(string id, string name, string ngay, string khoa, string nganh)
         {
             this.msv = id;
             this.ten = name;
-            this.ngaysinh = birddate;
-            this.khoahoc = course;
-            this.nganhhoc = subject;
+            this.ngaysinh = ngay;
+            this.khoahoc = khoa;
+            this.nganhhoc = nganh;
         }
     }
 }
