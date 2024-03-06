@@ -34,13 +34,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.txtBCNN = new System.Windows.Forms.CheckBox();
-            this.txtUCLN = new System.Windows.Forms.CheckBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.txtExit = new System.Windows.Forms.Button();
             this.txtNext = new System.Windows.Forms.Button();
             this.txtTim = new System.Windows.Forms.Button();
+            this.txtUCLN = new System.Windows.Forms.RadioButton();
+            this.txtBCNN = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -106,28 +106,6 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Chọn tìm";
             // 
-            // txtBCNN
-            // 
-            this.txtBCNN.AutoSize = true;
-            this.txtBCNN.Location = new System.Drawing.Point(44, 109);
-            this.txtBCNN.Name = "txtBCNN";
-            this.txtBCNN.Size = new System.Drawing.Size(104, 33);
-            this.txtBCNN.TabIndex = 1;
-            this.txtBCNN.Text = "BCNN";
-            this.txtBCNN.UseVisualStyleBackColor = true;
-            this.txtBCNN.CheckedChanged += new System.EventHandler(this.txtBCNN_CheckedChanged_1);
-            // 
-            // txtUCLN
-            // 
-            this.txtUCLN.AutoSize = true;
-            this.txtUCLN.Location = new System.Drawing.Point(44, 49);
-            this.txtUCLN.Name = "txtUCLN";
-            this.txtUCLN.Size = new System.Drawing.Size(100, 33);
-            this.txtUCLN.TabIndex = 0;
-            this.txtUCLN.Text = "UCLN";
-            this.txtUCLN.UseVisualStyleBackColor = true;
-            this.txtUCLN.CheckedChanged += new System.EventHandler(this.txtUCLN_CheckedChanged);
-            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.textBox3);
@@ -179,6 +157,28 @@
             this.txtTim.UseVisualStyleBackColor = true;
             this.txtTim.Click += new System.EventHandler(this.txtTim_Click);
             // 
+            // txtUCLN
+            // 
+            this.txtUCLN.AutoSize = true;
+            this.txtUCLN.Location = new System.Drawing.Point(33, 42);
+            this.txtUCLN.Name = "txtUCLN";
+            this.txtUCLN.Size = new System.Drawing.Size(99, 33);
+            this.txtUCLN.TabIndex = 0;
+            this.txtUCLN.TabStop = true;
+            this.txtUCLN.Text = "UCLN";
+            this.txtUCLN.UseVisualStyleBackColor = true;
+            // 
+            // txtBCNN
+            // 
+            this.txtBCNN.AutoSize = true;
+            this.txtBCNN.Location = new System.Drawing.Point(33, 107);
+            this.txtBCNN.Name = "txtBCNN";
+            this.txtBCNN.Size = new System.Drawing.Size(103, 33);
+            this.txtBCNN.TabIndex = 1;
+            this.txtBCNN.TabStop = true;
+            this.txtBCNN.Text = "BCNN";
+            this.txtBCNN.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -205,8 +205,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.CheckBox txtUCLN;
-        private System.Windows.Forms.CheckBox txtBCNN;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Button txtExit;
         private System.Windows.Forms.Button txtNext;
@@ -214,6 +212,8 @@
         private System.Windows.Forms.TextBox txtNhapB;
         private System.Windows.Forms.TextBox txtNhapA;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.RadioButton txtUCLN;
+        private System.Windows.Forms.RadioButton txtBCNN;
     }
 }
 
