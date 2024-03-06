@@ -1,4 +1,4 @@
-﻿namespace WindowAppThree
+﻿namespace WindowsFormsThree
 {
     partial class Form1
     {
@@ -37,18 +37,17 @@
             // dgvMember
             // 
             this.dgvMember.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvMember.Location = new System.Drawing.Point(34, 92);
+            this.dgvMember.Location = new System.Drawing.Point(55, 126);
             this.dgvMember.Name = "dgvMember";
             this.dgvMember.RowHeadersWidth = 51;
             this.dgvMember.RowTemplate.Height = 24;
-            this.dgvMember.Size = new System.Drawing.Size(1041, 423);
+            this.dgvMember.Size = new System.Drawing.Size(705, 291);
             this.dgvMember.TabIndex = 0;
-            this.dgvMember.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvMember_CellContentClick);
             // 
             // radList
             // 
             this.radList.AutoSize = true;
-            this.radList.Location = new System.Drawing.Point(34, 12);
+            this.radList.Location = new System.Drawing.Point(55, 32);
             this.radList.Name = "radList";
             this.radList.Size = new System.Drawing.Size(174, 20);
             this.radList.TabIndex = 1;
@@ -60,7 +59,7 @@
             // radDataTable
             // 
             this.radDataTable.AutoSize = true;
-            this.radDataTable.Location = new System.Drawing.Point(34, 38);
+            this.radDataTable.Location = new System.Drawing.Point(55, 72);
             this.radDataTable.Name = "radDataTable";
             this.radDataTable.Size = new System.Drawing.Size(169, 20);
             this.radDataTable.TabIndex = 2;
@@ -73,13 +72,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1114, 563);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.radDataTable);
             this.Controls.Add(this.radList);
             this.Controls.Add(this.dgvMember);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvMember)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
