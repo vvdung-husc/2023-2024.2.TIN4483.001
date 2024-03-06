@@ -38,13 +38,13 @@
             this.Xoa = new System.Windows.Forms.Button();
             this.Thoat = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.BSCNN = new System.Windows.Forms.RadioButton();
+            this.USCLN = new System.Windows.Forms.RadioButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.eventLog1 = new System.Diagnostics.EventLog();
-            this.USCLN = new System.Windows.Forms.RadioButton();
-            this.BSCNN = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -148,6 +148,28 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Chọn tìm";
             // 
+            // BSCNN
+            // 
+            this.BSCNN.AutoSize = true;
+            this.BSCNN.Location = new System.Drawing.Point(6, 94);
+            this.BSCNN.Name = "BSCNN";
+            this.BSCNN.Size = new System.Drawing.Size(103, 29);
+            this.BSCNN.TabIndex = 8;
+            this.BSCNN.TabStop = true;
+            this.BSCNN.Text = "BSCNN";
+            this.BSCNN.UseVisualStyleBackColor = true;
+            // 
+            // USCLN
+            // 
+            this.USCLN.AutoSize = true;
+            this.USCLN.Location = new System.Drawing.Point(6, 48);
+            this.USCLN.Name = "USCLN";
+            this.USCLN.Size = new System.Drawing.Size(101, 29);
+            this.USCLN.TabIndex = 7;
+            this.USCLN.TabStop = true;
+            this.USCLN.Text = "USCLN";
+            this.USCLN.UseVisualStyleBackColor = true;
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.SoB);
@@ -186,35 +208,13 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(95, 20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(469, 39);
+            this.label1.Size = new System.Drawing.Size(454, 38);
             this.label1.TabIndex = 0;
             this.label1.Text = "ƯSCLN và BSCNN của A, B";
             // 
             // eventLog1
             // 
             this.eventLog1.SynchronizingObject = this;
-            // 
-            // USCLN
-            // 
-            this.USCLN.AutoSize = true;
-            this.USCLN.Location = new System.Drawing.Point(6, 48);
-            this.USCLN.Name = "USCLN";
-            this.USCLN.Size = new System.Drawing.Size(101, 29);
-            this.USCLN.TabIndex = 7;
-            this.USCLN.TabStop = true;
-            this.USCLN.Text = "USCLN";
-            this.USCLN.UseVisualStyleBackColor = true;
-            // 
-            // BSCNN
-            // 
-            this.BSCNN.AutoSize = true;
-            this.BSCNN.Location = new System.Drawing.Point(6, 94);
-            this.BSCNN.Name = "BSCNN";
-            this.BSCNN.Size = new System.Drawing.Size(103, 29);
-            this.BSCNN.TabIndex = 8;
-            this.BSCNN.TabStop = true;
-            this.BSCNN.Text = "BSCNN";
-            this.BSCNN.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
