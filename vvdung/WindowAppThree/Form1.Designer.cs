@@ -44,6 +44,7 @@
             this.dgvMember.RowTemplate.Height = 24;
             this.dgvMember.Size = new System.Drawing.Size(781, 344);
             this.dgvMember.TabIndex = 0;
+            this.dgvMember.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvMember_CellContentClick);
             // 
             // radList
             // 
