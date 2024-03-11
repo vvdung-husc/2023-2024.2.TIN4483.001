@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4F53DA75-E855-490D-AC96-85FE42DD7E1A}</ProjectGuid>
+    <ProjectGuid>{AF1FCAE1-2BAE-4D68-8CF0-97D424C3AF94}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WindowsAppThree</RootNamespace>
-    <AssemblyName>WindowsAppThree</AssemblyName>
+    <RootNamespace>EOder</RootNamespace>
+    <AssemblyName>EOder</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

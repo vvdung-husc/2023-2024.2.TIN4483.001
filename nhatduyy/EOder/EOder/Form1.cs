@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EOder;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -121,16 +122,19 @@ namespace WindowAppThree
             //dgvMember.DataSource = GetStudentByDataTable();
         }
 
-
-
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        private void radList_CheckedChanged(object sender, EventArgs e)
         {
             dgvMember.DataSource = GetStudentByList();
         }
 
-        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        private void radDataTable_CheckedChanged(object sender, EventArgs e)
         {
             dgvMember.DataSource = GetStudentByDataTable();
+        }
+
+        private void dgvMember_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
