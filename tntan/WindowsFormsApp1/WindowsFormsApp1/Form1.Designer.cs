@@ -32,9 +32,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtNumN = new System.Windows.Forms.TextBox();
+            this.txtNumM = new System.Windows.Forms.TextBox();
+            this.txtResult = new System.Windows.Forms.TextBox();
             this.btnaddition = new System.Windows.Forms.Button();
             this.btnsubtraction = new System.Windows.Forms.Button();
             this.btnmultiplication = new System.Windows.Forms.Button();
@@ -87,26 +87,26 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "Kết Quả";
             // 
-            // textBox1
+            // txtNumN
             // 
-            this.textBox1.Location = new System.Drawing.Point(96, 48);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(148, 20);
-            this.textBox1.TabIndex = 4;
+            this.txtNumN.Location = new System.Drawing.Point(96, 48);
+            this.txtNumN.Name = "txtNumN";
+            this.txtNumN.Size = new System.Drawing.Size(148, 20);
+            this.txtNumN.TabIndex = 4;
             // 
-            // textBox2
+            // txtNumM
             // 
-            this.textBox2.Location = new System.Drawing.Point(96, 80);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(148, 20);
-            this.textBox2.TabIndex = 5;
+            this.txtNumM.Location = new System.Drawing.Point(96, 80);
+            this.txtNumM.Name = "txtNumM";
+            this.txtNumM.Size = new System.Drawing.Size(148, 20);
+            this.txtNumM.TabIndex = 5;
             // 
-            // textBox3
+            // txtResult
             // 
-            this.textBox3.Location = new System.Drawing.Point(96, 109);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(148, 20);
-            this.textBox3.TabIndex = 6;
+            this.txtResult.Location = new System.Drawing.Point(96, 109);
+            this.txtResult.Name = "txtResult";
+            this.txtResult.Size = new System.Drawing.Size(148, 20);
+            this.txtResult.TabIndex = 6;
             // 
             // btnaddition
             // 
@@ -192,9 +192,9 @@
             this.Controls.Add(this.btnmultiplication);
             this.Controls.Add(this.btnsubtraction);
             this.Controls.Add(this.btnaddition);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtResult);
+            this.Controls.Add(this.txtNumM);
+            this.Controls.Add(this.txtNumN);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -212,9 +212,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtNumN;
+        private System.Windows.Forms.TextBox txtNumM;
+        private System.Windows.Forms.TextBox txtResult;
         private System.Windows.Forms.Button btnaddition;
         private System.Windows.Forms.Button btnmultiplication;
         private System.Windows.Forms.Button btndivision;
