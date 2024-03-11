@@ -147,6 +147,11 @@ namespace WindowsForm_UocBoi
         {
             return (a * b) / USCLN(a, b);
         }
+
+        private void txta_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }
