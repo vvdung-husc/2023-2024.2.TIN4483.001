@@ -46,6 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
+    <Compile Include="Form1.cs" />
+>>>>>>> 4a8934a4a24b4f4610e33eb3659910d4e6784191
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
