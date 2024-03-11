@@ -20,6 +20,13 @@ namespace WindowAppThree
             Application.Run(new Form1());
         }
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+   
+}
+=======
+>>>>>>> a862dc3ef777346408bcfe8d2612e29b207911b9
 
     public class Student
     {
@@ -39,4 +46,9 @@ namespace WindowAppThree
     }
 
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> a071c22f13e54ae39abcb00a7e2fecbf0b2760f7
+>>>>>>> a862dc3ef777346408bcfe8d2612e29b207911b9

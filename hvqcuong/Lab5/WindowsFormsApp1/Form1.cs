@@ -73,7 +73,7 @@ namespace WindowsFormsApp1
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            MessageBox.Show(cbblist.SelectedIndex.ToString());
+           // MessageBox.Show(cbblist.SelectedIndex.ToString());
         }
 
         
@@ -136,6 +136,11 @@ namespace WindowsFormsApp1
         private void btnxoa_Click(object sender, EventArgs e)
         {
             tbOrder.Rows.Clear();
+        }
+
+        private void gvOrder_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

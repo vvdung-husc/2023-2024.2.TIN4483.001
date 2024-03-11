@@ -8,10 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowAppThree
+namespace WindowsFormsApp4_lab5_data_DataGridView
 {
 
-    public partial class Form1 : Form {
+    public partial class Form1 : Form
+    {
 
         protected List<Student> GetStudentByList()
         {
@@ -58,7 +59,7 @@ namespace WindowAppThree
             lStudent.Add(new Student("20T1020612", "Phạm Nguyễn Bảo Trung", "23/05/2002", "K44", "Mạng máy tính"));
 
             return lStudent;
-            }
+        }
         protected DataTable GetStudentByDataTable()
         {
             DataTable table = new DataTable();
@@ -115,7 +116,7 @@ namespace WindowAppThree
         public Form1()
         {
             InitializeComponent();
-            
+
             //dgvMember.DataSource = GetStudentByList();
             //dgvMember.DataSource = GetStudentByDataTable();
         }
@@ -130,14 +131,6 @@ namespace WindowAppThree
             dgvMember.DataSource = GetStudentByDataTable();
         }
 
-<<<<<<< HEAD
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-=======
->>>>>>> a862dc3ef777346408bcfe8d2612e29b207911b9
         private void dgvMember_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
