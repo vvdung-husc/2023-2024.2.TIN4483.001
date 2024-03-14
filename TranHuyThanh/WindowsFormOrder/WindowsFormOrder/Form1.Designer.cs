@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace WindowsFormOrder
+﻿namespace WindowsFormOrder
 {
     partial class Form1
     {
@@ -63,7 +61,7 @@ namespace WindowsFormOrder
             this.label1.ForeColor = System.Drawing.Color.Blue;
             this.label1.Location = new System.Drawing.Point(211, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(285, 45);
+            this.label1.Size = new System.Drawing.Size(237, 37);
             this.label1.TabIndex = 0;
             this.label1.Text = "Fastfood Order";
             // 
@@ -84,7 +82,7 @@ namespace WindowsFormOrder
             this.groupBox.Controls.Add(this.pepsi);
             this.groupBox.Controls.Add(this.bttomvien);
             this.groupBox.Controls.Add(this.bpmbo);
-            this.groupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.groupBox.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.groupBox.Location = new System.Drawing.Point(12, 59);
             this.groupBox.Name = "groupBox";
             this.groupBox.Size = new System.Drawing.Size(581, 213);
@@ -101,7 +99,6 @@ namespace WindowsFormOrder
             this.btkhoaitc.TabIndex = 14;
             this.btkhoaitc.Text = "Khoai tây chiên";
             this.btkhoaitc.UseVisualStyleBackColor = true;
-            this.btkhoaitc.Click += new System.EventHandler(this.btkhoaitc_Click);
             // 
             // btcomga
             // 
@@ -112,7 +109,6 @@ namespace WindowsFormOrder
             this.btcomga.TabIndex = 13;
             this.btcomga.Text = "Cơm gà tender";
             this.btcomga.UseVisualStyleBackColor = true;
-            this.btcomga.Click += new System.EventHandler(this.btcomga_Click);
             // 
             // bpmca
             // 
@@ -123,7 +119,6 @@ namespace WindowsFormOrder
             this.bpmca.TabIndex = 12;
             this.bpmca.Text = "Burger phô mai cá";
             this.bpmca.UseVisualStyleBackColor = true;
-            this.bpmca.Click += new System.EventHandler(this.bpmca_Click);
             // 
             // btcam
             // 
@@ -134,7 +129,6 @@ namespace WindowsFormOrder
             this.btcam.TabIndex = 11;
             this.btcam.Text = "Cam";
             this.btcam.UseVisualStyleBackColor = true;
-            this.btcam.Click += new System.EventHandler(this.btcam_Click);
             // 
             // btcoffe
             // 
@@ -145,7 +139,6 @@ namespace WindowsFormOrder
             this.btcoffe.TabIndex = 10;
             this.btcoffe.Text = "Coffe";
             this.btcoffe.UseVisualStyleBackColor = true;
-            this.btcoffe.Click += new System.EventHandler(this.btcoffe_Click);
             // 
             // btgaranphan
             // 
@@ -156,7 +149,6 @@ namespace WindowsFormOrder
             this.btgaranphan.TabIndex = 9;
             this.btgaranphan.Text = "Gà rán phần";
             this.btgaranphan.UseVisualStyleBackColor = true;
-            this.btgaranphan.Click += new System.EventHandler(this.btgaranphan_Click);
             // 
             // bpmtom
             // 
@@ -167,7 +159,6 @@ namespace WindowsFormOrder
             this.bpmtom.TabIndex = 8;
             this.bpmtom.Text = "Burger phô mai tôm";
             this.bpmtom.UseVisualStyleBackColor = true;
-            this.bpmtom.Click += new System.EventHandler(this.bpmtom_Click);
             // 
             // btlipton
             // 
@@ -178,7 +169,6 @@ namespace WindowsFormOrder
             this.btlipton.TabIndex = 7;
             this.btlipton.Text = "Lipton";
             this.btlipton.UseVisualStyleBackColor = true;
-            this.btlipton.Click += new System.EventHandler(this.btlipton_Click);
             // 
             // bt7up
             // 
@@ -189,7 +179,6 @@ namespace WindowsFormOrder
             this.bt7up.TabIndex = 6;
             this.bt7up.Text = "7 up";
             this.bt7up.UseVisualStyleBackColor = true;
-            this.bt7up.Click += new System.EventHandler(this.bt7up_Click);
             // 
             // btgvcola
             // 
@@ -200,7 +189,6 @@ namespace WindowsFormOrder
             this.btgvcola.TabIndex = 5;
             this.btgvcola.Text = "Gà viên cola";
             this.btgvcola.UseVisualStyleBackColor = true;
-            this.btgvcola.Click += new System.EventHandler(this.btgvcola_Click);
             // 
             // bpmga
             // 
@@ -211,7 +199,6 @@ namespace WindowsFormOrder
             this.bpmga.TabIndex = 4;
             this.bpmga.Text = "Burger phô mai gà";
             this.bpmga.UseVisualStyleBackColor = true;
-            this.bpmga.Click += new System.EventHandler(this.bpmga_Click);
             // 
             // btcocola
             // 
@@ -222,7 +209,6 @@ namespace WindowsFormOrder
             this.btcocola.TabIndex = 3;
             this.btcocola.Text = "Cocacola";
             this.btcocola.UseVisualStyleBackColor = true;
-            this.btcocola.Click += new System.EventHandler(this.btcocola_Click);
             // 
             // pepsi
             // 
@@ -244,7 +230,6 @@ namespace WindowsFormOrder
             this.bttomvien.TabIndex = 1;
             this.bttomvien.Text = "Tôm viên coca";
             this.bttomvien.UseVisualStyleBackColor = true;
-            this.bttomvien.Click += new System.EventHandler(this.bttomvien_Click);
             // 
             // bpmbo
             // 
@@ -275,7 +260,6 @@ namespace WindowsFormOrder
             this.button17.TabIndex = 3;
             this.button17.Text = "Order";
             this.button17.UseVisualStyleBackColor = true;
-            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // label2
             // 
@@ -283,7 +267,7 @@ namespace WindowsFormOrder
             this.label2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(152, 282);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(104, 33);
+            this.label2.Size = new System.Drawing.Size(88, 26);
             this.label2.TabIndex = 4;
             this.label2.Text = "Tên bàn";
             // 
@@ -292,7 +276,7 @@ namespace WindowsFormOrder
             this.cbblist.FormattingEnabled = true;
             this.cbblist.Location = new System.Drawing.Point(246, 285);
             this.cbblist.Name = "cbblist";
-            this.cbblist.Size = new System.Drawing.Size(207, 27);
+            this.cbblist.Size = new System.Drawing.Size(207, 23);
             this.cbblist.TabIndex = 5;
             this.cbblist.Text = "tên bàn";
             // 
@@ -309,7 +293,7 @@ namespace WindowsFormOrder
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(618, 499);
@@ -332,16 +316,6 @@ namespace WindowsFormOrder
             this.ResumeLayout(false);
             this.PerformLayout();
 
-        }
-
-        private void button17_Click(object sender, EventArgs e)
-        {
-            throw new NotImplementedException();
-        }
-
-        private void btkhoaitc_Click(object sender, EventArgs e)
-        {
-            throw new NotImplementedException();
         }
 
         #endregion

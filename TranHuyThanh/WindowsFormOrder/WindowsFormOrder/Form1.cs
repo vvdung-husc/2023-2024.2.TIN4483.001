@@ -26,10 +26,10 @@ namespace WindowsFormOrder
         {
 
         }
-       
+
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-           
+
         }
 
         string[] Ban = new string[] { "Ban1", "Ban2", "Ban3", "Ban4" };
@@ -45,7 +45,7 @@ namespace WindowsFormOrder
 
             //Add table Vào DataGridView
             dataGridView1.DataSource = tbOrder;
-      
+
 
             //Định Dạng 2 Cột
             dataGridView1.Columns[0].Width = (int)(dataGridView1.Width * 0.4);
@@ -85,66 +85,6 @@ namespace WindowsFormOrder
         private void button16_Click(object sender, EventArgs e)
         {
             tbOrder.Rows.Clear();
-        }
-
-        private void bttomvien_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btcocola_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bpmga_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btgvcola_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bt7up_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btlipton_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bpmtom_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btgaranphan_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btcoffe_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btcam_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bpmca_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btcomga_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
