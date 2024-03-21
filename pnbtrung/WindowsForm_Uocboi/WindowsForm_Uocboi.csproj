@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8FE083F4-4025-4E0F-8303-4F88C840F807}</ProjectGuid>
+    <ProjectGuid>{CA60CBFC-8F82-4B87-803B-56974F7D6D78}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WindowsAppOne</RootNamespace>
-    <AssemblyName>WindowsAppOne</AssemblyName>
+    <RootNamespace>WindowsForm_Uocboi</RootNamespace>
+    <AssemblyName>WindowsForm_Uocboi</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -54,9 +54,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
