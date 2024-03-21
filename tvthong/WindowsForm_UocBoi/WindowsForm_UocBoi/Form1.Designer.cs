@@ -189,6 +189,7 @@
             this.txta.Name = "txta";
             this.txta.Size = new System.Drawing.Size(166, 30);
             this.txta.TabIndex = 0;
+            this.txta.TextChanged += new System.EventHandler(this.txta_TextChanged);
             // 
             // Form1
             // 
