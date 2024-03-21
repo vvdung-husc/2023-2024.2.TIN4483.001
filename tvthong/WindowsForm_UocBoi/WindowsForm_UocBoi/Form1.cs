@@ -81,6 +81,7 @@ namespace WindowsForm_UocBoi
         {
             txta.Text = "";
             txtb.Text = "";
+            txtkq.Text = "";
         }
        
         private void chkBSCNN_CheckedChanged(object sender, EventArgs e)
@@ -149,6 +150,11 @@ namespace WindowsForm_UocBoi
         }
 
         private void txta_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtb_TextChanged(object sender, EventArgs e)
         {
 
         }
