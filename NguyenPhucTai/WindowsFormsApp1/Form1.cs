@@ -17,74 +17,71 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void chkUSLN_CheckedChanged(object sender, EventArgs e)
         {
-
+            btnTim.Text = "Tìm - USCLN";
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void chkBSCNN_CheckedChanged(object sender, EventArgs e)
         {
-
+            btnTim.Text = "Tìm - BSCNN";
         }
-
-        private void label2_Click(object sender, EventArgs e)
+        private int TimUSCLN(int a, int b)
         {
-
-        }
-        private void btCong_Click(object sender, EventArgs e)
-        {
-            int n = int.Parse(txtSon.Text);
-            int m = int.Parse(txtSom.Text);
-            int Tong = n + m;
-            txtKetqua.Text = Tong.ToString();
-        }
-        private void btTru_Click(object sender, EventArgs e)
-        {
-            int n = int.Parse(txtSon.Text);
-            int m = int.Parse (txtSom.Text);
-            int Hieu = n - m;
-            txtKetqua.Text = Hieu.ToString();
-        }
-        private void btNhan_Click(object sender, EventArgs e)
-        {
-            int n = int.Parse(txtSon.Text);
-            int m = int.Parse(txtSom.Text);
-            int Tich = n * m;
-            txtKetqua.Text = Tich.ToString();
-        }
-        private void btChia_Click(object sender, EventArgs e)
-        {
-            float n = float.Parse(txtSon.Text);
-            float m = float.Parse(txtSom.Text);
-            if (n == 0)
+            while (b != 0)
             {
-                txtSon.Text = "";
-                txtSom.Text = "";
-                txtKetqua.Text = "";
+                int temp = b;
+                b = a % b;
+                a = temp;
+            }
+            return a;
+        }
+
+        private int TimBSCNN(int a, int b)
+        {
+            int uscln = TimUSCLN(a, b);
+            int bscnn = (a * b) / uscln;
+            return bscnn;
+        }
+
+        private void btnTim_Click(object sender, EventArgs e)
+        {
+            if (chkUSCLN.Checked)
+            {
+                int a = int.Parse(txtsoa.Text);
+                int b = int.Parse(txtsob.Text);
+                int uscln = TimUSCLN(a, b);
+                txtkq.Text = uscln.ToString();
+            }
+            else if (chkBSCNN.Checked)
+            {
+                int a = int.Parse(txtsoa.Text);
+                int b = int.Parse(txtsob.Text);
+                int bscnn = TimBSCNN(a, b);
+                txtkq.Text = bscnn.ToString();
             }
             else
             {
-                float Thuong = n / m;
-                txtKetqua.Text = Thuong.ToString();
+                MessageBox.Show("Vui lòng chọn tìm USCLN hay BSCNN", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-        }
-        private void btThoat_Click(object sender, EventArgs e)
-        {
-            DialogResult dialog;
-            dialog = MessageBox.Show("Bạn có muốn thoát hay không", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if (dialog == DialogResult.Yes)
-                Application.Exit();
-        }
-        private void btXoa_Click(object sender, EventArgs e)
-        {
-            txtSon.Text = "";
-            txtSom.Text = "";
-            txtKetqua.Text = "";
+
         }
 
-        private void btCong_Click_1(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnXóa_Click(object sender, EventArgs e)
+        {
+            txtsoa.Text = "";
+            txtsob.Text = "";
+            txtkq.Text = "";
         }
     }
 }
