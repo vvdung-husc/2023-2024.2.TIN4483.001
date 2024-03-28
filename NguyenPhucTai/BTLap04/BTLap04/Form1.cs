@@ -17,6 +17,7 @@ namespace BTLap04
             InitializeComponent();
         }
 
+
         private void label4_Click(object sender, EventArgs e)
         {
 
