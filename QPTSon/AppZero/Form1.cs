@@ -66,7 +66,7 @@ namespace AppZero
             float NumM = float.Parse(txtNumM.Text);
             if (NumM == 0)
             {
-                MessageBox.Show("nhap so M khac 0");
+                MessageBox.Show("nhap so M  khac 0");
             }
             else
             {
