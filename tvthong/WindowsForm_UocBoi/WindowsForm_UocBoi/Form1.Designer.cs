@@ -52,7 +52,7 @@
             this.chkUSCLN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.chkUSCLN.Location = new System.Drawing.Point(20, 30);
             this.chkUSCLN.Name = "chkUSCLN";
-            this.chkUSCLN.Size = new System.Drawing.Size(98, 27);
+            this.chkUSCLN.Size = new System.Drawing.Size(81, 23);
             this.chkUSCLN.TabIndex = 4;
             this.chkUSCLN.Text = "USCLN";
             this.chkUSCLN.UseVisualStyleBackColor = false;
@@ -64,7 +64,7 @@
             this.chkBSCNN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.chkBSCNN.Location = new System.Drawing.Point(20, 72);
             this.chkBSCNN.Name = "chkBSCNN";
-            this.chkBSCNN.Size = new System.Drawing.Size(98, 27);
+            this.chkBSCNN.Size = new System.Drawing.Size(83, 23);
             this.chkBSCNN.TabIndex = 5;
             this.chkBSCNN.Text = "BSCNN";
             this.chkBSCNN.UseVisualStyleBackColor = false;
@@ -108,7 +108,7 @@
             this.txtkq.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.txtkq.Location = new System.Drawing.Point(6, 29);
             this.txtkq.Name = "txtkq";
-            this.txtkq.Size = new System.Drawing.Size(274, 30);
+            this.txtkq.Size = new System.Drawing.Size(274, 26);
             this.txtkq.TabIndex = 7;
             this.txtkq.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
@@ -159,7 +159,7 @@
             this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(9, 96);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 23);
+            this.label2.Size = new System.Drawing.Size(60, 19);
             this.label2.TabIndex = 3;
             this.label2.Text = "Nhập B";
             // 
@@ -170,7 +170,7 @@
             this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(9, 51);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(72, 23);
+            this.label1.Size = new System.Drawing.Size(59, 19);
             this.label1.TabIndex = 2;
             this.label1.Text = "Nhập A";
             // 
@@ -179,21 +179,22 @@
             this.txtb.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txtb.Location = new System.Drawing.Point(87, 96);
             this.txtb.Name = "txtb";
-            this.txtb.Size = new System.Drawing.Size(166, 30);
+            this.txtb.Size = new System.Drawing.Size(166, 26);
             this.txtb.TabIndex = 1;
+            this.txtb.TextChanged += new System.EventHandler(this.txtb_TextChanged);
             // 
             // txta
             // 
             this.txta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txta.Location = new System.Drawing.Point(87, 48);
             this.txta.Name = "txta";
-            this.txta.Size = new System.Drawing.Size(166, 30);
+            this.txta.Size = new System.Drawing.Size(166, 26);
             this.txta.TabIndex = 0;
             this.txta.TextChanged += new System.EventHandler(this.txta_TextChanged);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(502, 348);
