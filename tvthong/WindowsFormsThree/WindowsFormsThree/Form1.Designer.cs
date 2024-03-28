@@ -50,7 +50,7 @@
             // radList
             // 
             this.radList.AutoSize = true;
-            this.radList.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.radList.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.radList.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radList.Location = new System.Drawing.Point(55, 23);
             this.radList.Name = "radList";
