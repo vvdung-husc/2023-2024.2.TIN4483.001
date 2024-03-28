@@ -52,10 +52,10 @@
             this.radList.Location = new System.Drawing.Point(35, 12);
             this.radList.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radList.Name = "radList";
-            this.radList.Size = new System.Drawing.Size(174, 20);
+            this.radList.Size = new System.Drawing.Size(171, 20);
             this.radList.TabIndex = 1;
             this.radList.TabStop = true;
-            this.radList.Text = "Hiển thị theo Generic List";
+            this.radList.Text = "hiển thị theo Generic List";
             this.radList.UseVisualStyleBackColor = true;
             this.radList.CheckedChanged += new System.EventHandler(this.radList_CheckedChanged);
             // 
