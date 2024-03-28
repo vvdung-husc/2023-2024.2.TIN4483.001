@@ -30,7 +30,6 @@
         {
             this.dgvMember = new System.Windows.Forms.DataGridView();
             this.radList = new System.Windows.Forms.RadioButton();
-            this.radDataTable = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMember)).BeginInit();
             this.SuspendLayout();
             // 
@@ -59,25 +58,11 @@
             this.radList.UseVisualStyleBackColor = true;
             this.radList.CheckedChanged += new System.EventHandler(this.radList_CheckedChanged);
             // 
-            // radDataTable
-            // 
-            this.radDataTable.AutoSize = true;
-            this.radDataTable.Location = new System.Drawing.Point(35, 38);
-            this.radDataTable.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.radDataTable.Name = "radDataTable";
-            this.radDataTable.Size = new System.Drawing.Size(166, 20);
-            this.radDataTable.TabIndex = 2;
-            this.radDataTable.TabStop = true;
-            this.radDataTable.Text = "hiển thị theo DataTable";
-            this.radDataTable.UseVisualStyleBackColor = true;
-            this.radDataTable.CheckedChanged += new System.EventHandler(this.radDataTable_CheckedChanged);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1115, 562);
-            this.Controls.Add(this.radDataTable);
             this.Controls.Add(this.radList);
             this.Controls.Add(this.dgvMember);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -94,6 +79,5 @@
 
         private System.Windows.Forms.DataGridView dgvMember;
         private System.Windows.Forms.RadioButton radList;
-        private System.Windows.Forms.RadioButton radDataTable;
     }
 }
