@@ -1,4 +1,7 @@
-﻿namespace WindowsFormsAppThree
+﻿using System;
+using System.Windows.Forms;
+
+namespace WindowAppThree
 {
     partial class Form1
     {
@@ -28,68 +31,42 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dgvMember = new System.Windows.Forms.DataGridView();
-            this.radList = new System.Windows.Forms.RadioButton();
-            this.radDataTable = new System.Windows.Forms.RadioButton();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvMember)).BeginInit();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // dgvMember
+            // dataGridView1
             // 
-            this.dgvMember.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvMember.Location = new System.Drawing.Point(29, 131);
-            this.dgvMember.Name = "dgvMember";
-            this.dgvMember.Size = new System.Drawing.Size(769, 302);
-            this.dgvMember.TabIndex = 0;
-            this.dgvMember.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvMember_CellContentClick);
-            // 
-            // radList
-            // 
-            this.radList.AutoSize = true;
-            this.radList.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radList.Location = new System.Drawing.Point(39, 31);
-            this.radList.Name = "radList";
-            this.radList.Size = new System.Drawing.Size(238, 26);
-            this.radList.TabIndex = 1;
-            this.radList.TabStop = true;
-            this.radList.Text = "Hiển thị theo Generic List";
-            this.radList.UseVisualStyleBackColor = true;
-            this.radList.CheckedChanged += new System.EventHandler(this.radList_CheckedChanged);
-            // 
-            // radDataTable
-            // 
-            this.radDataTable.AutoSize = true;
-            this.radDataTable.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radDataTable.Location = new System.Drawing.Point(39, 73);
-            this.radDataTable.Name = "radDataTable";
-            this.radDataTable.Size = new System.Drawing.Size(222, 26);
-            this.radDataTable.TabIndex = 2;
-            this.radDataTable.TabStop = true;
-            this.radDataTable.Text = "Hiển thị theo DataTable";
-            this.radDataTable.UseVisualStyleBackColor = true;
-            this.radDataTable.CheckedChanged += new System.EventHandler(this.radDataTable_CheckedChanged);
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(160, 108);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(240, 150);
+            this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(829, 454);
-            this.Controls.Add(this.radDataTable);
-            this.Controls.Add(this.radList);
-            this.Controls.Add(this.dgvMember);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.dataGridView1);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.dgvMember)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dgvMember;
-        private System.Windows.Forms.RadioButton radList;
-        private System.Windows.Forms.RadioButton radDataTable;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
 
