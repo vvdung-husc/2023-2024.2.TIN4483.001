@@ -88,7 +88,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(865, 522);
+            this.ClientSize = new System.Drawing.Size(887, 522);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.radDataTable);
             this.Controls.Add(this.radList);
