@@ -34,15 +34,34 @@ namespace WindowsAppOne
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            txtm.Text = "";
+            txtn.Text = "";
+            txtKetqua.Text = "";
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            String num_n = txtm.Text;
+            String num_m = txtn.Text;
+            int n = int.Parse(num_n.Length > 0 ? num_n : "0");
+            int m = int.Parse(num_m.Length > 0 ? num_m : "0");
+            // int n = int.Parse(txtSon.Text);
+            // int m = int.Parse(txtSom.Text);
+            int Tong = n + m;
+            txtKetqua.Text = Tong.ToString();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }

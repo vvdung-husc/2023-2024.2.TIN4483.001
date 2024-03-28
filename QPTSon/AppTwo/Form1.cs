@@ -117,19 +117,36 @@ namespace WindowAppThree
         {
             InitializeComponent();
 
+<<<<<<< HEAD
+            dgvMember.DataSource = GetStudentByList();    
+            dgvMember.DataSource = GetStudentByDataTable();
+        }
+
+        private void radList_CheckedChanged(object sender, EventArgs e)
+=======
            // dgvMember.DataSource = GetStudentByList();
            //dgvMember.DataSource = GetStudentByDataTable();
         }
 
         
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
+>>>>>>> a862dc3ef777346408bcfe8d2612e29b207911b9
         {
             dgvMember.DataSource = GetStudentByList();
         }
 
+<<<<<<< HEAD
+        private void radDataTable_CheckedChanged(object sender, EventArgs e)
+        {
+            dgvMember.DataSource = GetStudentByDataTable();
+        }
+
+        
+=======
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
             dgvMember.DataSource = GetStudentByDataTable();
         }
+>>>>>>> a862dc3ef777346408bcfe8d2612e29b207911b9
     }
 }

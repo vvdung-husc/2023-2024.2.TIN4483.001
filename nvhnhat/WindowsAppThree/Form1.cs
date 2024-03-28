@@ -131,5 +131,9 @@ namespace WindowAppThree
             dgvMember.DataSource = GetStudentByDataTable();
         }
 
-           }
+        private void dgvMember_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+    }
 }

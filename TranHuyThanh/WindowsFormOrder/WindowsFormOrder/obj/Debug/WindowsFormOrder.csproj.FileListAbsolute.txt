@@ -1,0 +1,20 @@
+E:\THTGit\vvdung-husc\2023-2024.2.TIN4483.001\TranHuyThanh\WindowsFormOrder\WindowsFormOrder\bin\Debug\WindowsFormOrder.exe.config
+E:\THTGit\vvdung-husc\2023-2024.2.TIN4483.001\TranHuyThanh\WindowsFormOrder\WindowsFormOrder\bin\Debug\WindowsFormOrder.exe
+E:\THTGit\vvdung-husc\2023-2024.2.TIN4483.001\TranHuyThanh\WindowsFormOrder\WindowsFormOrder\bin\Debug\WindowsFormOrder.pdb
+E:\THTGit\vvdung-husc\2023-2024.2.TIN4483.001\TranHuyThanh\WindowsFormOrder\WindowsFormOrder\obj\Debug\WindowsFormOrder.csproj.AssemblyReference.cache
+E:\THTGit\vvdung-husc\2023-2024.2.TIN4483.001\TranHuyThanh\WindowsFormOrder\WindowsFormOrder\obj\Debug\WindowsFormOrder.Form1.resources
+E:\THTGit\vvdung-husc\2023-2024.2.TIN4483.001\TranHuyThanh\WindowsFormOrder\WindowsFormOrder\obj\Debug\WindowsFormOrder.Properties.Resources.resources
+E:\THTGit\vvdung-husc\2023-2024.2.TIN4483.001\TranHuyThanh\WindowsFormOrder\WindowsFormOrder\obj\Debug\WindowsFormOrder.csproj.GenerateResource.cache
+E:\THTGit\vvdung-husc\2023-2024.2.TIN4483.001\TranHuyThanh\WindowsFormOrder\WindowsFormOrder\obj\Debug\WindowsFormOrder.csproj.CoreCompileInputs.cache
+E:\THTGit\vvdung-husc\2023-2024.2.TIN4483.001\TranHuyThanh\WindowsFormOrder\WindowsFormOrder\obj\Debug\WindowsFormOrder.exe
+E:\THTGit\vvdung-husc\2023-2024.2.TIN4483.001\TranHuyThanh\WindowsFormOrder\WindowsFormOrder\obj\Debug\WindowsFormOrder.pdb
+C:\Users\FPT SHOP\Source\Repos\vvdung-husc\2023-2024.2.TIN4483.001\TranHuyThanh\WindowsFormOrder\WindowsFormOrder\obj\Debug\WindowsFormOrder.csproj.AssemblyReference.cache
+C:\Users\FPT SHOP\Source\Repos\vvdung-husc\2023-2024.2.TIN4483.001\TranHuyThanh\WindowsFormOrder\WindowsFormOrder\obj\Debug\WindowsFormOrder.Form1.resources
+C:\Users\FPT SHOP\Source\Repos\vvdung-husc\2023-2024.2.TIN4483.001\TranHuyThanh\WindowsFormOrder\WindowsFormOrder\obj\Debug\WindowsFormOrder.Properties.Resources.resources
+C:\Users\FPT SHOP\Source\Repos\vvdung-husc\2023-2024.2.TIN4483.001\TranHuyThanh\WindowsFormOrder\WindowsFormOrder\obj\Debug\WindowsFormOrder.csproj.GenerateResource.cache
+C:\Users\FPT SHOP\Source\Repos\vvdung-husc\2023-2024.2.TIN4483.001\TranHuyThanh\WindowsFormOrder\WindowsFormOrder\obj\Debug\WindowsFormOrder.csproj.CoreCompileInputs.cache
+C:\Users\FPT SHOP\Source\Repos\vvdung-husc\2023-2024.2.TIN4483.001\TranHuyThanh\WindowsFormOrder\WindowsFormOrder\obj\Debug\WindowsFormOrder.exe
+C:\Users\FPT SHOP\Source\Repos\vvdung-husc\2023-2024.2.TIN4483.001\TranHuyThanh\WindowsFormOrder\WindowsFormOrder\obj\Debug\WindowsFormOrder.pdb
+C:\Users\FPT SHOP\Source\Repos\vvdung-husc\2023-2024.2.TIN4483.001\TranHuyThanh\WindowsFormOrder\WindowsFormOrder\bin\Debug\WindowsFormOrder.exe.config
+C:\Users\FPT SHOP\Source\Repos\vvdung-husc\2023-2024.2.TIN4483.001\TranHuyThanh\WindowsFormOrder\WindowsFormOrder\bin\Debug\WindowsFormOrder.exe
+C:\Users\FPT SHOP\Source\Repos\vvdung-husc\2023-2024.2.TIN4483.001\TranHuyThanh\WindowsFormOrder\WindowsFormOrder\bin\Debug\WindowsFormOrder.pdb
