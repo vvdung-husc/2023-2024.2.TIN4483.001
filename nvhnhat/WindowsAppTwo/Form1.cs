@@ -42,11 +42,6 @@ namespace WindowsAppTwo
             txtNumA.Text = "";
             txtNumB.Text = "";
         }
-       /* private void btnDel_Click(object sender, EventArgs e)
-        {
-            txtNumA.Text = "";
-            txtNumB.Text = "";
-        }*/
 
         private void btnFind_Click(object sender, EventArgs e)
         {
