@@ -129,5 +129,18 @@ namespace WindowAppThree
         {
             dgvMember.DataSource = GetStudentByDataTable();
         }
+
+<<<<<<< HEAD
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+=======
+>>>>>>> a862dc3ef777346408bcfe8d2612e29b207911b9
+        private void dgvMember_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

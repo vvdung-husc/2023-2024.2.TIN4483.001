@@ -76,9 +76,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(85, 59);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(74, 16);
+            this.label2.Size = new System.Drawing.Size(77, 16);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Nhập số n :";
+            this.label2.Text = "Nhập số N :";
             // 
             // label3
             // 
@@ -87,7 +87,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(78, 16);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Nhập số m :";
+            this.label3.Text = "Nhập số M :";
             // 
             // txtNumM
             // 
