@@ -36,6 +36,6 @@ namespace WindowAppThree
             this.nganhhoc = subject;
         }
     }
-
+.
 
 }
