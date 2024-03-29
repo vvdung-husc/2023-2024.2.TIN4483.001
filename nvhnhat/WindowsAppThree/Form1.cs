@@ -130,5 +130,10 @@ namespace WindowAppThree
         {
             dgvMember.DataSource = GetStudentByDataTable();
         }
+
+        private void radioButton2_CheckedChanged_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
