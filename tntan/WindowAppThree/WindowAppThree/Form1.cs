@@ -116,24 +116,34 @@ namespace WindowAppThree
         public Form1()
         {
             InitializeComponent();
-            
 
+            //dgvMember.DataSource = GetStudentByList();
+            //dgvMember.DataSource = GetStudentByDataTable();
         }
 
-        private void dgvMember_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            
-        }
-
-        private void radList_CheckedChanged_1(object sender, EventArgs e)
+        private void radList_CheckedChanged(object sender, EventArgs e)
         {
             dgvMember.DataSource = GetStudentByList();
         }
 
-        private void radDataTable_CheckedChanged_1(object sender, EventArgs e)
+        private void radDataTable_CheckedChanged(object sender, EventArgs e)
         {
             dgvMember.DataSource = GetStudentByDataTable();
         }
+
+        private void dgvMember_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void radList_CheckedChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radDataTable_CheckedChanged_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
-
