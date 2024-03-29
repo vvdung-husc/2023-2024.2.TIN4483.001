@@ -30,6 +30,7 @@
         {
             this.dgvMember = new System.Windows.Forms.DataGridView();
             this.radList = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMember)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,11 +59,23 @@
             this.radList.UseVisualStyleBackColor = true;
             this.radList.CheckedChanged += new System.EventHandler(this.radList_CheckedChanged);
             // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(35, 38);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(103, 20);
+            this.radioButton1.TabIndex = 2;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "radioButton1";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1115, 562);
+            this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.radList);
             this.Controls.Add(this.dgvMember);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -79,5 +92,6 @@
 
         private System.Windows.Forms.DataGridView dgvMember;
         private System.Windows.Forms.RadioButton radList;
+        private System.Windows.Forms.RadioButton radioButton1;
     }
 }
