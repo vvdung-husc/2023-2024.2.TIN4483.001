@@ -32,9 +32,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.txtm = new System.Windows.Forms.TextBox();
-            this.txtn = new System.Windows.Forms.TextBox();
-            this.txtKetqua = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -85,27 +85,26 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "Kết quả";
             // 
-            // txtm
+            // textBox1
             // 
-            this.txtm.Location = new System.Drawing.Point(302, 100);
-            this.txtm.Name = "txtm";
-            this.txtm.Size = new System.Drawing.Size(100, 20);
-            this.txtm.TabIndex = 4;
-            this.txtm.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textBox1.Location = new System.Drawing.Point(302, 100);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 4;
             // 
-            // txtn
+            // textBox2
             // 
-            this.txtn.Location = new System.Drawing.Point(302, 151);
-            this.txtn.Name = "txtn";
-            this.txtn.Size = new System.Drawing.Size(100, 20);
-            this.txtn.TabIndex = 5;
+            this.textBox2.Location = new System.Drawing.Point(302, 151);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.TabIndex = 5;
             // 
-            // txtKetqua
+            // textBox3
             // 
-            this.txtKetqua.Location = new System.Drawing.Point(302, 195);
-            this.txtKetqua.Name = "txtKetqua";
-            this.txtKetqua.Size = new System.Drawing.Size(100, 20);
-            this.txtKetqua.TabIndex = 6;
+            this.textBox3.Location = new System.Drawing.Point(302, 195);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 20);
+            this.textBox3.TabIndex = 6;
             // 
             // button1
             // 
@@ -115,7 +114,6 @@
             this.button1.TabIndex = 7;
             this.button1.Text = "+";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -177,9 +175,9 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.txtKetqua);
-            this.Controls.Add(this.txtn);
-            this.Controls.Add(this.txtm);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -198,9 +196,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtm;
-        private System.Windows.Forms.TextBox txtn;
-        private System.Windows.Forms.TextBox txtKetqua;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;

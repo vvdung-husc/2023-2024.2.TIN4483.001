@@ -32,7 +32,6 @@ namespace WindowsFormsApp3_boisochungnhonhat
             btnFind.Text = "Tìm - USCLN";
         }
 
-
         private void bttthoat_Click(object sender, EventArgs e)
         {
             DialogResult dialog;
@@ -40,7 +39,6 @@ namespace WindowsFormsApp3_boisochungnhonhat
             if (dialog == DialogResult.Yes)
                 Application.Exit();
         }
-
 
         private void btnFind_Click(object sender, EventArgs e)
         {
