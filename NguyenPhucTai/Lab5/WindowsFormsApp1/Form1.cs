@@ -11,6 +11,7 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
+
     public partial class Form1 : Form
     {
         public Form1()
@@ -23,6 +24,7 @@ namespace WindowsFormsApp1
         #endregion
         private void Form1_Load(object sender, EventArgs e)
         {
+
             cbblist.Items.AddRange(Ban);
             
             tbOrder = new DataTable();  
@@ -49,6 +51,7 @@ namespace WindowsFormsApp1
             foreach (DataRow item in tbOrder.Rows) // Duyệt Từng dòng trong datatable 
             {
                 if (item[0].ToString()==b.Text)
+
                 {
                     co = false;
                     // Tăng Số Lượng
@@ -70,6 +73,7 @@ namespace WindowsFormsApp1
               
             
         }
+        
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
