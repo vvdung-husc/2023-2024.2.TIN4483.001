@@ -37,41 +37,46 @@
             // dgvMember
             // 
             this.dgvMember.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvMember.Location = new System.Drawing.Point(32, 172);
+            this.dgvMember.Location = new System.Drawing.Point(27, 168);
             this.dgvMember.Name = "dgvMember";
             this.dgvMember.RowHeadersWidth = 51;
             this.dgvMember.RowTemplate.Height = 24;
-            this.dgvMember.Size = new System.Drawing.Size(679, 324);
+            this.dgvMember.Size = new System.Drawing.Size(787, 364);
             this.dgvMember.TabIndex = 0;
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
+            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton1.Location = new System.Drawing.Point(121, 34);
+            this.radioButton1.Location = new System.Drawing.Point(32, 40);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(174, 20);
+            this.radioButton1.Size = new System.Drawing.Size(248, 24);
             this.radioButton1.TabIndex = 1;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Hiển thị theo Generic List";
             this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged_1);
             // 
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(121, 83);
+            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.radioButton2.Location = new System.Drawing.Point(32, 89);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(172, 20);
+            this.radioButton2.Size = new System.Drawing.Size(236, 24);
             this.radioButton2.TabIndex = 2;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Hiển thị theo Data Table";
             this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged_1);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(735, 508);
+            this.ClientSize = new System.Drawing.Size(826, 544);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.dgvMember);

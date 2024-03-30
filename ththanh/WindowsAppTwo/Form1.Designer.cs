@@ -1,228 +1,237 @@
 ﻿namespace WindowAppTwo
 {
-	partial class Form1
-	{
-		/// <summary>
-		/// Required designer variable.
-		/// </summary>
-		private System.ComponentModel.IContainer components = null;
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
 
-		/// <summary>
-		/// Clean up any resources being used.
-		/// </summary>
-		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-		protected override void Dispose(bool disposing)
-		{
-			if (disposing && (components != null))
-			{
-				components.Dispose();
-			}
-			base.Dispose(disposing);
-		}
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
 
-		#region Windows Form Designer generated code
+        #region Windows Form Designer generated code
 
-		/// <summary>
-		/// Required method for Designer support - do not modify
-		/// the contents of this method with the code editor.
-		/// </summary>
-		private void InitializeComponent()
-		{
-			this.groupBox1 = new System.Windows.Forms.GroupBox();
-			this.txtNumB = new System.Windows.Forms.TextBox();
-			this.label2 = new System.Windows.Forms.Label();
-			this.txtNumA = new System.Windows.Forms.TextBox();
-			this.label1 = new System.Windows.Forms.Label();
-			this.groupBox2 = new System.Windows.Forms.GroupBox();
-			this.chkBSCNN = new System.Windows.Forms.RadioButton();
-			this.chkUSCLN = new System.Windows.Forms.RadioButton();
-			this.groupBox3 = new System.Windows.Forms.GroupBox();
-			this.btnExit = new System.Windows.Forms.Button();
-			this.btnDel = new System.Windows.Forms.Button();
-			this.btnFind = new System.Windows.Forms.Button();
-			this.txtResult = new System.Windows.Forms.TextBox();
-			this.groupBox1.SuspendLayout();
-			this.groupBox2.SuspendLayout();
-			this.groupBox3.SuspendLayout();
-			this.SuspendLayout();
-			// 
-			// groupBox1
-			// 
-			this.groupBox1.Controls.Add(this.txtNumB);
-			this.groupBox1.Controls.Add(this.label2);
-			this.groupBox1.Controls.Add(this.txtNumA);
-			this.groupBox1.Controls.Add(this.label1);
-			this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.groupBox1.Location = new System.Drawing.Point(14, 14);
-			this.groupBox1.Name = "groupBox1";
-			this.groupBox1.Size = new System.Drawing.Size(395, 104);
-			this.groupBox1.TabIndex = 0;
-			this.groupBox1.TabStop = false;
-			this.groupBox1.Text = "Nhập";
-			// 
-			// txtNumB
-			// 
-			this.txtNumB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.txtNumB.Location = new System.Drawing.Point(61, 62);
-			this.txtNumB.Name = "txtNumB";
-			this.txtNumB.Size = new System.Drawing.Size(318, 24);
-			this.txtNumB.TabIndex = 3;
-			// 
-			// label2
-			// 
-			this.label2.AutoSize = true;
-			this.label2.Location = new System.Drawing.Point(15, 68);
-			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(26, 18);
-			this.label2.TabIndex = 2;
-			this.label2.Text = "B :";
-			// 
-			// txtNumA
-			// 
-			this.txtNumA.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.txtNumA.Location = new System.Drawing.Point(60, 26);
-			this.txtNumA.Name = "txtNumA";
-			this.txtNumA.Size = new System.Drawing.Size(318, 24);
-			this.txtNumA.TabIndex = 1;
-			// 
-			// label1
-			// 
-			this.label1.AutoSize = true;
-			this.label1.Location = new System.Drawing.Point(14, 32);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(25, 18);
-			this.label1.TabIndex = 0;
-			this.label1.Text = "A :";
-			// 
-			// groupBox2
-			// 
-			this.groupBox2.Controls.Add(this.chkBSCNN);
-			this.groupBox2.Controls.Add(this.chkUSCLN);
-			this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.groupBox2.Location = new System.Drawing.Point(415, 14);
-			this.groupBox2.Name = "groupBox2";
-			this.groupBox2.Size = new System.Drawing.Size(238, 104);
-			this.groupBox2.TabIndex = 1;
-			this.groupBox2.TabStop = false;
-			this.groupBox2.Text = "Chọn";
-			// 
-			// chkBSCNN
-			// 
-			this.chkBSCNN.AutoSize = true;
-			this.chkBSCNN.Location = new System.Drawing.Point(58, 62);
-			this.chkBSCNN.Name = "chkBSCNN";
-			this.chkBSCNN.Size = new System.Drawing.Size(82, 22);
-			this.chkBSCNN.TabIndex = 1;
-			this.chkBSCNN.TabStop = true;
-			this.chkBSCNN.Text = "BSCNN";
-			this.chkBSCNN.UseVisualStyleBackColor = true;
-			this.chkBSCNN.CheckedChanged += new System.EventHandler(this.chkBSCNN_CheckedChanged);
-			// 
-			// chkUSCLN
-			// 
-			this.chkUSCLN.AutoSize = true;
-			this.chkUSCLN.Location = new System.Drawing.Point(58, 24);
-			this.chkUSCLN.Name = "chkUSCLN";
-			this.chkUSCLN.Size = new System.Drawing.Size(80, 22);
-			this.chkUSCLN.TabIndex = 0;
-			this.chkUSCLN.TabStop = true;
-			this.chkUSCLN.Text = "USCLN";
-			this.chkUSCLN.UseVisualStyleBackColor = true;
-			this.chkUSCLN.CheckedChanged += new System.EventHandler(this.chkUSCLN_CheckedChanged);
-			// 
-			// groupBox3
-			// 
-			this.groupBox3.Controls.Add(this.btnExit);
-			this.groupBox3.Controls.Add(this.btnDel);
-			this.groupBox3.Controls.Add(this.btnFind);
-			this.groupBox3.Controls.Add(this.txtResult);
-			this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.groupBox3.Location = new System.Drawing.Point(14, 124);
-			this.groupBox3.Name = "groupBox3";
-			this.groupBox3.Size = new System.Drawing.Size(640, 125);
-			this.groupBox3.TabIndex = 2;
-			this.groupBox3.TabStop = false;
-			this.groupBox3.Text = "Kết quả";
-			// 
-			// btnExit
-			// 
-			this.btnExit.Location = new System.Drawing.Point(401, 30);
-			this.btnExit.Name = "btnExit";
-			this.btnExit.Size = new System.Drawing.Size(233, 72);
-			this.btnExit.TabIndex = 7;
-			this.btnExit.Text = "Thoát";
-			this.btnExit.UseVisualStyleBackColor = true;
-			this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
-			// 
-			// btnDel
-			// 
-			this.btnDel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnDel.Location = new System.Drawing.Point(228, 76);
-			this.btnDel.Name = "btnDel";
-			this.btnDel.Size = new System.Drawing.Size(151, 26);
-			this.btnDel.TabIndex = 6;
-			this.btnDel.Text = "Xóa";
-			this.btnDel.UseVisualStyleBackColor = true;
-			this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
-			// 
-			// btnFind
-			// 
-			this.btnFind.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnFind.Location = new System.Drawing.Point(61, 76);
-			this.btnFind.Name = "btnFind";
-			this.btnFind.Size = new System.Drawing.Size(151, 26);
-			this.btnFind.TabIndex = 5;
-			this.btnFind.Text = "Tìm";
-			this.btnFind.UseVisualStyleBackColor = true;
-			this.btnFind.Click += new System.EventHandler(this.btnFind_Click);
-			// 
-			// txtResult
-			// 
-			this.txtResult.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-			this.txtResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.txtResult.ForeColor = System.Drawing.Color.Red;
-			this.txtResult.Location = new System.Drawing.Point(60, 30);
-			this.txtResult.Name = "txtResult";
-			this.txtResult.ReadOnly = true;
-			this.txtResult.Size = new System.Drawing.Size(318, 24);
-			this.txtResult.TabIndex = 4;
-			// 
-			// Form1
-			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(660, 256);
-			this.Controls.Add(this.groupBox3);
-			this.Controls.Add(this.groupBox2);
-			this.Controls.Add(this.groupBox1);
-			this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Name = "Form1";
-			this.Text = "Tìm USCLN, BSCNN của A và B";
-			this.groupBox1.ResumeLayout(false);
-			this.groupBox1.PerformLayout();
-			this.groupBox2.ResumeLayout(false);
-			this.groupBox2.PerformLayout();
-			this.groupBox3.ResumeLayout(false);
-			this.groupBox3.PerformLayout();
-			this.ResumeLayout(false);
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.chkUSCLN = new System.Windows.Forms.CheckBox();
+            this.chkBSCNN = new System.Windows.Forms.CheckBox();
+            this.bttim = new System.Windows.Forms.Button();
+            this.btboqua = new System.Windows.Forms.Button();
+            this.btthoat = new System.Windows.Forms.Button();
+            this.txtkq = new System.Windows.Forms.TextBox();
+            this.groupTim = new System.Windows.Forms.GroupBox();
+            this.groupKetqua = new System.Windows.Forms.GroupBox();
+            this.groupNhap = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtb = new System.Windows.Forms.TextBox();
+            this.txta = new System.Windows.Forms.TextBox();
+            this.groupTim.SuspendLayout();
+            this.groupKetqua.SuspendLayout();
+            this.groupNhap.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // chkUSCLN
+            // 
+            this.chkUSCLN.AutoSize = true;
+            this.chkUSCLN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.chkUSCLN.Location = new System.Drawing.Point(20, 30);
+            this.chkUSCLN.Name = "chkUSCLN";
+            this.chkUSCLN.Size = new System.Drawing.Size(118, 30);
+            this.chkUSCLN.TabIndex = 4;
+            this.chkUSCLN.Text = "USCLN";
+            this.chkUSCLN.UseVisualStyleBackColor = false;
+            this.chkUSCLN.CheckedChanged += new System.EventHandler(this.chkUSCLN_CheckedChanged);
+            // 
+            // chkBSCNN
+            // 
+            this.chkBSCNN.AutoSize = true;
+            this.chkBSCNN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.chkBSCNN.Location = new System.Drawing.Point(20, 72);
+            this.chkBSCNN.Name = "chkBSCNN";
+            this.chkBSCNN.Size = new System.Drawing.Size(118, 30);
+            this.chkBSCNN.TabIndex = 5;
+            this.chkBSCNN.Text = "BSCNN";
+            this.chkBSCNN.UseVisualStyleBackColor = false;
+            this.chkBSCNN.CheckedChanged += new System.EventHandler(this.chkBSCNN_CheckedChanged);
+            // 
+            // bttim
+            // 
+            this.bttim.BackColor = System.Drawing.Color.DodgerBlue;
+            this.bttim.Location = new System.Drawing.Point(5, 71);
+            this.bttim.Name = "bttim";
+            this.bttim.Size = new System.Drawing.Size(129, 35);
+            this.bttim.TabIndex = 8;
+            this.bttim.Text = "Tìm";
+            this.bttim.UseVisualStyleBackColor = false;
+            this.bttim.Click += new System.EventHandler(this.bttim_Click);
+            // 
+            // btboqua
+            // 
+            this.btboqua.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btboqua.Location = new System.Drawing.Point(140, 71);
+            this.btboqua.Name = "btboqua";
+            this.btboqua.Size = new System.Drawing.Size(136, 35);
+            this.btboqua.TabIndex = 9;
+            this.btboqua.Text = "Xóa";
+            this.btboqua.UseVisualStyleBackColor = false;
+            this.btboqua.Click += new System.EventHandler(this.btboqua_Click);
+            // 
+            // btthoat
+            // 
+            this.btthoat.BackColor = System.Drawing.Color.OrangeRed;
+            this.btthoat.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btthoat.Location = new System.Drawing.Point(282, 71);
+            this.btthoat.Name = "btthoat";
+            this.btthoat.Size = new System.Drawing.Size(137, 35);
+            this.btthoat.TabIndex = 10;
+            this.btthoat.Text = "Thoát";
+            this.btthoat.UseVisualStyleBackColor = false;
+            this.btthoat.Click += new System.EventHandler(this.btthoat_Click);
+            // 
+            // txtkq
+            // 
+            this.txtkq.BackColor = System.Drawing.Color.White;
+            this.txtkq.Location = new System.Drawing.Point(6, 29);
+            this.txtkq.Name = "txtkq";
+            this.txtkq.Size = new System.Drawing.Size(318, 35);
+            this.txtkq.TabIndex = 7;
+            this.txtkq.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            // 
+            // groupTim
+            // 
+            this.groupTim.Controls.Add(this.chkBSCNN);
+            this.groupTim.Controls.Add(this.chkUSCLN);
+            this.groupTim.Location = new System.Drawing.Point(385, 41);
+            this.groupTim.Name = "groupTim";
+            this.groupTim.Size = new System.Drawing.Size(155, 133);
+            this.groupTim.TabIndex = 12;
+            this.groupTim.TabStop = false;
+            this.groupTim.Text = "Chọn Tìm";
+            this.groupTim.Enter += new System.EventHandler(this.groupBox2_Enter);
+            // 
+            // groupKetqua
+            // 
+            this.groupKetqua.Controls.Add(this.txtkq);
+            this.groupKetqua.Controls.Add(this.btthoat);
+            this.groupKetqua.Controls.Add(this.btboqua);
+            this.groupKetqua.Controls.Add(this.bttim);
+            this.groupKetqua.Location = new System.Drawing.Point(17, 180);
+            this.groupKetqua.Name = "groupKetqua";
+            this.groupKetqua.Size = new System.Drawing.Size(456, 130);
+            this.groupKetqua.TabIndex = 13;
+            this.groupKetqua.TabStop = false;
+            this.groupKetqua.Text = "Kết quả";
+            this.groupKetqua.Enter += new System.EventHandler(this.groupKetqua_Enter);
+            // 
+            // groupNhap
+            // 
+            this.groupNhap.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.groupNhap.Controls.Add(this.label2);
+            this.groupNhap.Controls.Add(this.label1);
+            this.groupNhap.Controls.Add(this.txtb);
+            this.groupNhap.Controls.Add(this.txta);
+            this.groupNhap.Location = new System.Drawing.Point(17, 28);
+            this.groupNhap.Name = "groupNhap";
+            this.groupNhap.Size = new System.Drawing.Size(324, 146);
+            this.groupNhap.TabIndex = 14;
+            this.groupNhap.TabStop = false;
+            this.groupNhap.Text = "Nhập";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.White;
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(9, 96);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(89, 26);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Nhập B";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(9, 51);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(89, 26);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Nhập A";
+            this.label1.Click += new System.EventHandler(this.label1_Click_1);
+            // 
+            // txtb
+            // 
+            this.txtb.BackColor = System.Drawing.Color.White;
+            this.txtb.Location = new System.Drawing.Point(130, 93);
+            this.txtb.Name = "txtb";
+            this.txtb.Size = new System.Drawing.Size(166, 35);
+            this.txtb.TabIndex = 1;
+            // 
+            // txta
+            // 
+            this.txta.BackColor = System.Drawing.Color.White;
+            this.txta.Location = new System.Drawing.Point(130, 48);
+            this.txta.Name = "txta";
+            this.txta.Size = new System.Drawing.Size(166, 35);
+            this.txta.TabIndex = 0;
+            this.txta.TextChanged += new System.EventHandler(this.txta_TextChanged);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 26F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Silver;
+            this.ClientSize = new System.Drawing.Size(552, 348);
+            this.Controls.Add(this.groupNhap);
+            this.Controls.Add(this.groupKetqua);
+            this.Controls.Add(this.groupTim);
+            this.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(5);
+            this.Name = "Form1";
+            this.Text = "Tìm USCLN và BSCNN của A và B";
+            this.TransparencyKey = System.Drawing.Color.Red;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.groupTim.ResumeLayout(false);
+            this.groupTim.PerformLayout();
+            this.groupKetqua.ResumeLayout(false);
+            this.groupKetqua.PerformLayout();
+            this.groupNhap.ResumeLayout(false);
+            this.groupNhap.PerformLayout();
+            this.ResumeLayout(false);
 
-		}
+        }
 
-		#endregion
-
-		private System.Windows.Forms.GroupBox groupBox1;
-		private System.Windows.Forms.TextBox txtNumB;
-		private System.Windows.Forms.Label label2;
-		private System.Windows.Forms.TextBox txtNumA;
-		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.GroupBox groupBox2;
-		private System.Windows.Forms.RadioButton chkBSCNN;
-		private System.Windows.Forms.RadioButton chkUSCLN;
-		private System.Windows.Forms.GroupBox groupBox3;
-		private System.Windows.Forms.Button btnFind;
-		private System.Windows.Forms.TextBox txtResult;
-		private System.Windows.Forms.Button btnDel;
-		private System.Windows.Forms.Button btnExit;
-	}
+        #endregion
+        private System.Windows.Forms.CheckBox chkUSCLN;
+        private System.Windows.Forms.CheckBox chkBSCNN;
+        private System.Windows.Forms.Button bttim;
+        private System.Windows.Forms.Button btboqua;
+        private System.Windows.Forms.Button btthoat;
+        private System.Windows.Forms.TextBox txtkq;
+        private System.Windows.Forms.GroupBox groupTim;
+        private System.Windows.Forms.GroupBox groupKetqua;
+        private System.Windows.Forms.GroupBox groupNhap;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtb;
+        private System.Windows.Forms.TextBox txta;
+    }
 }
-
