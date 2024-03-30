@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsAppTwo
+namespace WindowsFormsAppTwo
 {
     public partial class Form1 : Form
     {
@@ -42,6 +42,11 @@ namespace WindowsAppTwo
             txtNumA.Text = "";
             txtNumB.Text = "";
         }
+        /* private void btnDel_Click(object sender, EventArgs e)
+         {
+             txtNumA.Text = "";
+             txtNumB.Text = "";
+         }*/
 
         private void btnFind_Click(object sender, EventArgs e)
         {
@@ -58,43 +63,43 @@ namespace WindowsAppTwo
                 MessageBox.Show("Vui lòng chọn tìm USCLN hay BSCNN", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
-             int A, B;
-                    if (!int.TryParse(txtNumA.Text, out A) || !int.TryParse(txtNumB.Text, out B))
-                    {
-                        MessageBox.Show("Vui lòng nhập số nguyên hợp lệ.");
-                        return;
-                    }
-    
+            int A, B;
+            if (!int.TryParse(txtNumA.Text, out A) || !int.TryParse(txtNumB.Text, out B))
+            {
+                MessageBox.Show("Vui lòng nhập số nguyên hợp lệ.");
+                return;
+            }
+
             int Result;
-                     if (chkUSCLN.Checked)
-                         {
-                              Result = USCLN(A, B);
-                            }
-                    else
-                        {
-                              Result = USCNN(A, B);
-                        }
+            if (chkUSCLN.Checked)
+            {
+                Result = USCLN(A, B);
+            }
+            else
+            {
+                Result = USCNN(A, B);
+            }
 
-             txtResult.Text = "" + Result;
-                        }
-                        // Hàm tìm ước số chung lớn nhất (USCLN)
-                        private int USCLN(int A, int B)
-                            {
-                            while (B!= 0)
-                            {
-                                int temp = B;
-                                B = A % B;
-                                A = temp;
-                            }
-                            return A;
-                        }
+            txtResult.Text = "" + Result;
+        }
+        // Hàm tìm ước số chung lớn nhất (USCLN)
+        private int USCLN(int A, int B)
+        {
+            while (B != 0)
+            {
+                int temp = B;
+                B = A % B;
+                A = temp;
+            }
+            return A;
+        }
 
-                // Hàm tìm bội số chung nhỏ nhất (USCNN)
-                private int USCNN(int A, int B)
-                    {
-                        return (A * B) / USCLN(A, B);
-                    }
+        // Hàm tìm bội số chung nhỏ nhất (USCNN)
+        private int USCNN(int A, int B)
+        {
+            return (A * B) / USCLN(A, B);
+        }
 
-      
+
     }
 }

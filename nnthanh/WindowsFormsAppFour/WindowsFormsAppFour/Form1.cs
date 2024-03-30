@@ -7,8 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
-namespace BTLap04
+namespace WindowsFormsAppFour
 {
     public partial class Form1 : Form
     {
@@ -63,19 +64,13 @@ namespace BTLap04
                 total += soRangTram * 80000;
             }
 
+
+            txtTotal.Text = total.ToString("C");
+        }
+
    
-            txtTotal.Text = total.ToString("C"); 
-        }
 
-        private void btThoat_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void btTinhTien_Click(object sender, EventArgs e)
-        {
-            GetPay();
-        }
+      
 
         private void label2_Click(object sender, EventArgs e)
         {
@@ -90,6 +85,16 @@ namespace BTLap04
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btTinhTien_Click_1(object sender, EventArgs e)
+        {
+            GetPay();
+        }
+
+        private void btThoat_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

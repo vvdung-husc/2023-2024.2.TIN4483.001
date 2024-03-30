@@ -4,9 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsAppOne
+namespace WindowsFormsApp4
 {
-
     internal static class Program
     {
         /// <summary>
@@ -15,12 +14,9 @@ namespace WindowsAppOne
         [STAThread]
         static void Main()
         {
-
-
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
-
         }
     }
 }
