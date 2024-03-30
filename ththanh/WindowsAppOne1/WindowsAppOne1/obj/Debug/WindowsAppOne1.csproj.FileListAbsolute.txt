@@ -8,3 +8,13 @@ E:\2023-2024.2.TIN4483.001-main\ththanh\WindowsAppOne1\WindowsAppOne1\bin\Debug\
 E:\2023-2024.2.TIN4483.001-main\ththanh\WindowsAppOne1\WindowsAppOne1\obj\Debug\WindowAppOne1.Form1.resources
 E:\2023-2024.2.TIN4483.001-main\ththanh\WindowsAppOne1\WindowsAppOne1\obj\Debug\WindowsAppOne1.exe
 E:\2023-2024.2.TIN4483.001-main\ththanh\WindowsAppOne1\WindowsAppOne1\obj\Debug\WindowsAppOne1.pdb
+C:\Users\FPT SHOP\Source\Repos\vvdung-husc\2023-2024.2.TIN4483.001\ththanh\WindowsAppOne1\WindowsAppOne1\bin\Debug\WindowsAppOne1.exe.config
+C:\Users\FPT SHOP\Source\Repos\vvdung-husc\2023-2024.2.TIN4483.001\ththanh\WindowsAppOne1\WindowsAppOne1\bin\Debug\WindowsAppOne1.exe
+C:\Users\FPT SHOP\Source\Repos\vvdung-husc\2023-2024.2.TIN4483.001\ththanh\WindowsAppOne1\WindowsAppOne1\bin\Debug\WindowsAppOne1.pdb
+C:\Users\FPT SHOP\Source\Repos\vvdung-husc\2023-2024.2.TIN4483.001\ththanh\WindowsAppOne1\WindowsAppOne1\obj\Debug\WindowsAppOne1.csproj.AssemblyReference.cache
+C:\Users\FPT SHOP\Source\Repos\vvdung-husc\2023-2024.2.TIN4483.001\ththanh\WindowsAppOne1\WindowsAppOne1\obj\Debug\WindowAppOne1.Form1.resources
+C:\Users\FPT SHOP\Source\Repos\vvdung-husc\2023-2024.2.TIN4483.001\ththanh\WindowsAppOne1\WindowsAppOne1\obj\Debug\WindowsAppOne1.Properties.Resources.resources
+C:\Users\FPT SHOP\Source\Repos\vvdung-husc\2023-2024.2.TIN4483.001\ththanh\WindowsAppOne1\WindowsAppOne1\obj\Debug\WindowsAppOne1.csproj.GenerateResource.cache
+C:\Users\FPT SHOP\Source\Repos\vvdung-husc\2023-2024.2.TIN4483.001\ththanh\WindowsAppOne1\WindowsAppOne1\obj\Debug\WindowsAppOne1.csproj.CoreCompileInputs.cache
+C:\Users\FPT SHOP\Source\Repos\vvdung-husc\2023-2024.2.TIN4483.001\ththanh\WindowsAppOne1\WindowsAppOne1\obj\Debug\WindowsAppOne1.exe
+C:\Users\FPT SHOP\Source\Repos\vvdung-husc\2023-2024.2.TIN4483.001\ththanh\WindowsAppOne1\WindowsAppOne1\obj\Debug\WindowsAppOne1.pdb

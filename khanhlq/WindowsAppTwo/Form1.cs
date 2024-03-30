@@ -42,20 +42,20 @@ namespace WindowsAppTwo
             Tim.Text = "Tìm-BSCNN";
         }
         
-<<<<<<< HEAD
-        static int USLN(int SoA, int SoB)
-=======
+
+       
+
         private int USLN(int SoA, int SoB)
->>>>>>> 8b558b4fa0febc0a56164898ddba68603efd3343
+
         {
             if (SoB == 0) return SoA;
             return USLN(SoB, SoA % SoB);
         }
-<<<<<<< HEAD
-        static int BSNN(int SoA, int SoB)
-=======
+
+        
+
         private int BSNN(int SoA, int SoB)
->>>>>>> 8b558b4fa0febc0a56164898ddba68603efd3343
+
         {
             return (SoA * SoB) / USLN(SoA, SoB);
         }
