@@ -59,6 +59,7 @@
             this.btTinhTien.TabIndex = 31;
             this.btTinhTien.Text = "Tính Tiền";
             this.btTinhTien.UseVisualStyleBackColor = false;
+            this.btTinhTien.Click += new System.EventHandler(this.btTinhTien_Click_1);
             // 
             // btThoat
             // 
@@ -72,6 +73,7 @@
             this.btThoat.TabIndex = 30;
             this.btThoat.Text = "Thoát";
             this.btThoat.UseVisualStyleBackColor = false;
+            this.btThoat.Click += new System.EventHandler(this.btThoat_Click_1);
             // 
             // label8
             // 
@@ -86,10 +88,10 @@
             // 
             // txtTotal
             // 
-            this.txtTotal.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.txtTotal.BackColor = System.Drawing.Color.LightGray;
             this.txtTotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtTotal.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTotal.ForeColor = System.Drawing.Color.PeachPuff;
+            this.txtTotal.ForeColor = System.Drawing.Color.Navy;
             this.txtTotal.Location = new System.Drawing.Point(356, 401);
             this.txtTotal.Margin = new System.Windows.Forms.Padding(4);
             this.txtTotal.Name = "txtTotal";

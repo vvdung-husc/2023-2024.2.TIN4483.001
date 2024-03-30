@@ -68,15 +68,9 @@ namespace WindowsFormsAppFour
             txtTotal.Text = total.ToString("C");
         }
 
-        private void btThoat_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+   
 
-        private void btTinhTien_Click(object sender, EventArgs e)
-        {
-            GetPay();
-        }
+      
 
         private void label2_Click(object sender, EventArgs e)
         {
@@ -91,6 +85,16 @@ namespace WindowsFormsAppFour
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btTinhTien_Click_1(object sender, EventArgs e)
+        {
+            GetPay();
+        }
+
+        private void btThoat_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
