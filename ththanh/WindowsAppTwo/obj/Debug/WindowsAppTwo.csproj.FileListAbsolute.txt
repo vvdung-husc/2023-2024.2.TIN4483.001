@@ -8,3 +8,13 @@ E:\2023-2024.2.TIN4483.001-main\ththanh\WindowsAppTwo\bin\Debug\WindowsAppTwo.pd
 E:\2023-2024.2.TIN4483.001-main\ththanh\WindowsAppTwo\obj\Debug\WindowAppTwo.Form1.resources
 E:\2023-2024.2.TIN4483.001-main\ththanh\WindowsAppTwo\obj\Debug\WindowsAppTwo.exe
 E:\2023-2024.2.TIN4483.001-main\ththanh\WindowsAppTwo\obj\Debug\WindowsAppTwo.pdb
+C:\Users\FPT SHOP\Source\Repos\vvdung-husc\2023-2024.2.TIN4483.001\ththanh\WindowsAppTwo\bin\Debug\WindowsAppTwo.exe.config
+C:\Users\FPT SHOP\Source\Repos\vvdung-husc\2023-2024.2.TIN4483.001\ththanh\WindowsAppTwo\bin\Debug\WindowsAppTwo.exe
+C:\Users\FPT SHOP\Source\Repos\vvdung-husc\2023-2024.2.TIN4483.001\ththanh\WindowsAppTwo\bin\Debug\WindowsAppTwo.pdb
+C:\Users\FPT SHOP\Source\Repos\vvdung-husc\2023-2024.2.TIN4483.001\ththanh\WindowsAppTwo\obj\Debug\WindowsAppTwo.csproj.AssemblyReference.cache
+C:\Users\FPT SHOP\Source\Repos\vvdung-husc\2023-2024.2.TIN4483.001\ththanh\WindowsAppTwo\obj\Debug\WindowAppTwo.Form1.resources
+C:\Users\FPT SHOP\Source\Repos\vvdung-husc\2023-2024.2.TIN4483.001\ththanh\WindowsAppTwo\obj\Debug\WindowsAppTwo.Properties.Resources.resources
+C:\Users\FPT SHOP\Source\Repos\vvdung-husc\2023-2024.2.TIN4483.001\ththanh\WindowsAppTwo\obj\Debug\WindowsAppTwo.csproj.GenerateResource.cache
+C:\Users\FPT SHOP\Source\Repos\vvdung-husc\2023-2024.2.TIN4483.001\ththanh\WindowsAppTwo\obj\Debug\WindowsAppTwo.csproj.CoreCompileInputs.cache
+C:\Users\FPT SHOP\Source\Repos\vvdung-husc\2023-2024.2.TIN4483.001\ththanh\WindowsAppTwo\obj\Debug\WindowsAppTwo.exe
+C:\Users\FPT SHOP\Source\Repos\vvdung-husc\2023-2024.2.TIN4483.001\ththanh\WindowsAppTwo\obj\Debug\WindowsAppTwo.pdb
