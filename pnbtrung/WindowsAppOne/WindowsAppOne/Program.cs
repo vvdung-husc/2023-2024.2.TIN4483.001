@@ -6,6 +6,7 @@ using System.Windows.Forms;
 
 namespace WindowsAppOne
 {
+
     internal static class Program
     {
         /// <summary>
@@ -14,9 +15,12 @@ namespace WindowsAppOne
         [STAThread]
         static void Main()
         {
+
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+
         }
     }
 }

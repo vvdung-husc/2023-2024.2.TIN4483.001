@@ -81,6 +81,7 @@ namespace WindowsForm_UocBoi
         {
             txta.Text = "";
             txtb.Text = "";
+            txtkq.Text= "";
         }
        
         private void chkBSCNN_CheckedChanged(object sender, EventArgs e)
