@@ -45,11 +45,6 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.eventLog1 = new System.Diagnostics.EventLog();
-<<<<<<< HEAD
-            this.USCLN = new System.Windows.Forms.RadioButton();
-            this.BSCNN = new System.Windows.Forms.RadioButton();
-=======
->>>>>>> 8b558b4fa0febc0a56164898ddba68603efd3343
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -109,35 +104,38 @@
             // 
             // Tim
             // 
+            this.Tim.BackColor = System.Drawing.SystemColors.ControlDark;
             this.Tim.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tim.Location = new System.Drawing.Point(31, 70);
             this.Tim.Name = "Tim";
             this.Tim.Size = new System.Drawing.Size(142, 47);
             this.Tim.TabIndex = 11;
             this.Tim.Text = "Tìm";
-            this.Tim.UseVisualStyleBackColor = true;
+            this.Tim.UseVisualStyleBackColor = false;
             this.Tim.Click += new System.EventHandler(this.button1_Click);
             // 
             // Xoa
             // 
+            this.Xoa.BackColor = System.Drawing.SystemColors.ControlDark;
             this.Xoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Xoa.Location = new System.Drawing.Point(197, 72);
             this.Xoa.Name = "Xoa";
             this.Xoa.Size = new System.Drawing.Size(135, 45);
             this.Xoa.TabIndex = 12;
             this.Xoa.Text = "Xóa";
-            this.Xoa.UseVisualStyleBackColor = true;
+            this.Xoa.UseVisualStyleBackColor = false;
             this.Xoa.Click += new System.EventHandler(this.button2_Click);
             // 
             // Thoat
             // 
+            this.Thoat.BackColor = System.Drawing.SystemColors.ControlDark;
             this.Thoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Thoat.Location = new System.Drawing.Point(377, 72);
             this.Thoat.Name = "Thoat";
             this.Thoat.Size = new System.Drawing.Size(126, 45);
             this.Thoat.TabIndex = 13;
             this.Thoat.Text = "Thoát";
-            this.Thoat.UseVisualStyleBackColor = true;
+            this.Thoat.UseVisualStyleBackColor = false;
             this.Thoat.Click += new System.EventHandler(this.button3_Click);
             // 
             // groupBox1
@@ -211,6 +209,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.label1.Location = new System.Drawing.Point(95, 20);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(454, 38);
@@ -221,31 +220,6 @@
             // 
             this.eventLog1.SynchronizingObject = this;
             // 
-<<<<<<< HEAD
-            // USCLN
-            // 
-            this.USCLN.AutoSize = true;
-            this.USCLN.Location = new System.Drawing.Point(6, 48);
-            this.USCLN.Name = "USCLN";
-            this.USCLN.Size = new System.Drawing.Size(101, 29);
-            this.USCLN.TabIndex = 7;
-            this.USCLN.TabStop = true;
-            this.USCLN.Text = "USCLN";
-            this.USCLN.UseVisualStyleBackColor = true;
-            // 
-            // BSCNN
-            // 
-            this.BSCNN.AutoSize = true;
-            this.BSCNN.Location = new System.Drawing.Point(6, 94);
-            this.BSCNN.Name = "BSCNN";
-            this.BSCNN.Size = new System.Drawing.Size(103, 29);
-            this.BSCNN.TabIndex = 8;
-            this.BSCNN.TabStop = true;
-            this.BSCNN.Text = "BSCNN";
-            this.BSCNN.UseVisualStyleBackColor = true;
-            // 
-=======
->>>>>>> 8b558b4fa0febc0a56164898ddba68603efd3343
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
