@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WindowAppThree.Properties
+namespace WindowsFormsThree.Properties
 {
 
 
