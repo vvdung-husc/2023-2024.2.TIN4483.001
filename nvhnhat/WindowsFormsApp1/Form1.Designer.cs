@@ -45,6 +45,7 @@
             // 
             // btnPlus
             // 
+            this.btnPlus.BackColor = System.Drawing.Color.Bisque;
             this.btnPlus.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPlus.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnPlus.Location = new System.Drawing.Point(104, 235);
@@ -52,11 +53,12 @@
             this.btnPlus.Size = new System.Drawing.Size(53, 26);
             this.btnPlus.TabIndex = 0;
             this.btnPlus.Text = "+";
-            this.btnPlus.UseVisualStyleBackColor = true;
+            this.btnPlus.UseVisualStyleBackColor = false;
             this.btnPlus.Click += new System.EventHandler(this.btnPlus_Click_1);
             // 
             // btnSub
             // 
+            this.btnSub.BackColor = System.Drawing.Color.DarkOrange;
             this.btnSub.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSub.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnSub.Location = new System.Drawing.Point(163, 235);
@@ -64,11 +66,12 @@
             this.btnSub.Size = new System.Drawing.Size(52, 26);
             this.btnSub.TabIndex = 1;
             this.btnSub.Text = "-";
-            this.btnSub.UseVisualStyleBackColor = true;
+            this.btnSub.UseVisualStyleBackColor = false;
             this.btnSub.Click += new System.EventHandler(this.btnSub_Click);
             // 
             // btnMul
             // 
+            this.btnMul.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.btnMul.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMul.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnMul.Location = new System.Drawing.Point(221, 235);
@@ -76,11 +79,12 @@
             this.btnMul.Size = new System.Drawing.Size(53, 26);
             this.btnMul.TabIndex = 2;
             this.btnMul.Text = "*";
-            this.btnMul.UseVisualStyleBackColor = true;
+            this.btnMul.UseVisualStyleBackColor = false;
             this.btnMul.Click += new System.EventHandler(this.btnMul_Click);
             // 
             // btnDiv
             // 
+            this.btnDiv.BackColor = System.Drawing.Color.Ivory;
             this.btnDiv.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDiv.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnDiv.Location = new System.Drawing.Point(280, 235);
@@ -88,11 +92,12 @@
             this.btnDiv.Size = new System.Drawing.Size(50, 26);
             this.btnDiv.TabIndex = 3;
             this.btnDiv.Text = "/";
-            this.btnDiv.UseVisualStyleBackColor = true;
+            this.btnDiv.UseVisualStyleBackColor = false;
             this.btnDiv.Click += new System.EventHandler(this.btnDiv_Click);
             // 
             // btnDel
             // 
+            this.btnDel.BackColor = System.Drawing.Color.SpringGreen;
             this.btnDel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDel.ForeColor = System.Drawing.Color.Red;
             this.btnDel.Location = new System.Drawing.Point(349, 249);
@@ -100,10 +105,11 @@
             this.btnDel.Size = new System.Drawing.Size(96, 37);
             this.btnDel.TabIndex = 4;
             this.btnDel.Text = "Xóa";
-            this.btnDel.UseVisualStyleBackColor = true;
+            this.btnDel.UseVisualStyleBackColor = false;
             // 
             // txtNumN
             // 
+            this.txtNumN.BackColor = System.Drawing.SystemColors.Info;
             this.txtNumN.Location = new System.Drawing.Point(164, 90);
             this.txtNumN.Name = "txtNumN";
             this.txtNumN.Size = new System.Drawing.Size(200, 22);
@@ -111,6 +117,7 @@
             // 
             // btnExit
             // 
+            this.btnExit.BackColor = System.Drawing.Color.Gold;
             this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.Color.Red;
             this.btnExit.Location = new System.Drawing.Point(83, 267);
@@ -118,7 +125,7 @@
             this.btnExit.Size = new System.Drawing.Size(247, 34);
             this.btnExit.TabIndex = 8;
             this.btnExit.Text = "Thoát";
-            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // label1
@@ -165,6 +172,7 @@
             // 
             // txtNumM
             // 
+            this.txtNumM.BackColor = System.Drawing.SystemColors.Info;
             this.txtNumM.Location = new System.Drawing.Point(164, 132);
             this.txtNumM.Name = "txtNumM";
             this.txtNumM.Size = new System.Drawing.Size(199, 22);
@@ -172,6 +180,7 @@
             // 
             // txtResult
             // 
+            this.txtResult.BackColor = System.Drawing.SystemColors.Info;
             this.txtResult.Location = new System.Drawing.Point(164, 176);
             this.txtResult.Name = "txtResult";
             this.txtResult.Size = new System.Drawing.Size(199, 22);
@@ -181,7 +190,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(485, 369);
+            this.ClientSize = new System.Drawing.Size(473, 353);
             this.Controls.Add(this.txtResult);
             this.Controls.Add(this.txtNumM);
             this.Controls.Add(this.label4);

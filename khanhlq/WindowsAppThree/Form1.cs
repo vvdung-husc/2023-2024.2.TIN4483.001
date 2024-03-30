@@ -8,30 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsAppThree
+namespace WindowAppThree
 {
-    public class Student
-    {
-        public string msv { get; set; }
-        public string ten { get; set; }
-        public string ngaysinh { get; set; }
-        public string khoahoc { get; set; }
-        public string nganhhoc { get; set; }
-        public Student(string id, string ten, string ngay, string khoa, string nganh)
-        {
-            this.msv = id;
-            this.ten = ten;
-            this.ngaysinh = ngay;
-            this.khoahoc = khoa;
-            this.nganhhoc = nganh;
-        }
-    }
+
     public partial class Form1 : Form
     {
+
         protected List<Student> GetStudentByList()
         {
             List<Student> lStudent = new List<Student>();
-            lStudent.Add(new Student("20T1020299",  "Trần Lê Quốc Anh", "16/01/2002", "K44", "Công nghệ phần mềm"));
+            lStudent.Add(new Student("20T1020299", "Trần Lê Quốc Anh", "16/01/2002", "K44", "Công nghệ phần mềm"));
             lStudent.Add(new Student("18T1021014", "Trần Đình Quốc Bảo", "29/07/2000", "K42", "Mạng máy tính"));
             lStudent.Add(new Student("20T1020009", "Nguyễn Ngọc Cầu", "02/01/2000", "K44", "Mạng máy tính"));
             lStudent.Add(new Student("20T1020315", "Đặng Văn Chính", "05/03/2002", "K44", "Mạng máy tính"));
@@ -126,19 +112,25 @@ namespace WindowsAppThree
 
             return table;
         }
+
         public Form1()
         {
             InitializeComponent();
+
+            //dgvMember.DataSource = GetStudentByList();
+            //dgvMember.DataSource = GetStudentByDataTable();
         }
+
+
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = GetStudentByList();
+            dgvMember.DataSource = GetStudentByList();
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = GetStudentByDataTable();
+            dgvMember.DataSource = GetStudentByDataTable();
         }
     }
 }
