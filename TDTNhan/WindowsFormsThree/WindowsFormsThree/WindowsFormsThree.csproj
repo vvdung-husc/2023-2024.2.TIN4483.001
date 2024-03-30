@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B73914D5-27D2-4904-89BE-7DEB9BD729AA}</ProjectGuid>
+    <ProjectGuid>{D20336AE-0899-41FC-9E34-0C81A6F066D4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WindowAppThree</RootNamespace>
-    <AssemblyName>WindowAppThree</AssemblyName>
+    <RootNamespace>WindowsFormsThree</RootNamespace>
+    <AssemblyName>WindowsFormsThree</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

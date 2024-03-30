@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowAppThree
+namespace WindowsFormsThree
 {
     internal static class Program
     {
@@ -27,7 +27,7 @@ namespace WindowAppThree
         public string ngaysinh { get; set; }
         public string khoahoc { get; set; }
         public string nganhhoc { get; set; }
-        public Student(string id, string name, string birddate,string course, string subject)
+        public Student(string id, string name, string birddate, string course, string subject)
         {
             this.msv = id;
             this.ten = name;
@@ -36,6 +36,4 @@ namespace WindowAppThree
             this.nganhhoc = subject;
         }
     }
-
-
 }
