@@ -1,9 +1,12 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -16,90 +19,102 @@ namespace WindowsAppTwo
         {
             InitializeComponent();
         }
+
         private void button3_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        /*private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (MessageBox.Show("Bạn có chắc là muốn thoát không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
+            if (MessageBox.Show("Bạn có chắc là muốn thoát không?", "Thoát Ứng dụng", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
             {
                 e.Cancel = true;
             }
-        }*/
-        private void chkUSCLN_CheckedChanged(object sender, EventArgs e)
-        {
-            btnFind.Text = "Tìm - USCLN";
         }
 
-        private void chkBSCNN_CheckedChanged(object sender, EventArgs e)
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            btnFind.Text = "Tìm - BSCNN";
+            Tim.Text = "Tìm-USCLN";
         }
-        private void btnDel_Click_1(object sender, EventArgs e)
-        {
-            txtNumA.Text = "";
-            txtNumB.Text = "";
-        }
-        /* private void btnDel_Click(object sender, EventArgs e)
-         {
-             txtNumA.Text = "";
-             txtNumB.Text = "";
-         }*/
 
-        private void btnFind_Click(object sender, EventArgs e)
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
         {
-            if (chkUSCLN.Checked)
+            Tim.Text = "Tìm-BSCNN";
+        }
+
+
+
+
+        private int USLN(int SoA, int SoB)
+
+        {
+            if (SoB == 0) return SoA;
+            return USLN(SoB, SoA % SoB);
+        }
+
+
+
+        private int BSNN(int SoA, int SoB)
+
+        {
+            return (SoA * SoB) / USLN(SoA, SoB);
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            /* if (USCLN.Checked)
+             {
+                 MessageBox.Show("Đang chọn USCLN => Tính kết quả", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+             }
+             else if (BSCNN.Checked)
+             {
+                 MessageBox.Show("Đang chọn BSCNN => Tính kết quả", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+             }*/
+            if (USCLN.Checked)
             {
-                MessageBox.Show("Đang chọn USCLN => Tính kết quả", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                int m = SoA.Text.Length > 0 ? int.Parse(SoA.Text) : 0;
+                int n = SoB.Text.Length > 0 ? int.Parse(SoB.Text) : 0;
+                int uscln = USLN(m, n);
+                ketqua.Text = uscln.ToString();
+
             }
-            else if (chkBSCNN.Checked)
+            else if (BSCNN.Checked)
             {
-                MessageBox.Show("Đang chọn BSCNN => Tính kết quả", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                int m = SoA.Text.Length > 0 ? int.Parse(SoA.Text) : 0;
+                int n = SoB.Text.Length > 0 ? int.Parse(SoB.Text) : 0;
+                int bscnn = BSNN(m, n);
+                ketqua.Text = bscnn.ToString();
             }
             else
             {
                 MessageBox.Show("Vui lòng chọn tìm USCLN hay BSCNN", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
-            int A, B;
-            if (!int.TryParse(txtNumA.Text, out A) || !int.TryParse(txtNumB.Text, out B))
-            {
-                MessageBox.Show("Vui lòng nhập số nguyên hợp lệ.");
-                return;
-            }
 
-            int Result;
-            if (chkUSCLN.Checked)
-            {
-                Result = USCLN(A, B);
-            }
-            else
-            {
-                Result = USCNN(A, B);
-            }
 
-            txtResult.Text = "" + Result;
+            /** tim ươc so chung lon nhat
+             */
+            /* public int USCLN(int SoA, int SoB)
+             {
+                 if (SoB == 0) return SoA;
+                 return USCLN(SoB, SoA % SoB);
+             }
+
+             /**
+               Tim boi so chung nho nhat (BSCNN)
+              /*
+              public int BSCNN(int SoA, int SoB)
+             {
+                 return (SoA * SoB) / USCLN(SoA, SoB);
+             }*/
+
+
         }
-        // Hàm tìm ước số chung lớn nhất (USCLN)
-        private int USCLN(int A, int B)
+        private void button2_Click(object sender, EventArgs e)
         {
-            while (B != 0)
-            {
-                int temp = B;
-                B = A % B;
-                A = temp;
-            }
-            return A;
+            SoA.Text = "";
+            SoB.Text = "";
         }
-
-        // Hàm tìm bội số chung nhỏ nhất (USCNN)
-        private int USCNN(int A, int B)
-        {
-            return (A * B) / USCLN(A, B);
-        }
-
-
     }
 }
