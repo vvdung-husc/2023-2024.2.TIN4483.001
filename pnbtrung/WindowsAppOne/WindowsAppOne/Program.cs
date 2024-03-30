@@ -6,6 +6,7 @@ using System.Windows.Forms;
 
 namespace WindowsAppOne
 {
+
     internal static class Program
     {
         /// <summary>
